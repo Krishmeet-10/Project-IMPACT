@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -11,6 +13,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project_Impact"
         tools:targetApi="31">
+        <activity
+            android:name=".volunteerPassword"
+            android:exported="false" />
+        <activity
+            android:name=".volunteerLogInPage"
+            android:exported="false" />
+        <activity
+            android:name=".volunteerDetails"
+            android:exported="false" />
+        <activity
+            android:name=".organizationPassword"
+            android:exported="false" />
+        <activity
+            android:name=".organizationDetails"
+            android:exported="false" />
+        <activity
+            android:name=".OrganisationLogin"
+            android:exported="false" />
+        <activity
+            android:name=".logInSignInOrganization"
+            android:exported="false" />
+        <activity
+            android:name=".log_sign_in"
+            android:exported="false" />
+        <activity
+            android:name=".logInAs"
+            android:exported="false" />
+        <activity
+            android:name=".User_Landing_Page"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:icon="@drawable/baseline_home_24"
+        android:id="@+id/home_icon"/>
+    <item android:title="Search"
+        android:icon="@drawable/baseline_manage_search_24"
+        android:id="@+id/Search_icon"/>
+    <item android:title="Donate"
+        android:icon="@drawable/baseline_handshake_24"
+        android:id="@+id/Donate_icon"/>
+    <item android:title="Volunteer"
+        android:icon="@drawable/baseline_volunteer_activism_24"
+        android:id="@+id/Volunteer_icon"/>
+    <item android:title="Profile"
+        android:icon="@drawable/baseline_person_pin_24"
+        android:id="@+id/Profile_icon"/>
+</menu>

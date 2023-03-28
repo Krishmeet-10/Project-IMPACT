@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Project_Impact</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="get_started">GET STARTED</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="impact">IMPACT</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

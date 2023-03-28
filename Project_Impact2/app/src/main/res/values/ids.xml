@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="organisationNameEditText" type="id" />
+    <item name="organizationEmailEditText" type="id" />
+    <item name="govtIDEditText" type="id" />
+    <item name="confirmPasswordEditText" type="id" />
+    <item name="passwordEditText" type="id" />
+    <item name="createButton" type="id" />
+    <item name="scroll2" type="id" />
+</resources>
