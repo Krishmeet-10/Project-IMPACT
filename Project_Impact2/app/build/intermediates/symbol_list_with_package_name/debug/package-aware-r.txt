@@ -3052,7 +3052,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView3
 id imagevrv
 id immediateStop
 id impactHeading
@@ -3278,6 +3277,8 @@ id stop
 id storyImage
 id storyTime
 id storyUserName
+id storyView
+id story_review
 id storyview
 id storyview2
 id stretch
@@ -3306,7 +3307,6 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
-id textView2
 id textView3
 id textView4
 id text_input_end_icon
@@ -3562,6 +3562,7 @@ layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout story_unit
 layout support_simple_spinner_dropdown_item
 layout volunteer_rv_items
 menu bottom_icons_view

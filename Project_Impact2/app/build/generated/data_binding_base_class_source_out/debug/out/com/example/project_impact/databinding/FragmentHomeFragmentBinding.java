@@ -4,7 +4,6 @@ package com.example.project_impact.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -23,7 +22,7 @@ public final class FragmentHomeFragmentBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
-  public final ImageView imageView3;
+  public final RecyclerView storyReview;
 
   @NonNull
   public final StoryView storyview;
@@ -35,9 +34,6 @@ public final class FragmentHomeFragmentBinding implements ViewBinding {
   public final TextView textView;
 
   @NonNull
-  public final TextView textView2;
-
-  @NonNull
   public final TextView textView3;
 
   @NonNull
@@ -47,15 +43,14 @@ public final class FragmentHomeFragmentBinding implements ViewBinding {
   public final RecyclerView volunteerRv;
 
   private FragmentHomeFragmentBinding(@NonNull RelativeLayout rootView,
-      @NonNull ImageView imageView3, @NonNull StoryView storyview, @NonNull StoryView storyview2,
-      @NonNull TextView textView, @NonNull TextView textView2, @NonNull TextView textView3,
+      @NonNull RecyclerView storyReview, @NonNull StoryView storyview,
+      @NonNull StoryView storyview2, @NonNull TextView textView, @NonNull TextView textView3,
       @NonNull TextView textView4, @NonNull RecyclerView volunteerRv) {
     this.rootView = rootView;
-    this.imageView3 = imageView3;
+    this.storyReview = storyReview;
     this.storyview = storyview;
     this.storyview2 = storyview2;
     this.textView = textView;
-    this.textView2 = textView2;
     this.textView3 = textView3;
     this.textView4 = textView4;
     this.volunteerRv = volunteerRv;
@@ -88,9 +83,9 @@ public final class FragmentHomeFragmentBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.imageView3;
-      ImageView imageView3 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView3 == null) {
+      id = R.id.story_review;
+      RecyclerView storyReview = ViewBindings.findChildViewById(rootView, id);
+      if (storyReview == null) {
         break missingId;
       }
 
@@ -112,12 +107,6 @@ public final class FragmentHomeFragmentBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView2;
-      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
-      if (textView2 == null) {
-        break missingId;
-      }
-
       id = R.id.textView3;
       TextView textView3 = ViewBindings.findChildViewById(rootView, id);
       if (textView3 == null) {
@@ -136,8 +125,8 @@ public final class FragmentHomeFragmentBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeFragmentBinding((RelativeLayout) rootView, imageView3, storyview,
-          storyview2, textView, textView2, textView3, textView4, volunteerRv);
+      return new FragmentHomeFragmentBinding((RelativeLayout) rootView, storyReview, storyview,
+          storyview2, textView, textView3, textView4, volunteerRv);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
