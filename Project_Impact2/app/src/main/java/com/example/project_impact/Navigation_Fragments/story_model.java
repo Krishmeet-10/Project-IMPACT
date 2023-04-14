@@ -17,5 +17,9 @@ public class story_model {
         storyModels.add(storymodel);
     }
 
+    public void add_extra_pages(StoryModel storymodel){
+        storyModels.add(storymodel);
+    }
+
 
 }
