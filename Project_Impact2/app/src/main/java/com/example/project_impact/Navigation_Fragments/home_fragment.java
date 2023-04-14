@@ -91,8 +91,16 @@ public class home_fragment extends Fragment {
                 "WAWA CAT",
                 "Misery hours"),"WAWA CAT org");
 
+
+
+        story_model sm3 = new story_model(new StoryModel("https://static.wikia.nocookie.net/8ff7a73c-fe2c-42fc-a46d-14cc64d6eba7/scale-to-width/755",
+                "SILLY CAT",
+                "Silly hours"),"Milly CAT org");
+
         Story_model_al.add(sm1);
         Story_model_al.add(sm2);
+        Story_model_al.add(sm3);
+
 
         story_review.setAdapter(new story_adapter(Story_model_al));
         return view;
