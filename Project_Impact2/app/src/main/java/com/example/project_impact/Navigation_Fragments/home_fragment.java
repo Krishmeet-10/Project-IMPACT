@@ -9,6 +9,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.HorizontalScrollView;
+import android.widget.LinearLayout;
 
 import com.example.project_impact.R;
 
@@ -23,7 +25,10 @@ public class home_fragment extends Fragment {
     StoryView storyView;
     StoryView storyView2;
     RecyclerView vrv_recycler;
+    RecyclerView story_review;
+    ArrayList<story_model> Story_model_al;
 
+    ArrayList<Integer> stroy_data = new ArrayList<>();
     List<vrv_data> items = new ArrayList<vrv_data>();
 
     @Override
@@ -70,6 +75,34 @@ public class home_fragment extends Fragment {
         storyModels2.add(new StoryModel("https://cdn.pixabay.com/photo/2016/03/18/15/21/help-1265227_960_720.jpg","NAME","TIME"));
 
         storyView2.setImageUris(storyModels2);
+
+        story_review = (RecyclerView) view.findViewById(R.id.story_review);
+
+        LinearLayoutManager layout = new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false);
+        story_review.setLayoutManager(layout);
+
+        Story_model_al = new ArrayList<>();
+
+        story_model sm1 = new story_model(new StoryModel("https://www.newshub.co.nz/home/lifestyle/2019/08/the-top-five-cat-memes-of-all-time-rated/_jcr_content/par/video/image.dynimg.full.q75.jpg",
+                "SAD GATO",
+                "SAD GATO Hours"),"SAD GATO org");
+
+        story_model sm2 = new story_model(new StoryModel("https://static.wikia.nocookie.net/raise-a-floppa-roblox/images/f/f6/Wawa.png/revision/latest?cb=20220611063207",
+                "WAWA CAT",
+                "Misery hours"),"WAWA CAT org");
+
+
+
+        story_model sm3 = new story_model(new StoryModel("https://static.wikia.nocookie.net/8ff7a73c-fe2c-42fc-a46d-14cc64d6eba7/scale-to-width/755",
+                "SILLY CAT",
+                "Silly hours"),"Milly CAT org");
+
+        Story_model_al.add(sm1);
+        Story_model_al.add(sm2);
+        Story_model_al.add(sm3);
+
+
+        story_review.setAdapter(new story_adapter(Story_model_al));
         return view;
     }
 }
