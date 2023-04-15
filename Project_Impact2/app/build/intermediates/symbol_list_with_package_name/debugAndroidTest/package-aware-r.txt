@@ -1,3 +1,0 @@
-com.example.project_impact.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
