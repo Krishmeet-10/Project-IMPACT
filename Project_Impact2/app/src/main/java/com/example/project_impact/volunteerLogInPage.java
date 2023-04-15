@@ -8,10 +8,12 @@ import android.view.View;
 
 public class volunteerLogInPage extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_volunteer_log_in_page);
+
     }
 
     public void homepage(View view) {

@@ -1,23 +1,23 @@
 [
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-mergeDebugResources-29:\\layout\\volunteer_rv_items.xml",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\volunteer_rv_items.xml"
-    },
-    {
         "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-mergeDebugResources-29:\\layout\\activity_log_in_sign_in_organization.xml",
         "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\activity_log_in_sign_in_organization.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-mergeDebugResources-29:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-mergeDebugResources-29:\\layout\\volunteer_rv_items.xml",
+        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\volunteer_rv_items.xml"
+    },
+    {
+        "merged": "com.example.project_impact.app-mergeDebugResources-29:/layout/activity_volunteer_password.xml",
+        "source": "com.example.project_impact.app-main-32:/layout/activity_volunteer_password.xml"
     },
     {
         "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-mergeDebugResources-29:\\layout\\activity_organization_details.xml",
         "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\activity_organization_details.xml"
     },
     {
-        "merged": "com.example.project_impact.app-mergeDebugResources-29:/layout/fragment_volunteer__user_.xml",
-        "source": "com.example.project_impact.app-main-32:/layout/fragment_volunteer__user_.xml"
+        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-mergeDebugResources-29:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-mergeDebugResources-29:\\layout\\fragment_donate_fragment.xml",
@@ -40,12 +40,12 @@
         "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\fragment_user_profile_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-mergeDebugResources-29:\\layout\\activity_organisation_login.xml",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\activity_organisation_login.xml"
-    },
-    {
         "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-mergeDebugResources-29:\\layout\\fragment_home_fragment.xml",
         "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\fragment_home_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-mergeDebugResources-29:\\layout\\activity_organisation_login.xml",
+        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\activity_organisation_login.xml"
     },
     {
         "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-mergeDebugResources-29:\\layout\\activity_user_landing_page.xml",

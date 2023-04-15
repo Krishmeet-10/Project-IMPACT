@@ -6,12 +6,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.project_impact.R;
@@ -21,7 +21,10 @@ import java.lang.String;
 
 public final class ActivityVolunteerLogInPageBinding implements ViewBinding {
   @NonNull
-  private final RelativeLayout rootView;
+  private final ScrollView rootView;
+
+  @NonNull
+  public final ConstraintLayout constraintLayout;
 
   @NonNull
   public final EditText emailEditText2;
@@ -45,14 +48,18 @@ public final class ActivityVolunteerLogInPageBinding implements ViewBinding {
   public final ScrollView scroll;
 
   @NonNull
+  public final TextView textView19;
+
+  @NonNull
   public final TextView userOutput;
 
-  private ActivityVolunteerLogInPageBinding(@NonNull RelativeLayout rootView,
-      @NonNull EditText emailEditText2, @NonNull Button forgotVButton, @NonNull Button logInButton,
-      @NonNull CardView logInVolunteer, @NonNull TextView option,
-      @NonNull EditText passwordEditText2, @NonNull ScrollView scroll,
-      @NonNull TextView userOutput) {
+  private ActivityVolunteerLogInPageBinding(@NonNull ScrollView rootView,
+      @NonNull ConstraintLayout constraintLayout, @NonNull EditText emailEditText2,
+      @NonNull Button forgotVButton, @NonNull Button logInButton, @NonNull CardView logInVolunteer,
+      @NonNull TextView option, @NonNull EditText passwordEditText2, @NonNull ScrollView scroll,
+      @NonNull TextView textView19, @NonNull TextView userOutput) {
     this.rootView = rootView;
+    this.constraintLayout = constraintLayout;
     this.emailEditText2 = emailEditText2;
     this.forgotVButton = forgotVButton;
     this.logInButton = logInButton;
@@ -60,12 +67,13 @@ public final class ActivityVolunteerLogInPageBinding implements ViewBinding {
     this.option = option;
     this.passwordEditText2 = passwordEditText2;
     this.scroll = scroll;
+    this.textView19 = textView19;
     this.userOutput = userOutput;
   }
 
   @Override
   @NonNull
-  public RelativeLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -90,6 +98,12 @@ public final class ActivityVolunteerLogInPageBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.constraintLayout;
+      ConstraintLayout constraintLayout = ViewBindings.findChildViewById(rootView, id);
+      if (constraintLayout == null) {
+        break missingId;
+      }
+
       id = R.id.emailEditText2;
       EditText emailEditText2 = ViewBindings.findChildViewById(rootView, id);
       if (emailEditText2 == null) {
@@ -126,9 +140,11 @@ public final class ActivityVolunteerLogInPageBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.scroll;
-      ScrollView scroll = ViewBindings.findChildViewById(rootView, id);
-      if (scroll == null) {
+      ScrollView scroll = (ScrollView) rootView;
+
+      id = R.id.textView19;
+      TextView textView19 = ViewBindings.findChildViewById(rootView, id);
+      if (textView19 == null) {
         break missingId;
       }
 
@@ -138,9 +154,9 @@ public final class ActivityVolunteerLogInPageBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityVolunteerLogInPageBinding((RelativeLayout) rootView, emailEditText2,
-          forgotVButton, logInButton, logInVolunteer, option, passwordEditText2, scroll,
-          userOutput);
+      return new ActivityVolunteerLogInPageBinding((ScrollView) rootView, constraintLayout,
+          emailEditText2, forgotVButton, logInButton, logInVolunteer, option, passwordEditText2,
+          scroll, textView19, userOutput);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -6,10 +6,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.RelativeLayout;
 import android.widget.ScrollView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.project_impact.R;
@@ -19,7 +20,7 @@ import java.lang.String;
 
 public final class ActivityOrganizationPasswordBinding implements ViewBinding {
   @NonNull
-  private final RelativeLayout rootView;
+  private final ScrollView rootView;
 
   @NonNull
   public final EditText confirmPasswordEditText;
@@ -37,24 +38,50 @@ public final class ActivityOrganizationPasswordBinding implements ViewBinding {
   public final EditText passwordEditText;
 
   @NonNull
-  public final ScrollView scroll2;
+  public final ConstraintLayout relativeLayout;
 
-  private ActivityOrganizationPasswordBinding(@NonNull RelativeLayout rootView,
+  @NonNull
+  public final ScrollView scroll;
+
+  @NonNull
+  public final TextView textView14;
+
+  @NonNull
+  public final TextView textView15;
+
+  @NonNull
+  public final TextView textView16;
+
+  @NonNull
+  public final TextView textView17;
+
+  @NonNull
+  public final TextView textView18;
+
+  private ActivityOrganizationPasswordBinding(@NonNull ScrollView rootView,
       @NonNull EditText confirmPasswordEditText, @NonNull Button createButton,
       @NonNull EditText govtIDEditText, @NonNull EditText organizationEmailEditText,
-      @NonNull EditText passwordEditText, @NonNull ScrollView scroll2) {
+      @NonNull EditText passwordEditText, @NonNull ConstraintLayout relativeLayout,
+      @NonNull ScrollView scroll, @NonNull TextView textView14, @NonNull TextView textView15,
+      @NonNull TextView textView16, @NonNull TextView textView17, @NonNull TextView textView18) {
     this.rootView = rootView;
     this.confirmPasswordEditText = confirmPasswordEditText;
     this.createButton = createButton;
     this.govtIDEditText = govtIDEditText;
     this.organizationEmailEditText = organizationEmailEditText;
     this.passwordEditText = passwordEditText;
-    this.scroll2 = scroll2;
+    this.relativeLayout = relativeLayout;
+    this.scroll = scroll;
+    this.textView14 = textView14;
+    this.textView15 = textView15;
+    this.textView16 = textView16;
+    this.textView17 = textView17;
+    this.textView18 = textView18;
   }
 
   @Override
   @NonNull
-  public RelativeLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -109,15 +136,47 @@ public final class ActivityOrganizationPasswordBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.scroll2;
-      ScrollView scroll2 = ViewBindings.findChildViewById(rootView, id);
-      if (scroll2 == null) {
+      id = R.id.relativeLayout;
+      ConstraintLayout relativeLayout = ViewBindings.findChildViewById(rootView, id);
+      if (relativeLayout == null) {
         break missingId;
       }
 
-      return new ActivityOrganizationPasswordBinding((RelativeLayout) rootView,
-          confirmPasswordEditText, createButton, govtIDEditText, organizationEmailEditText,
-          passwordEditText, scroll2);
+      ScrollView scroll = (ScrollView) rootView;
+
+      id = R.id.textView14;
+      TextView textView14 = ViewBindings.findChildViewById(rootView, id);
+      if (textView14 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView15;
+      TextView textView15 = ViewBindings.findChildViewById(rootView, id);
+      if (textView15 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView16;
+      TextView textView16 = ViewBindings.findChildViewById(rootView, id);
+      if (textView16 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView17;
+      TextView textView17 = ViewBindings.findChildViewById(rootView, id);
+      if (textView17 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView18;
+      TextView textView18 = ViewBindings.findChildViewById(rootView, id);
+      if (textView18 == null) {
+        break missingId;
+      }
+
+      return new ActivityOrganizationPasswordBinding((ScrollView) rootView, confirmPasswordEditText,
+          createButton, govtIDEditText, organizationEmailEditText, passwordEditText, relativeLayout,
+          scroll, textView14, textView15, textView16, textView17, textView18);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

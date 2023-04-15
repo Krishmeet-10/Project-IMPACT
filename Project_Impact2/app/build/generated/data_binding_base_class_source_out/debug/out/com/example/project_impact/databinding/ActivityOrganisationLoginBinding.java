@@ -6,12 +6,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.project_impact.R;
@@ -21,7 +21,10 @@ import java.lang.String;
 
 public final class ActivityOrganisationLoginBinding implements ViewBinding {
   @NonNull
-  private final RelativeLayout rootView;
+  private final ScrollView rootView;
+
+  @NonNull
+  public final ConstraintLayout constraintLayout;
 
   @NonNull
   public final Button forgotVButton;
@@ -45,14 +48,18 @@ public final class ActivityOrganisationLoginBinding implements ViewBinding {
   public final ScrollView scroll;
 
   @NonNull
+  public final TextView textView2;
+
+  @NonNull
   public final TextView userOutput;
 
-  private ActivityOrganisationLoginBinding(@NonNull RelativeLayout rootView,
-      @NonNull Button forgotVButton, @NonNull EditText govtID, @NonNull Button logInButton,
-      @NonNull CardView logInVolunteer, @NonNull TextView option,
-      @NonNull EditText passwordEditText2, @NonNull ScrollView scroll,
-      @NonNull TextView userOutput) {
+  private ActivityOrganisationLoginBinding(@NonNull ScrollView rootView,
+      @NonNull ConstraintLayout constraintLayout, @NonNull Button forgotVButton,
+      @NonNull EditText govtID, @NonNull Button logInButton, @NonNull CardView logInVolunteer,
+      @NonNull TextView option, @NonNull EditText passwordEditText2, @NonNull ScrollView scroll,
+      @NonNull TextView textView2, @NonNull TextView userOutput) {
     this.rootView = rootView;
+    this.constraintLayout = constraintLayout;
     this.forgotVButton = forgotVButton;
     this.govtID = govtID;
     this.logInButton = logInButton;
@@ -60,12 +67,13 @@ public final class ActivityOrganisationLoginBinding implements ViewBinding {
     this.option = option;
     this.passwordEditText2 = passwordEditText2;
     this.scroll = scroll;
+    this.textView2 = textView2;
     this.userOutput = userOutput;
   }
 
   @Override
   @NonNull
-  public RelativeLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -90,6 +98,12 @@ public final class ActivityOrganisationLoginBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.constraintLayout;
+      ConstraintLayout constraintLayout = ViewBindings.findChildViewById(rootView, id);
+      if (constraintLayout == null) {
+        break missingId;
+      }
+
       id = R.id.forgotVButton;
       Button forgotVButton = ViewBindings.findChildViewById(rootView, id);
       if (forgotVButton == null) {
@@ -126,9 +140,11 @@ public final class ActivityOrganisationLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.scroll;
-      ScrollView scroll = ViewBindings.findChildViewById(rootView, id);
-      if (scroll == null) {
+      ScrollView scroll = (ScrollView) rootView;
+
+      id = R.id.textView2;
+      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
+      if (textView2 == null) {
         break missingId;
       }
 
@@ -138,8 +154,9 @@ public final class ActivityOrganisationLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityOrganisationLoginBinding((RelativeLayout) rootView, forgotVButton, govtID,
-          logInButton, logInVolunteer, option, passwordEditText2, scroll, userOutput);
+      return new ActivityOrganisationLoginBinding((ScrollView) rootView, constraintLayout,
+          forgotVButton, govtID, logInButton, logInVolunteer, option, passwordEditText2, scroll,
+          textView2, userOutput);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

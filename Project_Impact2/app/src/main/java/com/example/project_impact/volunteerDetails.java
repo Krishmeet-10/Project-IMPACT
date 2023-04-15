@@ -19,7 +19,7 @@ public class volunteerDetails extends AppCompatActivity {
     }
 
     public void setNextActivity(View view){
-        Intent intent = new Intent(this,User_Landing_Page.class);
+        Intent intent = new Intent(this,volunteerPassword.class);
         startActivity(intent);
     }
 

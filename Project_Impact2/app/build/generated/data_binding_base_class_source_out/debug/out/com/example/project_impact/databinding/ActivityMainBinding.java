@@ -5,12 +5,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.project_impact.R;
@@ -20,7 +20,10 @@ import java.lang.String;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
-  private final RelativeLayout rootView;
+  private final ScrollView rootView;
+
+  @NonNull
+  public final ConstraintLayout constraintLayout;
 
   @NonNull
   public final TextView impactHeading;
@@ -37,10 +40,12 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final TextView welcomeHeading;
 
-  private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull TextView impactHeading,
+  private ActivityMainBinding(@NonNull ScrollView rootView,
+      @NonNull ConstraintLayout constraintLayout, @NonNull TextView impactHeading,
       @NonNull ScrollView scroll, @NonNull Button startButton, @NonNull CardView welcomeCard,
       @NonNull TextView welcomeHeading) {
     this.rootView = rootView;
+    this.constraintLayout = constraintLayout;
     this.impactHeading = impactHeading;
     this.scroll = scroll;
     this.startButton = startButton;
@@ -50,7 +55,7 @@ public final class ActivityMainBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public RelativeLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -75,17 +80,19 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.constraintLayout;
+      ConstraintLayout constraintLayout = ViewBindings.findChildViewById(rootView, id);
+      if (constraintLayout == null) {
+        break missingId;
+      }
+
       id = R.id.impactHeading;
       TextView impactHeading = ViewBindings.findChildViewById(rootView, id);
       if (impactHeading == null) {
         break missingId;
       }
 
-      id = R.id.scroll;
-      ScrollView scroll = ViewBindings.findChildViewById(rootView, id);
-      if (scroll == null) {
-        break missingId;
-      }
+      ScrollView scroll = (ScrollView) rootView;
 
       id = R.id.startButton;
       Button startButton = ViewBindings.findChildViewById(rootView, id);
@@ -105,8 +112,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((RelativeLayout) rootView, impactHeading, scroll, startButton,
-          welcomeCard, welcomeHeading);
+      return new ActivityMainBinding((ScrollView) rootView, constraintLayout, impactHeading, scroll,
+          startButton, welcomeCard, welcomeHeading);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

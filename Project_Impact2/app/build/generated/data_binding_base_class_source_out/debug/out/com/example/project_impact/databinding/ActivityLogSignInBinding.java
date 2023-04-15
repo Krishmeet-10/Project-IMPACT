@@ -5,12 +5,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.project_impact.R;
@@ -20,7 +20,10 @@ import java.lang.String;
 
 public final class ActivityLogSignInBinding implements ViewBinding {
   @NonNull
-  private final RelativeLayout rootView;
+  private final ScrollView rootView;
+
+  @NonNull
+  public final ConstraintLayout constraintLayout;
 
   @NonNull
   public final Button logInButton;
@@ -38,23 +41,29 @@ public final class ActivityLogSignInBinding implements ViewBinding {
   public final Button signUpButton;
 
   @NonNull
+  public final TextView textView;
+
+  @NonNull
   public final TextView userOutput;
 
-  private ActivityLogSignInBinding(@NonNull RelativeLayout rootView, @NonNull Button logInButton,
+  private ActivityLogSignInBinding(@NonNull ScrollView rootView,
+      @NonNull ConstraintLayout constraintLayout, @NonNull Button logInButton,
       @NonNull TextView option, @NonNull CardView optionsCard, @NonNull ScrollView scroll,
-      @NonNull Button signUpButton, @NonNull TextView userOutput) {
+      @NonNull Button signUpButton, @NonNull TextView textView, @NonNull TextView userOutput) {
     this.rootView = rootView;
+    this.constraintLayout = constraintLayout;
     this.logInButton = logInButton;
     this.option = option;
     this.optionsCard = optionsCard;
     this.scroll = scroll;
     this.signUpButton = signUpButton;
+    this.textView = textView;
     this.userOutput = userOutput;
   }
 
   @Override
   @NonNull
-  public RelativeLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -79,6 +88,12 @@ public final class ActivityLogSignInBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.constraintLayout;
+      ConstraintLayout constraintLayout = ViewBindings.findChildViewById(rootView, id);
+      if (constraintLayout == null) {
+        break missingId;
+      }
+
       id = R.id.logInButton;
       Button logInButton = ViewBindings.findChildViewById(rootView, id);
       if (logInButton == null) {
@@ -97,15 +112,17 @@ public final class ActivityLogSignInBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.scroll;
-      ScrollView scroll = ViewBindings.findChildViewById(rootView, id);
-      if (scroll == null) {
-        break missingId;
-      }
+      ScrollView scroll = (ScrollView) rootView;
 
       id = R.id.signUpButton;
       Button signUpButton = ViewBindings.findChildViewById(rootView, id);
       if (signUpButton == null) {
+        break missingId;
+      }
+
+      id = R.id.textView;
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
+      if (textView == null) {
         break missingId;
       }
 
@@ -115,8 +132,8 @@ public final class ActivityLogSignInBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLogSignInBinding((RelativeLayout) rootView, logInButton, option,
-          optionsCard, scroll, signUpButton, userOutput);
+      return new ActivityLogSignInBinding((ScrollView) rootView, constraintLayout, logInButton,
+          option, optionsCard, scroll, signUpButton, textView, userOutput);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

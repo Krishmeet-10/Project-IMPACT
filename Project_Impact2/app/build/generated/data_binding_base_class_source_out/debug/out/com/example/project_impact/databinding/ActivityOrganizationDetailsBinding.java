@@ -6,10 +6,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.RelativeLayout;
 import android.widget.ScrollView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.project_impact.R;
@@ -19,7 +20,19 @@ import java.lang.String;
 
 public final class ActivityOrganizationDetailsBinding implements ViewBinding {
   @NonNull
-  private final RelativeLayout rootView;
+  private final ScrollView rootView;
+
+  @NonNull
+  public final ConstraintLayout constraintLayout;
+
+  @NonNull
+  public final EditText editText4;
+
+  @NonNull
+  public final EditText editText5;
+
+  @NonNull
+  public final EditText editText7;
 
   @NonNull
   public final EditText organisationNameEditText;
@@ -28,20 +41,47 @@ public final class ActivityOrganizationDetailsBinding implements ViewBinding {
   public final ScrollView scroll;
 
   @NonNull
+  public final TextView textView10;
+
+  @NonNull
+  public final TextView textView11;
+
+  @NonNull
+  public final TextView textView12;
+
+  @NonNull
+  public final TextView textView13;
+
+  @NonNull
+  public final TextView textView9;
+
+  @NonNull
   public final Button volunPass;
 
-  private ActivityOrganizationDetailsBinding(@NonNull RelativeLayout rootView,
+  private ActivityOrganizationDetailsBinding(@NonNull ScrollView rootView,
+      @NonNull ConstraintLayout constraintLayout, @NonNull EditText editText4,
+      @NonNull EditText editText5, @NonNull EditText editText7,
       @NonNull EditText organisationNameEditText, @NonNull ScrollView scroll,
-      @NonNull Button volunPass) {
+      @NonNull TextView textView10, @NonNull TextView textView11, @NonNull TextView textView12,
+      @NonNull TextView textView13, @NonNull TextView textView9, @NonNull Button volunPass) {
     this.rootView = rootView;
+    this.constraintLayout = constraintLayout;
+    this.editText4 = editText4;
+    this.editText5 = editText5;
+    this.editText7 = editText7;
     this.organisationNameEditText = organisationNameEditText;
     this.scroll = scroll;
+    this.textView10 = textView10;
+    this.textView11 = textView11;
+    this.textView12 = textView12;
+    this.textView13 = textView13;
+    this.textView9 = textView9;
     this.volunPass = volunPass;
   }
 
   @Override
   @NonNull
-  public RelativeLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -66,15 +106,65 @@ public final class ActivityOrganizationDetailsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.constraintLayout;
+      ConstraintLayout constraintLayout = ViewBindings.findChildViewById(rootView, id);
+      if (constraintLayout == null) {
+        break missingId;
+      }
+
+      id = R.id.editText4;
+      EditText editText4 = ViewBindings.findChildViewById(rootView, id);
+      if (editText4 == null) {
+        break missingId;
+      }
+
+      id = R.id.editText5;
+      EditText editText5 = ViewBindings.findChildViewById(rootView, id);
+      if (editText5 == null) {
+        break missingId;
+      }
+
+      id = R.id.editText7;
+      EditText editText7 = ViewBindings.findChildViewById(rootView, id);
+      if (editText7 == null) {
+        break missingId;
+      }
+
       id = R.id.organisationNameEditText;
       EditText organisationNameEditText = ViewBindings.findChildViewById(rootView, id);
       if (organisationNameEditText == null) {
         break missingId;
       }
 
-      id = R.id.scroll;
-      ScrollView scroll = ViewBindings.findChildViewById(rootView, id);
-      if (scroll == null) {
+      ScrollView scroll = (ScrollView) rootView;
+
+      id = R.id.textView10;
+      TextView textView10 = ViewBindings.findChildViewById(rootView, id);
+      if (textView10 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView11;
+      TextView textView11 = ViewBindings.findChildViewById(rootView, id);
+      if (textView11 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView12;
+      TextView textView12 = ViewBindings.findChildViewById(rootView, id);
+      if (textView12 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView13;
+      TextView textView13 = ViewBindings.findChildViewById(rootView, id);
+      if (textView13 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView9;
+      TextView textView9 = ViewBindings.findChildViewById(rootView, id);
+      if (textView9 == null) {
         break missingId;
       }
 
@@ -84,8 +174,9 @@ public final class ActivityOrganizationDetailsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityOrganizationDetailsBinding((RelativeLayout) rootView,
-          organisationNameEditText, scroll, volunPass);
+      return new ActivityOrganizationDetailsBinding((ScrollView) rootView, constraintLayout,
+          editText4, editText5, editText7, organisationNameEditText, scroll, textView10, textView11,
+          textView12, textView13, textView9, volunPass);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

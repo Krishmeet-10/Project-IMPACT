@@ -15,7 +15,7 @@ public class organizationDetails extends AppCompatActivity {
     }
 
     public void setNextOActivity(View view) {
-        Intent intent = new Intent(this,User_Landing_Page.class);
+        Intent intent = new Intent(this,organizationPassword.class);
         startActivity(intent);
     }
 }

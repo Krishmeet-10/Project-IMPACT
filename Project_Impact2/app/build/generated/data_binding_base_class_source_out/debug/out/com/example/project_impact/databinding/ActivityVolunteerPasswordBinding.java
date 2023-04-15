@@ -5,10 +5,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.RelativeLayout;
+import android.widget.EditText;
 import android.widget.ScrollView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.project_impact.R;
@@ -18,24 +20,59 @@ import java.lang.String;
 
 public final class ActivityVolunteerPasswordBinding implements ViewBinding {
   @NonNull
-  private final RelativeLayout rootView;
+  private final ScrollView rootView;
+
+  @NonNull
+  public final EditText editText10;
+
+  @NonNull
+  public final EditText editText8;
+
+  @NonNull
+  public final EditText editText9;
+
+  @NonNull
+  public final ConstraintLayout relativeLayout2;
 
   @NonNull
   public final ScrollView scroll;
 
   @NonNull
+  public final TextView textView20;
+
+  @NonNull
+  public final TextView textView21;
+
+  @NonNull
+  public final TextView textView22;
+
+  @NonNull
+  public final TextView textView23;
+
+  @NonNull
   public final Button volunPass;
 
-  private ActivityVolunteerPasswordBinding(@NonNull RelativeLayout rootView,
-      @NonNull ScrollView scroll, @NonNull Button volunPass) {
+  private ActivityVolunteerPasswordBinding(@NonNull ScrollView rootView,
+      @NonNull EditText editText10, @NonNull EditText editText8, @NonNull EditText editText9,
+      @NonNull ConstraintLayout relativeLayout2, @NonNull ScrollView scroll,
+      @NonNull TextView textView20, @NonNull TextView textView21, @NonNull TextView textView22,
+      @NonNull TextView textView23, @NonNull Button volunPass) {
     this.rootView = rootView;
+    this.editText10 = editText10;
+    this.editText8 = editText8;
+    this.editText9 = editText9;
+    this.relativeLayout2 = relativeLayout2;
     this.scroll = scroll;
+    this.textView20 = textView20;
+    this.textView21 = textView21;
+    this.textView22 = textView22;
+    this.textView23 = textView23;
     this.volunPass = volunPass;
   }
 
   @Override
   @NonNull
-  public RelativeLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -60,9 +97,53 @@ public final class ActivityVolunteerPasswordBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.scroll;
-      ScrollView scroll = ViewBindings.findChildViewById(rootView, id);
-      if (scroll == null) {
+      id = R.id.editText10;
+      EditText editText10 = ViewBindings.findChildViewById(rootView, id);
+      if (editText10 == null) {
+        break missingId;
+      }
+
+      id = R.id.editText8;
+      EditText editText8 = ViewBindings.findChildViewById(rootView, id);
+      if (editText8 == null) {
+        break missingId;
+      }
+
+      id = R.id.editText9;
+      EditText editText9 = ViewBindings.findChildViewById(rootView, id);
+      if (editText9 == null) {
+        break missingId;
+      }
+
+      id = R.id.relativeLayout2;
+      ConstraintLayout relativeLayout2 = ViewBindings.findChildViewById(rootView, id);
+      if (relativeLayout2 == null) {
+        break missingId;
+      }
+
+      ScrollView scroll = (ScrollView) rootView;
+
+      id = R.id.textView20;
+      TextView textView20 = ViewBindings.findChildViewById(rootView, id);
+      if (textView20 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView21;
+      TextView textView21 = ViewBindings.findChildViewById(rootView, id);
+      if (textView21 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView22;
+      TextView textView22 = ViewBindings.findChildViewById(rootView, id);
+      if (textView22 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView23;
+      TextView textView23 = ViewBindings.findChildViewById(rootView, id);
+      if (textView23 == null) {
         break missingId;
       }
 
@@ -72,7 +153,9 @@ public final class ActivityVolunteerPasswordBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityVolunteerPasswordBinding((RelativeLayout) rootView, scroll, volunPass);
+      return new ActivityVolunteerPasswordBinding((ScrollView) rootView, editText10, editText8,
+          editText9, relativeLayout2, scroll, textView20, textView21, textView22, textView23,
+          volunPass);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
