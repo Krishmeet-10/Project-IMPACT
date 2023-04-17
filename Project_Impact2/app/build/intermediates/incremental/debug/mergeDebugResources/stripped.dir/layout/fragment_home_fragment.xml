@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Navigation_Fragments.home_fragment">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="285dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="17dp"
+        android:text="NGO1"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="285dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="51dp"
+        android:text="NGO2"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="Volunteering Opportunities"
+        android:textStyle="bold" />
+
+
+    <xute.storyview.StoryView
+        android:id="@+id/storyview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="205dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="74dp"
+        app:spaceBetweenImageAndIndicator="1dp"
+        app:storyItemIndicatorWidth="1dp" />
+
+    <xute.storyview.StoryView
+        android:id="@+id/storyview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="205dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="81dp"
+        app:spaceBetweenImageAndIndicator="1dp"
+        app:storyItemIndicatorWidth="1dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/volunteer_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/story_review"
+        android:layout_width="match_parent"
+        android:layout_height="244dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="581dp"
+        android:orientation="horizontal" />
+
+
+</RelativeLayout>
