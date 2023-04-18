@@ -1,5 +1,6 @@
 package com.example.project_impact.Navigation_Fragments;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -19,7 +20,21 @@ import org.w3c.dom.Text;
 public class user_profile_fragment extends Fragment {
 
     ImageView user_pfp, edit_pfp, edit_email, edit_location, edit_job, edit_phone;
-    TextView user_email , user_name, user_location, user_job;
+    TextView user_email , user_name, user_location, user_job, user_phone;
+
+    private static final int REQUEST_CODE_FOR_POPUP = 1;
+
+    TextView edit_place;
+
+
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data){
+        super.onActivityResult(requestCode, resultCode, data);
+        if(requestCode ==REQUEST_CODE_FOR_POPUP && resultCode == Activity.RESULT_OK){
+            edit_place.setText(data.getStringExtra("data"));
+        }
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -31,6 +46,7 @@ public class user_profile_fragment extends Fragment {
         user_job = (TextView) view.findViewById(R.id.user_job);
         user_name = (TextView) view.findViewById(R.id.user_name);
         user_location = (TextView) view.findViewById(R.id.user_location);
+        user_phone = (TextView) view.findViewById(R.id.user_phone);
 
         edit_email = (ImageView) view.findViewById(R.id.edit_email);
         edit_job = (ImageView) view.findViewById(R.id.edit_job);
@@ -43,7 +59,9 @@ public class user_profile_fragment extends Fragment {
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
                 bundle.putString("key", "location");
-                popup_action();
+                bundle.putString("current", String.valueOf(user_location.getText()));
+                edit_place = user_location;
+                popup_action(bundle);
             }
         });
 
@@ -53,7 +71,9 @@ public class user_profile_fragment extends Fragment {
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
                 bundle.putString("key", "job");
-                popup_action();
+                bundle.putString("current", String.valueOf(user_job.getText()));
+                edit_place = user_job;
+                popup_action(bundle);
             }
         });
 
@@ -61,8 +81,9 @@ public class user_profile_fragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
-                bundle.putString("key", "email");
-                popup_action();
+                bundle.putString("key", "email");bundle.putString("current", String.valueOf(user_email.getText()));
+                edit_place = user_email;
+                popup_action(bundle);
             }
         });
 
@@ -72,7 +93,9 @@ public class user_profile_fragment extends Fragment {
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
                 bundle.putString("key", "phone");
-                popup_action();
+                bundle.putString("current", String.valueOf(user_phone.getText()));
+                edit_place = user_phone;
+                popup_action(bundle);
             }
         });
 
@@ -80,10 +103,11 @@ public class user_profile_fragment extends Fragment {
         return view;
     }
 
-    public void popup_action(){
+    public void popup_action(Bundle bundle){
 
         Intent intent = new Intent(getActivity(),edit_popup.class);
-        startActivity(intent);
+        intent.putExtras(bundle);
+        startActivityForResult(intent, REQUEST_CODE_FOR_POPUP);
 
     }
 }
