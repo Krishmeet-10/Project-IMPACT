@@ -100,7 +100,7 @@
                 android:layout_marginStart="90dp"
                 android:layout_marginTop="225dp"
                 android:layout_marginEnd="30dp"
-                android:onClick="homepage"
+                android:focusable="true"
                 android:background="?attr/colorControlHighlight"
                 android:text="Log In"
                 android:textSize="12sp"
