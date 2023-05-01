@@ -19,7 +19,7 @@ import org.w3c.dom.Text;
 
 public class user_profile_fragment extends Fragment {
 
-    ImageView user_pfp, edit_pfp, edit_email, edit_location, edit_job, edit_phone;
+    ImageView user_pfp, edit_pfp, edit_email, edit_location, edit_job, edit_phone, app_settings;
     TextView user_email , user_name, user_location, user_job, user_phone;
 
     private static final int REQUEST_CODE_FOR_POPUP = 1;
@@ -53,6 +53,7 @@ public class user_profile_fragment extends Fragment {
         edit_location = (ImageView) view.findViewById(R.id.edit_location);
         edit_pfp  = (ImageView) view.findViewById(R.id.edit_pfp);
         edit_phone = (ImageView) view.findViewById(R.id.edit_phone);
+        app_settings = (ImageView) view.findViewById(R.id.app_settings_vol);
 
         edit_location.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -65,6 +66,13 @@ public class user_profile_fragment extends Fragment {
             }
         });
 
+        app_settings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(),user_settings.class);
+                startActivity(intent);
+            }
+        });
 
         edit_job.setOnClickListener(new View.OnClickListener() {
             @Override

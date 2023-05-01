@@ -25,10 +25,14 @@
         <activity
             android:name=".organizationPassword"
             android:exported="false" />
+
+        <activity
+            android:name=".Navigation_Fragments.user_settings"
+            android:exported="false"/>
         <activity
             android:name=".Navigation_Fragments.edit_popup"
             android:exported="false"
-            android:theme="@style/edit_popup"/>
+            android:theme="@style/edit_popup" />
         <activity
             android:name=".organizationDetails"
             android:exported="false" />
