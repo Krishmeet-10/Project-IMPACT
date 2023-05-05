@@ -63,15 +63,15 @@
             tools:ignore="HardcodedText" />
 
         <EditText
-            android:id="@+id/govtID"
+            android:id="@+id/emailOEditText2"
             android:layout_width="190dp"
             android:layout_height="53dp"
             android:layout_marginStart="55dp"
             android:layout_marginTop="105dp"
             android:autofillHints="username"
-            android:hint="Government ID"
+            android:hint="Organization Email"
             android:importantForAutofill="yes"
-            android:inputType="text"
+            android:inputType="textEmailAddress"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             android:textSize="16sp"
@@ -79,7 +79,7 @@
             tools:ignore="HardcodedText" />
 
         <EditText
-            android:id="@+id/passwordEditText2"
+            android:id="@+id/passwordOEditText2"
             android:layout_width="190dp"
             android:layout_height="53dp"
             android:layout_marginStart="55dp"
@@ -94,7 +94,7 @@
             tools:ignore="HardcodedText" />
 
         <Button
-            android:id="@+id/logInButton"
+            android:id="@+id/orgLogInButton"
             android:layout_width="125dp"
             android:layout_height="48dp"
             android:layout_marginStart="90dp"
@@ -103,10 +103,11 @@
             android:background="?attr/colorControlHighlight"
             android:text="Log In"
             android:textSize="12sp"
+            android:onClick="homepage"
             tools:ignore="HardcodedText" />
 
         <Button
-            android:id="@+id/forgotVButton"
+            android:id="@+id/forgotOButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="67dp"
