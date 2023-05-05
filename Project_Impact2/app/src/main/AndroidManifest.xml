@@ -13,6 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project_Impact"
         tools:targetApi="31">
+
         <activity
             android:name=".volunteerPassword"
             android:exported="false" />
@@ -25,6 +26,14 @@
         <activity
             android:name=".organizationPassword"
             android:exported="false" />
+
+        <activity
+            android:name=".Navigation_Fragments.user_settings"
+            android:exported="false"/>
+        <activity
+            android:name=".Navigation_Fragments.edit_popup"
+            android:exported="false"
+            android:theme="@style/edit_popup" />
         <activity
             android:name=".organizationDetails"
             android:exported="false" />
