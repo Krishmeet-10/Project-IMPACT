@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:2:1-57:12
+ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:2:1-63:12
 MERGED from [androidx.databinding:viewbinding:7.4.2] C:\Users\krish\.gradle\caches\transforms-3\d712202c81463b27e181509db2571826\transformed\jetified-viewbinding-7.4.2\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\krish\.gradle\caches\transforms-3\2c177748779de8d1a313cac228bb46d3\transformed\material-1.8.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\krish\.gradle\caches\transforms-3\9ba4d89d92cffbcc8c35b5353f68270f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -48,22 +48,22 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\krish\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\krish\.gradle\caches\transforms-3\005ecd94ed10ace600da03dd0d38fc1e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\krish\.gradle\caches\transforms-3\0d4532a56c59f57ab538d1e008b9d550\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\krish\.gradle\caches\transforms-3\f675afc81531eca62ccbd1bf6211880d\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:2:1-63:12
 	package
 		INJECTED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:2:1-57:12
+		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:2:1-63:12
 		INJECTED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:2:1-57:12
+		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:2:1-63:12
 		INJECTED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:2:1-57:12
+		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:2:1-63:12
 		INJECTED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:2:11-69
@@ -72,7 +72,7 @@ ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Projec
 	android:name
 		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:7:5-55:19
+ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:7:5-61:19
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\krish\.gradle\caches\transforms-3\2c177748779de8d1a313cac228bb46d3\transformed\material-1.8.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\krish\.gradle\caches\transforms-3\2c177748779de8d1a313cac228bb46d3\transformed\material-1.8.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\krish\.gradle\caches\transforms-3\9ba4d89d92cffbcc8c35b5353f68270f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -111,82 +111,94 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\krish\.gradle\
 		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:14:9-52
 	android:dataExtractionRules
 		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:9:9-65
-activity#com.example.project_impact.volunteerPassword
+activity#com.example.project_impact.ngo_volunteer_campaign_creation
 ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:16:9-18:40
 	android:exported
 		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:18:13-37
 	android:name
-		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:17:13-46
-activity#com.example.project_impact.volunteerLogInPage
+		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:17:13-60
+activity#com.example.project_impact.NGO_Landing_Page
 ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:19:9-21:40
 	android:exported
 		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:21:13-37
 	android:name
-		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:20:13-47
-activity#com.example.project_impact.volunteerDetails
+		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:20:13-45
+activity#com.example.project_impact.volunteerPassword
 ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:22:9-24:40
 	android:exported
 		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:23:13-45
-activity#com.example.project_impact.organizationPassword
+		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:23:13-46
+activity#com.example.project_impact.volunteerLogInPage
 ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:25:9-27:40
 	android:exported
 		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:26:13-49
-activity#com.example.project_impact.organizationDetails
+		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:26:13-47
+activity#com.example.project_impact.volunteerDetails
 ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:28:9-30:40
 	android:exported
 		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:29:13-48
-activity#com.example.project_impact.OrganisationLogin
+		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:29:13-45
+activity#com.example.project_impact.organizationPassword
 ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:31:9-33:40
 	android:exported
 		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:32:13-46
-activity#com.example.project_impact.logInSignInOrganization
+		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:32:13-49
+activity#com.example.project_impact.organizationDetails
 ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:34:9-36:40
 	android:exported
 		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:36:13-37
 	android:name
-		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:35:13-52
-activity#com.example.project_impact.log_sign_in
+		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:35:13-48
+activity#com.example.project_impact.OrganisationLogin
 ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:37:9-39:40
 	android:exported
 		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:38:13-40
-activity#com.example.project_impact.logInAs
+		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:38:13-46
+activity#com.example.project_impact.logInSignInOrganization
 ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:40:9-42:40
 	android:exported
 		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:42:13-37
 	android:name
-		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:41:13-36
-activity#com.example.project_impact.User_Landing_Page
+		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:41:13-52
+activity#com.example.project_impact.log_sign_in
 ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:43:9-45:40
 	android:exported
 		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:45:13-37
 	android:name
-		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:44:13-46
-activity#com.example.project_impact.MainActivity
-ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:46:9-54:20
+		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:44:13-40
+activity#com.example.project_impact.logInAs
+ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:46:9-48:40
 	android:exported
-		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:48:13-36
+		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:48:13-37
 	android:name
-		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:47:13-41
+		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:47:13-36
+activity#com.example.project_impact.User_Landing_Page
+ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:49:9-51:40
+	android:exported
+		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:50:13-46
+activity#com.example.project_impact.MainActivity
+ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:52:9-60:20
+	android:exported
+		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:54:13-36
+	android:name
+		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:53:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:49:13-53:29
+ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:55:13-59:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:50:17-69
+ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:56:17-69
 	android:name
-		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:50:25-66
+		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:56:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:52:17-77
+ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:58:17-77
 	android:name
-		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:52:27-74
+		ADDED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:58:27-74
 uses-sdk
 INJECTED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml

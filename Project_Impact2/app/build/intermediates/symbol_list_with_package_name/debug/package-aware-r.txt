@@ -2715,7 +2715,9 @@ drawable avd_show_password
 drawable baseline_handshake_24
 drawable baseline_home_24
 drawable baseline_manage_search_24
+drawable baseline_money_24
 drawable baseline_person_pin_24
+drawable baseline_settings_accessibility_24
 drawable baseline_volunteer_activism_24
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -2917,6 +2919,7 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id bnv
 id bottom
 id bottomMenu
 id bounce
@@ -2928,6 +2931,9 @@ id btn2
 id buttonPanel
 id cache_measures
 id callMeasure
+id camp_name
+id campaign_det
+id campaign_ngo
 id cancel_button
 id carryVelocity
 id center
@@ -2947,6 +2953,7 @@ id clip_horizontal
 id clip_vertical
 id clockwise
 id closest
+id cncbutton
 id collapseActionView
 id compress
 id confirmPasswordEditText
@@ -2961,8 +2968,10 @@ id continuousVelocity
 id coordinator
 id cos
 id counterclockwise
+id cover_btn
 id cradle
 id createButton
+id create_camp
 id currentState
 id custom
 id customPanel
@@ -2987,6 +2996,8 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id donation_ngo
+id donation_option
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -3038,6 +3049,7 @@ id forever
 id forgotVButton
 id fragment_container_view_tag
 id frameLayout
+id frameLayout3
 id frost
 id fullscreen_header
 id ghost_view
@@ -3055,6 +3067,7 @@ id hideable
 id home
 id homeAsUp
 id home_icon
+id home_ngo
 id honorRequest
 id horizontal_only
 id icon
@@ -3065,6 +3078,7 @@ id ignoreRequest
 id image
 id imageView3
 id imagevrv
+id img_voln_cover
 id immediateStop
 id impactHeading
 id included
@@ -3251,6 +3265,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id settings_ngo
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -3382,8 +3397,10 @@ id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
 id volunPass
+id volun_option
 id volunteerButton
 id volunteer_rv
+id volunteer_rv_ngo
 id welcomeCard
 id welcomeHeading
 id west
@@ -3505,6 +3522,8 @@ layout activity_log_in_as
 layout activity_log_in_sign_in_organization
 layout activity_log_sign_in
 layout activity_main
+layout activity_ngo_landing_page
+layout activity_ngo_volunteer_campaign_creation
 layout activity_organisation_login
 layout activity_organization_details
 layout activity_organization_password
@@ -3529,8 +3548,12 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_campaign_fragment
 layout fragment_donate_fragment
+layout fragment_donation_fragment
 layout fragment_home_fragment
+layout fragment_home_fragment2
+layout fragment_profile_fragment
 layout fragment_search_fragment
 layout fragment_user_profile_fragment
 layout fragment_volunteer__user_
@@ -3597,6 +3620,8 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 layout volunteer_rv_items
 menu bottom_icons_view
+menu campaign_pop_up_menu
+menu ngo_bottom_nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description

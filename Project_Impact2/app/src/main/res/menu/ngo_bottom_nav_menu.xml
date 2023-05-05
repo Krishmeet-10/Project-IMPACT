@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:icon="@drawable/baseline_home_24"
+        android:id="@+id/home_ngo"/>
+    <item android:title="Your Campaigns"
+        android:icon="@drawable/baseline_handshake_24"
+        android:id="@+id/campaign_ngo"/>
+    <item android:title="Donation Drives"
+        android:icon="@drawable/baseline_money_24"
+        android:id="@+id/donation_ngo"/>
+    <item android:title="Settings"
+        android:icon="@drawable/baseline_settings_accessibility_24"
+        android:id="@+id/settings_ngo"/>
+</menu>
