@@ -18,6 +18,11 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class volunteerPassword extends AppCompatActivity {
 
@@ -59,7 +64,17 @@ createAccount(email,password);
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()) {
                                 Log.d(TAG, "createUserWithEmail:success");
-                                FirebaseUser user = mAuth.getCurrentUser();
+                                FirebaseUser currentUser = mAuth.getCurrentUser();
+                                Intent volIntent=getIntent();
+                                String[] volData=volIntent.getStringArrayExtra("volData");
+                                    String uerId=currentUser.getUid();
+                                    DatabaseReference usersRef= FirebaseDatabase.getInstance().getReference("users");
+                                    Map<String,String> user=new HashMap<>();
+                                    user.put("volName",volData[0]);
+                                    user.put("volAge",volData[1]);
+                                    user.put("volPhone",volData[2]);
+                                    user.put("volType",volData[3]);
+                                    usersRef.child(uerId).setValue(user);
 Intent intent=new Intent(getApplicationContext(),User_Landing_Page.class);
 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                                 startActivity(intent);

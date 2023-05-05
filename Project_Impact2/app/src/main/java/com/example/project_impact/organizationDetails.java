@@ -47,25 +47,11 @@ else {
     }
 
     public void setNextOActivity(String name,String address,String oType,String phone) {
-        FirebaseAuth mAuth=FirebaseAuthManager.getInstance();
-        FirebaseUser currentUser=mAuth.getCurrentUser();
-        if (currentUser!=null){
-            String orgId=currentUser.getUid();
-            DatabaseReference usersRef= FirebaseDatabase.getInstance().getReference("orgs");
-            Map<String,String> org=new HashMap<>();
-            org.put("orgName",name);
-            org.put("orgAddress",address);
-            org.put("orgType",oType);
-            org.put("orgPhone",phone);
-            usersRef.child(orgId).setValue(org);
-            Intent intent=new Intent(getApplicationContext(),User_Landing_Page.class);
+            Intent intent=new Intent(getApplicationContext(),organizationPassword.class);
+            String[] orgData={name,address,oType,phone};
+            intent.putExtra("orgData",orgData);
             startActivity(intent);
-        }
-else {
-            Toast.makeText(getApplicationContext(), "Alert, could not load this account", Toast.LENGTH_SHORT).show();
-        }
     }
-
 }
 
 

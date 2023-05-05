@@ -1,5 +1,6 @@
 package com.example.project_impact;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -8,6 +9,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.project_impact.databinding.ActivityVolunteerPasswordBinding;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
@@ -47,19 +49,10 @@ nextButton.setOnClickListener(new View.OnClickListener() {
     }
 
     public void setNextActivity(String volName, String volAge, String volPhone, String volType){
-        FirebaseAuth mAuth=FirebaseAuthManager.getInstance();
-        FirebaseUser currentUser=mAuth.getCurrentUser();
-        if (currentUser!=null){
-            String uerId=currentUser.getUid();
-            DatabaseReference usersRef= FirebaseDatabase.getInstance().getReference("users");
-            Map<String,String> user=new HashMap<>();
-            user.put("volName",volName);
-            user.put("volAge",volAge);
-            user.put("volPhone",volPhone);
-            user.put("volType",volType);
-            usersRef.child(uerId).setValue(user);
-
-        }
+        Intent intent = new Intent(getApplicationContext(), volunteerPassword.class);
+        String[] volData={volName,volAge,volPhone,volType};
+        intent.putExtra("volData",volData);
+        startActivity(intent);
     }
 }
 
