@@ -1,214 +1,238 @@
 [
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\layout_activity_log_in_sign_in_organization.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\activity_log_in_sign_in_organization.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/drawable_vol_fragment_track_box.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/drawable/vol_fragment_track_box.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\menu_ngo_bottom_nav_menu.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\menu\\ngo_bottom_nav_menu.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_activity_log_sign_in.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/activity_log_sign_in.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_activity_log_in_sign_in_organization.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/activity_log_in_sign_in_organization.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\drawable_baseline_money_24.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\drawable\\baseline_money_24.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_activity_volunteer_password.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/activity_volunteer_password.xml"
     },
     {
-        "merged": "com.example.project_impact.app-merged_res-30:/layout_activity_ngo_volunteer_campaign_creation.xml.flat",
-        "source": "com.example.project_impact.app-main-32:/layout/activity_ngo_volunteer_campaign_creation.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_activity_ngo_volunteer_campaign_creation.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/activity_ngo_volunteer_campaign_creation.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/drawable_baseline_money_24.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/drawable/baseline_money_24.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\drawable_baseline_handshake_24.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\drawable\\baseline_handshake_24.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_edit_popup.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/edit_popup.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\layout_fragment_ngo__volunteer__campaign__creation.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\fragment_ngo__volunteer__campaign__creation.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.project_impact.app-main-59:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\layout_activity_log_in_as.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\activity_log_in_as.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_activity_volunteer_log_in_page.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/activity_volunteer_log_in_page.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.example.project_impact.app-merged_res-57:/menu_campaign_pop_up_menu.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/menu/campaign_pop_up_menu.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\drawable_baseline_manage_search_24.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\drawable\\baseline_manage_search_24.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.project_impact.app-main-59:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\layout_activity_organization_details.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\activity_organization_details.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/drawable_baseline_handshake_24.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/drawable/baseline_handshake_24.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\drawable_baseline_settings_accessibility_24.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\drawable\\baseline_settings_accessibility_24.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/menu_bottom_icons_view.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/menu/bottom_icons_view.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_vol_tracker_unit.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/vol_tracker_unit.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\layout_activity_user_landing_page.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\activity_user_landing_page.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_fragment_profile_fragment.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/fragment_profile_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\drawable_baseline_volunteer_activism_24.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\drawable\\baseline_volunteer_activism_24.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\drawable_support_2355701_1920.jpg.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\drawable\\support_2355701_1920.jpg"
+        "merged": "com.example.project_impact.app-merged_res-57:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.project_impact.app-main-59:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\layout_activity_log_sign_in.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\activity_log_sign_in.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/drawable_baseline_settings_accessibility_24.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/drawable/baseline_settings_accessibility_24.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\layout_fragment_volunteer__user_.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\fragment_volunteer__user_.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_activity_main.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\menu_campaign_pop_up_menu.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\menu\\campaign_pop_up_menu.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/menu_ngo_bottom_nav_menu.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/menu/ngo_bottom_nav_menu.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\xml\\data_extraction_rules.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_volunteer_rv_items.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/volunteer_rv_items.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\layout_fragment_user_profile_fragment.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\fragment_user_profile_fragment.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.project_impact.app-main-59:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.project_impact.app-merged_res-57:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.project_impact.app-main-59:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_fragment_user_profile_fragment.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/fragment_user_profile_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\layout_activity_volunteer_password.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\activity_volunteer_password.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/drawable_baseline_manage_search_24.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/drawable/baseline_manage_search_24.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.project_impact.app-merged_res-57:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\activity_main.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_activity_volunteer_details.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/activity_volunteer_details.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\layout_fragment_campaign_fragment.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\fragment_campaign_fragment.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_fragment_donation_fragment.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/fragment_donation_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\layout_fragment_donation_fragment.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\fragment_donation_fragment.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_fragment_campaign_fragment.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/fragment_campaign_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\layout_activity_volunteer_details.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\activity_volunteer_details.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/mipmap-anydpi-v33/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\layout_activity_volunteer_log_in_page.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\activity_volunteer_log_in_page.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_activity_log_in_as.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/activity_log_in_as.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\mipmap-anydpi-v33\\ic_launcher.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.example.project_impact.app-merged_res-57:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.project_impact.app-main-59:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_activity_organization_password.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/activity_organization_password.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\layout_activity_ngo_landing_page.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\activity_ngo_landing_page.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_activity_user_landing_page.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/activity_user_landing_page.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\menu_bottom_icons_view.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\menu\\bottom_icons_view.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_unit_vol_tracker.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/unit_vol_tracker.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.example.project_impact.app-merged_res-57:/drawable_support_2355701_1920.jpg.flat",
+        "source": "com.example.project_impact.app-main-59:/drawable/support_2355701_1920.jpg"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\drawable_baseline_home_24.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\drawable\\baseline_home_24.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.project_impact.app-main-59:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.project_impact.app-main-59:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.example.project_impact.app-merged_res-57:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.project_impact.app-main-59:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\layout_volunteer_rv_items.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\volunteer_rv_items.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_fragment_volunteer__user_.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/fragment_volunteer__user_.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\layout_activity_ngo_volunteer_campaign_creation.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\activity_ngo_volunteer_campaign_creation.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_fragment_home_fragment.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/fragment_home_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\layout_fragment_profile_fragment.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\fragment_profile_fragment.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/xml_backup_rules.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\layout_fragment_home_fragment2.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\fragment_home_fragment2.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_activity_organisation_login.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/activity_organisation_login.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\layout_activity_organization_password.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\activity_organization_password.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_fragment_search_fragment.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/fragment_search_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\layout_fragment_search_fragment.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\fragment_search_fragment.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/drawable_gus_obama.jpg.flat",
+        "source": "com.example.project_impact.app-main-59:/drawable/gus_obama.jpg"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\layout_activity_organisation_login.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\activity_organisation_login.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/drawable_baseline_home_24.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/drawable/baseline_home_24.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\layout_fragment_home_fragment.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\fragment_home_fragment.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.project_impact.app-main-59:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\layout_fragment_donate_fragment.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\layout\\fragment_donate_fragment.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_story_unit.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/story_unit.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_fragment_home_fragment2.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/fragment_home_fragment2.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\drawable_baseline_person_pin_24.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\drawable\\baseline_person_pin_24.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/drawable_baseline_volunteer_activism_24.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/drawable/baseline_volunteer_activism_24.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-merged_res-30:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.4\\com.example.project_impact.app-main-32:\\xml\\backup_rules.xml"
+        "merged": "com.example.project_impact.app-merged_res-57:/drawable_cog.png.flat",
+        "source": "com.example.project_impact.app-main-59:/drawable/cog.png"
+    },
+    {
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_app_settings_vol.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/app_settings_vol.xml"
+    },
+    {
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_activity_organization_details.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/activity_organization_details.xml"
+    },
+    {
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_fragment_donate_fragment.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/fragment_donate_fragment.xml"
+    },
+    {
+        "merged": "com.example.project_impact.app-merged_res-57:/layout_activity_ngo_landing_page.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/layout/activity_ngo_landing_page.xml"
+    },
+    {
+        "merged": "com.example.project_impact.app-merged_res-57:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.project_impact.app-merged_res-57:/drawable_baseline_person_pin_24.xml.flat",
+        "source": "com.example.project_impact.app-main-59:/drawable/baseline_person_pin_24.xml"
     }
 ]
