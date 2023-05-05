@@ -18,14 +18,12 @@ public class edit_popup extends Activity {
 
 
     TextView cancel_tv;
-
     TextView heading;
     EditText editText;
     Button confirm;
 
     public String type;
     public  String current;
-
 
 
     @Override
