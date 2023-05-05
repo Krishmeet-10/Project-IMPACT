@@ -3,7 +3,9 @@ package com.example.project_impact.Navigation_Fragments;
 import android.content.ClipData;
 import android.content.Context;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -33,10 +35,21 @@ public class vrv_Adapter extends RecyclerView.Adapter<vrv_ViewHolder> {
     public void onBindViewHolder(@NonNull vrv_ViewHolder holder, int position) {
         holder.vrv_text.setText(data.get(position).getName());
         holder.vrv_img.setImageResource(data.get(position).getImage());
+        holder.vrv_img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(v.getContext(), "CLICK LOGIC",Toast.LENGTH_SHORT).show();
+                /* CLICK LOGIC*/
+            }
+        });
     }
 
     @Override
     public int getItemCount() {
         return data.size();
     }
+
+
+
+
 }
