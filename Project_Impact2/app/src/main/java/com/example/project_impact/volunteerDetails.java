@@ -57,7 +57,7 @@ nextButton.setOnClickListener(new View.OnClickListener() {
             user.put("volAge",volAge);
             user.put("volPhone",volPhone);
             user.put("volType",volType);
-usersRef.child(userId).setValue(user);
+            usersRef.child(uerId).setValue(user);
 
         }
     }
