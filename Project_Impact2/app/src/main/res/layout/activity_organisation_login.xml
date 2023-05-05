@@ -103,6 +103,7 @@
             android:background="?attr/colorControlHighlight"
             android:text="Log In"
             android:textSize="12sp"
+            android:onClick="homepage"
             tools:ignore="HardcodedText" />
 
         <Button
