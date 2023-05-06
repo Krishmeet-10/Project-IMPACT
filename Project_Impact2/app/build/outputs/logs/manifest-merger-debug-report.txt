@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:2:1-70:12
-INJECTED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:2:1-70:12
-INJECTED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:2:1-70:12
-INJECTED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:2:1-70:12
+ADDED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:2:1-71:12
 MERGED from [androidx.databinding:viewbinding:7.4.2] /home/iiitd/.gradle/caches/transforms-3/62f34a35684dd85964cbd96aaddf705e/transformed/jetified-viewbinding-7.4.2/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-core:21.1.1] /home/iiitd/.gradle/caches/transforms-3/458d43c3294d921260369eb494e4c4b2/transformed/jetified-firebase-core-21.1.1/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-analytics:21.2.2] /home/iiitd/.gradle/caches/transforms-3/e64a77b11586136bb6dc1895ec43afcc/transformed/jetified-firebase-analytics-21.2.2/AndroidManifest.xml:2:1-9:12
@@ -85,22 +85,22 @@ MERGED from [androidx.print:print:1.0.0] /home/iiitd/.gradle/caches/transforms-3
 MERGED from [io.grpc:grpc-android:1.52.1] /home/iiitd/.gradle/caches/transforms-3/7509b9a1f50f29f0403f7a4e83a728a2/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/iiitd/.gradle/caches/transforms-3/f128e69ba9ae77b85639cae3855225db/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/iiitd/.gradle/caches/transforms-3/c4df3b5c4b72862e21253a44a773178c/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
-INJECTED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:2:1-70:12
-INJECTED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:2:1-70:12
-INJECTED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:2:1-71:12
 	package
 		INJECTED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml
-		ADDED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:2:1-70:12
+		ADDED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:2:1-71:12
 		INJECTED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml
-		ADDED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:2:1-70:12
+		ADDED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:2:1-71:12
 		INJECTED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml
-		ADDED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:2:1-70:12
+		ADDED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:2:1-71:12
 		INJECTED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:2:11-69
@@ -129,7 +129,7 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.2] /h
 	android:name
 		ADDED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:7:5-68:19
+ADDED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:7:5-69:19
 MERGED from [com.google.firebase:firebase-core:21.1.1] /home/iiitd/.gradle/caches/transforms-3/458d43c3294d921260369eb494e4c4b2/transformed/jetified-firebase-core-21.1.1/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-core:21.1.1] /home/iiitd/.gradle/caches/transforms-3/458d43c3294d921260369eb494e4c4b2/transformed/jetified-firebase-core-21.1.1/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:21.2.2] /home/iiitd/.gradle/caches/transforms-3/e64a77b11586136bb6dc1895ec43afcc/transformed/jetified-firebase-analytics-21.2.2/AndroidManifest.xml:7:5-20
@@ -324,6 +324,10 @@ category#android.intent.category.LAUNCHER
 ADDED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:65:17-77
 	android:name
 		ADDED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:65:27-74
+activity#com.example.project_impact.Navigation_Fragments.activity_campinfo
+ADDED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:68:9-102
+	android:name
+		ADDED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:68:19-99
 uses-sdk
 INJECTED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/iiitd/temporary/wow/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml

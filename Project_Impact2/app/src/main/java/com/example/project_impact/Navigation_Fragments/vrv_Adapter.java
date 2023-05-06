@@ -2,11 +2,13 @@ package com.example.project_impact.Navigation_Fragments;
 
 import android.content.ClipData;
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -41,6 +43,9 @@ public class vrv_Adapter extends RecyclerView.Adapter<vrv_ViewHolder> {
             @Override
             public void onClick(View v) {
                 Toast.makeText(v.getContext(), "CLICK LOGIC",Toast.LENGTH_SHORT).show();
+
+                Intent intent = new Intent(context, activity_campinfo.class);
+                context.startActivity(intent);
                 /* CLICK LOGIC*/
             }
         });

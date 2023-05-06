@@ -28,12 +28,12 @@
         "source": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/activity_volunteer_log_in_page.xml"
     },
     {
-        "merged": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/mipmap-xxhdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/layout_story_unit.xml.flat",
         "source": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/story_unit.xml"
+    },
+    {
+        "merged": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
         "merged": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/layout_fragment_donate_fragment.xml.flat",
@@ -126,6 +126,10 @@
     {
         "merged": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/drawable_support_2355701_1920.jpg.flat",
         "source": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/drawable/support_2355701_1920.jpg"
+    },
+    {
+        "merged": "com.example.project_impact.app-merged_res-39:/layout_activity_campinfo.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/layout/activity_campinfo.xml"
     },
     {
         "merged": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
