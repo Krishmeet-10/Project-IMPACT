@@ -41,16 +41,8 @@ public class ngo_Home_fragment extends Fragment implements PopupMenu.OnMenuItemC
 
         View view = inflater.inflate(R.layout.fragment_home_fragment2, container, false);
 
-        items.add(new vrv_data("hello",R.drawable.support_2355701_1920));
-        items.add(new vrv_data("hello",R.drawable.support_2355701_1920));
-        items.add(new vrv_data("hello",R.drawable.support_2355701_1920));
-        items.add(new vrv_data("hello",R.drawable.support_2355701_1920));
-        items.add(new vrv_data("hello",R.drawable.support_2355701_1920));
-        items.add(new vrv_data("hello",R.drawable.support_2355701_1920));
-        items.add(new vrv_data("hello",R.drawable.support_2355701_1920));
-        items.add(new vrv_data("hello",R.drawable.support_2355701_1920));
-        items.add(new vrv_data("hello",R.drawable.support_2355701_1920));
-
+        items.add(new vrv_data("hello","https://i.pinimg.com/736x/97/d0/2a/97d02ad83bbf9161f2a4d73ff8b95195.jpg"));
+        items.add(new vrv_data("hello","https://i.pinimg.com/736x/97/d0/2a/97d02ad83bbf9161f2a4d73ff8b95195.jpg"));
         vrv_recycler = view.findViewById(R.id.volunteer_rv_ngo);
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false);

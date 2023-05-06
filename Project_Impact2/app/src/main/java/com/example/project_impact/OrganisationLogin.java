@@ -99,7 +99,7 @@ public class OrganisationLogin extends AppCompatActivity {
                 if (task.isSuccessful()) {
                     Log.d("LoginStatus", "signInWithEmail:success");
                     FirebaseUser currentUser = mAuth.getCurrentUser();
-                    Intent intent = new Intent(getApplicationContext(), User_Landing_Page.class);
+                    Intent intent = new Intent(getApplicationContext(), NGO_Landing_Page.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                     startActivity(intent);
                 } else {

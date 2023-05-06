@@ -36,7 +36,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/story_review"
         android:layout_width="match_parent"
-        android:layout_height="244dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="581dp"
         android:orientation="horizontal" />

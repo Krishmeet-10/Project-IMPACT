@@ -35,9 +35,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         FirebaseUser currentUser=mFirebaseAuth.getCurrentUser();
-if(currentUser != null){
-loadUser();
-}
+//if(currentUser != null){
+//loadUser();
+//}
     }
 }
 

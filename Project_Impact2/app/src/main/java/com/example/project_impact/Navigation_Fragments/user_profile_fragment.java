@@ -2,6 +2,7 @@ package com.example.project_impact.Navigation_Fragments;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -11,6 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.project_impact.R;
 
@@ -23,6 +25,7 @@ public class user_profile_fragment extends Fragment {
     TextView user_email , user_name, user_location, user_job, user_phone;
 
     private static final int REQUEST_CODE_FOR_POPUP = 1;
+    int SELECT_PICTURE = 200;
 
     TextView edit_place;
 
@@ -31,10 +34,19 @@ public class user_profile_fragment extends Fragment {
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data){
         super.onActivityResult(requestCode, resultCode, data);
-        if(requestCode ==REQUEST_CODE_FOR_POPUP && resultCode == Activity.RESULT_OK){
-            edit_place.setText(data.getStringExtra("data"));
+        if(resultCode == Activity.RESULT_OK){
+            if(requestCode ==REQUEST_CODE_FOR_POPUP){
+                edit_place.setText(data.getStringExtra("data"));
+            }
+
+            else if(requestCode == SELECT_PICTURE){
+                Uri selectedImageUri = data.getData();
+                user_pfp.setImageURI(selectedImageUri);
+            }
         }
     }
+
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -63,6 +75,13 @@ public class user_profile_fragment extends Fragment {
                 bundle.putString("current", String.valueOf(user_location.getText()));
                 edit_place = user_location;
                 popup_action(bundle);
+            }
+        });
+
+        edit_pfp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageChooser();
             }
         });
 
@@ -113,9 +132,19 @@ public class user_profile_fragment extends Fragment {
 
     public void popup_action(Bundle bundle){
 
-        Intent intent = new Intent(getActivity(),edit_popup.class);
+        Intent intent = new Intent(getActivity(), edit_popup.class);
         intent.putExtras(bundle);
         startActivityForResult(intent, REQUEST_CODE_FOR_POPUP);
 
     }
+
+
+    public void imageChooser() {
+        Intent i = new Intent();
+        i.setType("image/*");
+        i.setAction(Intent.ACTION_GET_CONTENT);
+        startActivityForResult(Intent.createChooser(i, "Select Picture"), SELECT_PICTURE);
+    }
+
+
 }

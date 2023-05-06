@@ -2,11 +2,11 @@ package com.example.project_impact.Navigation_Fragments;
 
 public class vrv_data {
     String name;
-    int image;
+    String image;
 
-    public vrv_data(String name, int image) {
+    public vrv_data(String name, String url) {
         this.name = name;
-        this.image = image;
+        this.image = url;
     }
 
     public String getName() {
@@ -17,11 +17,11 @@ public class vrv_data {
         this.name = name;
     }
 
-    public int getImage() {
+    public String getImage() {
         return image;
     }
 
-    public void setImage(int image) {
+    public void setImage(String image) {
         this.image = image;
     }
 }
