@@ -8,10 +8,6 @@
         "source": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/activity_organisation_login.xml"
     },
     {
-        "merged": "com.example.project_impact.app-mergeDebugResources-38:/layout/story_unit.xml",
-        "source": "com.example.project_impact.app-main-41:/layout/story_unit.xml"
-    },
-    {
         "merged": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-mergeDebugResources-38:/layout/vol_tracker_unit.xml",
         "source": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/vol_tracker_unit.xml"
     },
@@ -74,6 +70,10 @@
     {
         "merged": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-mergeDebugResources-38:/layout/activity_log_sign_in.xml",
         "source": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/activity_log_sign_in.xml"
+    },
+    {
+        "merged": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-mergeDebugResources-38:/layout/activity_campinfo.xml",
+        "source": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/activity_campinfo.xml"
     },
     {
         "merged": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-mergeDebugResources-38:/layout/fragment_donation_fragment.xml",

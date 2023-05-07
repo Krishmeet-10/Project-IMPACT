@@ -3106,6 +3106,7 @@ int id continuousVelocity 0x7f0800a5
 int id coordinator 0x7f0800a6
 int id cos 0x7f0800a7
 int id counterclockwise 0x7f0800a8
+int id cover 0x7f080299
 int id cover_btn 0x7f0800a9
 int id cradle 0x7f0800aa
 int id createButton 0x7f0800ab
@@ -3122,6 +3123,7 @@ int id decor_content_parent 0x7f0800b5
 int id default_activity_button 0x7f0800b6
 int id deltaRelative 0x7f0800b7
 int id dependency_ordering 0x7f0800b8
+int id desc 0x7f08029a
 int id design_bottom_sheet 0x7f0800b9
 int id design_menu_item_action_area 0x7f0800ba
 int id design_menu_item_action_area_stub 0x7f0800bb
@@ -3245,6 +3247,7 @@ int id inward 0x7f080130
 int id italic 0x7f080131
 int id item_touch_helper_previous_elevation 0x7f080132
 int id iv_check_mark 0x7f080133
+int id join 0x7f08029b
 int id jumpToEnd 0x7f080134
 int id jumpToStart 0x7f080135
 int id labeled 0x7f080136
@@ -3347,6 +3350,7 @@ int id on 0x7f080196
 int id onInterceptTouchReturnSwipe 0x7f080197
 int id option 0x7f080198
 int id optionsCard 0x7f080199
+int id org 0x7f08029c
 int id orgLogInButton 0x7f08019a
 int id organisationButton 0x7f08019b
 int id organisationNameEditText 0x7f08019c
