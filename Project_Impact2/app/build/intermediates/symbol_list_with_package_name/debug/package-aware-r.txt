@@ -2799,6 +2799,7 @@ drawable baseline_money_24
 drawable baseline_person_pin_24
 drawable baseline_settings_accessibility_24
 drawable baseline_volunteer_activism_24
+drawable btn_bg
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2835,6 +2836,7 @@ drawable design_snackbar_background
 drawable gobby
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable gradient1
 drawable gus_obama
 drawable ic_alert
 drawable ic_arrow_back_black_24
