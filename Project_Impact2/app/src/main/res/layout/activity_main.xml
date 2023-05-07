@@ -11,20 +11,21 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
-        android:layout_marginTop="210dp"
         android:layout_height="wrap_content"
         tools:context=".logInAs">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/welcomeCard"
             android:layout_width="311dp"
+            android:elevation="10dp"
+            android:layout_marginBottom="200dp"
             android:layout_height="304dp"
             android:layout_marginStart="42dp"
             android:layout_marginEnd="28dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="200dp"
             app:cardBackgroundColor="#3E6E69"
             app:cardCornerRadius="30dp"
-            app:cardElevation="5dp"
+            app:cardElevation="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.266"
@@ -38,7 +39,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
-                android:layout_marginTop="80dp"
+                android:layout_marginTop="140dp"
                 android:fontFamily="serif"
                 android:text="@string/welcome_to"
                 android:textColor="@color/white"
@@ -55,7 +56,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="178dp"
-                android:layout_marginTop="80dp"
+                android:layout_marginTop="140dp"
                 android:fontFamily="monospace"
                 android:text="Impact"
                 android:textAlignment="textStart"
@@ -69,24 +70,28 @@
                 tools:layout_editor_absoluteX="232dp"
                 tools:layout_editor_absoluteY="291dp" />
 
-            <Button
-                android:id="@+id/startButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="80dp"
-                android:layout_marginTop="160dp"
-                android:background="?attr/colorControlHighlight"
-                android:backgroundTint="#415042"
-                android:backgroundTintMode="src_over"
-                android:onClick="nextActivity"
-                android:text="@string/get_started"
-                app:cornerRadius="60dp"
-                app:iconPadding="10dp"
-                tools:layout_conversion_absoluteHeight="48dp"
-                tools:layout_conversion_absoluteWidth="136dp"
-                tools:layout_editor_absoluteX="134dp"
-                tools:layout_editor_absoluteY="371dp" />
 
         </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="177dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="85dp"
+            android:layout_marginBottom="100dp"
+            android:background="@drawable/btn_bg"
+            android:onClick="nextActivity"
+            android:text="@string/get_started"
+            android:textColor="@color/white"
+            app:cornerRadius="60dp"
+            app:iconPadding="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/welcomeCard"
+            app:layout_constraintVertical_bias="0.466"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="136dp" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

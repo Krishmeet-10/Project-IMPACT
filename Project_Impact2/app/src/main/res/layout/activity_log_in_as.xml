@@ -16,14 +16,17 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@color/white"
     tools:context=".logInAs">
+
 
     <androidx.cardview.widget.CardView
         android:id="@+id/optionsCard"
-        android:layout_width="302dp"
-        android:layout_height="308dp"
+        android:layout_width="296dp"
+        android:layout_height="330dp"
         android:layout_centerInParent="true"
-        android:layout_marginTop="225dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/gradient1"
         app:cardBackgroundColor="#3E6E69"
         app:cardCornerRadius="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,7 +41,7 @@
             android:layout_width="272dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="55dp"
+            android:layout_marginTop="60dp"
             android:fontFamily="serif"
             android:text="How would you like to enter the app as?"
             android:textAlignment="center"
@@ -49,28 +52,53 @@
 
         <Button
             android:id="@+id/volunteerButton"
-            android:layout_width="146dp"
-            android:layout_height="wrap_content"
+            android:layout_width="148dp"
+            android:layout_height="58dp"
             android:layout_marginStart="77dp"
-            android:layout_marginTop="140dp"
+            android:layout_marginTop="150dp"
             android:layout_marginEnd="30dp"
-            android:background="?attr/colorControlHighlight"
+            android:background="@drawable/btn_bg"
             android:onClick="Volunteer"
             android:text="VOLUNTEER"
+            android:textColor="@color/white"
             tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/organisationButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="148dp"
+            android:layout_height="58dp"
             android:layout_marginStart="77dp"
-            android:layout_marginTop="198dp"
-            android:background="?attr/colorControlHighlight"
+            android:layout_marginTop="218dp"
+            android:background="@drawable/btn_bg"
             android:onClick="Organization"
             android:text="ORGANIZATION"
+            android:textColor="@color/white"
             tools:ignore="HardcodedText" />
 
     </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="85dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="serif"
+        android:text="@string/impact"
+        android:textAllCaps="false"
+        android:textColor="#3E6E69"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/optionsCard"
+        app:layout_constraintVertical_bias="0.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

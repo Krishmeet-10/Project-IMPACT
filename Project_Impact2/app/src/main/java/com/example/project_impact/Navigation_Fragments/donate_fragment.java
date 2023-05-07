@@ -1,21 +1,16 @@
 package com.example.project_impact.Navigation_Fragments;
 
-import android.app.Activity;
 import android.os.Bundle;
-
 import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
-
 import com.example.project_impact.R;
 import com.example.project_impact.User_Landing_Page;
 import com.razorpay.Checkout;
 import com.razorpay.PaymentResultListener;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -43,6 +38,7 @@ public class donate_fragment extends Fragment implements PaymentResultListener {
 
         return view;
     }
+
     public void startPayment() {
         Checkout checkout = new Checkout();
         checkout.setKeyID("rzp_test_tgE3Us5EWfozOi");
