@@ -68,6 +68,10 @@
         "source": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/activity_user_landing_page.xml"
     },
     {
+        "merged": "com.example.project_impact.app-mergeDebugResources-38:/layout/activity_campinfo_ngo.xml",
+        "source": "com.example.project_impact.app-main-41:/layout/activity_campinfo_ngo.xml"
+    },
+    {
         "merged": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-mergeDebugResources-38:/layout/activity_log_sign_in.xml",
         "source": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/activity_log_sign_in.xml"
     },
@@ -94,10 +98,6 @@
     {
         "merged": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-mergeDebugResources-38:/layout/activity_log_in_as.xml",
         "source": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/activity_log_in_as.xml"
-    },
-    {
-        "merged": "com.example.project_impact.app-mergeDebugResources-38:/layout/activity_campinfo.xml",
-        "source": "com.example.project_impact.app-main-41:/layout/activity_campinfo.xml"
     },
     {
         "merged": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-mergeDebugResources-38:/layout/activity_ngo_volunteer_campaign_creation.xml",

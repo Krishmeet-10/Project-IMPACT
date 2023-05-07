@@ -3,64 +3,50 @@ package com.example.project_impact.Ngo_landing_fragments;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.project_impact.Navigation_Fragments.ngo_campagin_adapter;
+import com.example.project_impact.Navigation_Fragments.vrv_Adapter;
+import com.example.project_impact.Navigation_Fragments.vrv_data;
 import com.example.project_impact.R;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link ngo_Campaign_fragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+import java.util.ArrayList;
+import java.util.List;
+
+
 public class ngo_Campaign_fragment extends Fragment {
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
 
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
+    RecyclerView vrv_recycler;
+    List<vrv_data> camp_dataholder = new ArrayList<vrv_data>();
 
-    public ngo_Campaign_fragment() {
-        // Required empty public constructor
-    }
+    public void camp_handle(){
+        int camp_count = 0;
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment Campaign_fragment.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static ngo_Campaign_fragment newInstance(String param1, String param2) {
-        ngo_Campaign_fragment fragment = new ngo_Campaign_fragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
+        for(int i = 0; i < camp_count; i++){
+            camp_dataholder.add(new vrv_data("name", "url"));
         }
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_campaign_fragment, container, false);
+
+
+        View view = inflater.inflate(R.layout.fragment_campaign_fragment, container, false);
+
+        camp_dataholder.add(new vrv_data("hello","https://i.pinimg.com/736x/97/d0/2a/97d02ad83bbf9161f2a4d73ff8b95195.jpg"));
+        camp_dataholder.add(new vrv_data("hello","https://i.pinimg.com/736x/97/d0/2a/97d02ad83bbf9161f2a4d73ff8b95195.jpg"));
+        vrv_recycler = view.findViewById(R.id.volunteer_rv_ngo);
+
+        LinearLayoutManager layoutManager = new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false);
+        vrv_recycler.setLayoutManager(layoutManager);
+        vrv_recycler.setAdapter(new ngo_campagin_adapter(getContext(),camp_dataholder));
+        return view;
     }
 }

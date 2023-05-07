@@ -3162,6 +3162,8 @@ int id editVolAge 0x7f0800db
 int id editVolName 0x7f0800dc
 int id editVolPhone 0x7f0800dd
 int id editVolType 0x7f0800de
+int id edit_cover 0x7f08029e
+int id edit_desc 0x7f08029f
 int id edit_email 0x7f0800df
 int id edit_job 0x7f0800e0
 int id edit_location 0x7f0800e1
@@ -3170,6 +3172,7 @@ int id edit_phone 0x7f0800e3
 int id edit_popup_confirm 0x7f0800e4
 int id edit_popup_heading 0x7f0800e5
 int id edit_query 0x7f0800e6
+int id edit_title 0x7f0802a0
 int id elastic 0x7f0800e7
 int id emailEditText2 0x7f0800e8
 int id emailOEditText2 0x7f0800e9
@@ -3567,6 +3570,7 @@ int id unchecked 0x7f08026e
 int id uniform 0x7f08026f
 int id unlabeled 0x7f080270
 int id up 0x7f080271
+int id update 0x7f08029d
 int id useLogo 0x7f080272
 int id userOutput 0x7f080273
 int id user_email 0x7f080274
@@ -3713,6 +3717,7 @@ int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_campinfo 0x7f0b008d
+int layout activity_campinfo_ngo 0x7f0b008e
 int layout activity_log_in_as 0x7f0b001c
 int layout activity_log_in_sign_in_organization 0x7f0b001d
 int layout activity_log_sign_in 0x7f0b001e

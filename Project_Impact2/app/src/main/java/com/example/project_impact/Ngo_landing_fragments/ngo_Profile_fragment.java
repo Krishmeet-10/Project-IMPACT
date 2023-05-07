@@ -10,8 +10,10 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.project_impact.Navigation_Fragments.edit_popup;
 import com.example.project_impact.Navigation_Fragments.user_settings;
@@ -20,7 +22,11 @@ import com.example.project_impact.R;
 
 public class ngo_Profile_fragment extends Fragment {
 
+
+    View top_view;
     ImageView user_pfp, edit_pfp, edit_email, edit_location, edit_job, edit_phone, app_settings;
+
+    Button update;
     TextView user_email , user_name, user_location, user_job, user_phone;
 
     private static final int REQUEST_CODE_FOR_POPUP = 1;
@@ -40,6 +46,10 @@ public class ngo_Profile_fragment extends Fragment {
                 Uri selectedImageUri = data.getData();
                 user_pfp.setImageURI(selectedImageUri);
             }
+
+            update.setVisibility(top_view.VISIBLE);
+            update.setEnabled(true);
+
         }
     }
 
@@ -64,6 +74,15 @@ public class ngo_Profile_fragment extends Fragment {
         edit_phone = (ImageView) view.findViewById(R.id.edit_phone);
         app_settings = (ImageView) view.findViewById(R.id.app_settings_vol);
 
+        update = (Button) view.findViewById(R.id.update);
+        update.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(view.getContext(),"click",Toast.LENGTH_SHORT).show();
+            }
+        });
+        update.setVisibility(view.INVISIBLE);
+        update.setEnabled(false);
 
         edit_location.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -4,6 +4,7 @@ package com.example.project_impact.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -52,6 +53,9 @@ public final class FragmentProfileFragmentBinding implements ViewBinding {
   public final TextView textView8;
 
   @NonNull
+  public final Button update;
+
+  @NonNull
   public final TextView userEmail;
 
   @NonNull
@@ -73,9 +77,9 @@ public final class FragmentProfileFragmentBinding implements ViewBinding {
       @NonNull ImageView appSettingsVol, @NonNull ImageView editEmail, @NonNull ImageView editJob,
       @NonNull ImageView editLocation, @NonNull ImageView editPfp, @NonNull ImageView editPhone,
       @NonNull CardView imageView, @NonNull TextView textView10, @NonNull TextView textView7,
-      @NonNull TextView textView8, @NonNull TextView userEmail, @NonNull TextView userJob,
-      @NonNull TextView userLocation, @NonNull TextView userName, @NonNull ImageView userPfp,
-      @NonNull TextView userPhone) {
+      @NonNull TextView textView8, @NonNull Button update, @NonNull TextView userEmail,
+      @NonNull TextView userJob, @NonNull TextView userLocation, @NonNull TextView userName,
+      @NonNull ImageView userPfp, @NonNull TextView userPhone) {
     this.rootView = rootView;
     this.appSettingsVol = appSettingsVol;
     this.editEmail = editEmail;
@@ -87,6 +91,7 @@ public final class FragmentProfileFragmentBinding implements ViewBinding {
     this.textView10 = textView10;
     this.textView7 = textView7;
     this.textView8 = textView8;
+    this.update = update;
     this.userEmail = userEmail;
     this.userJob = userJob;
     this.userLocation = userLocation;
@@ -182,6 +187,12 @@ public final class FragmentProfileFragmentBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.update;
+      Button update = ViewBindings.findChildViewById(rootView, id);
+      if (update == null) {
+        break missingId;
+      }
+
       id = R.id.user_email;
       TextView userEmail = ViewBindings.findChildViewById(rootView, id);
       if (userEmail == null) {
@@ -220,7 +231,7 @@ public final class FragmentProfileFragmentBinding implements ViewBinding {
 
       return new FragmentProfileFragmentBinding((FrameLayout) rootView, appSettingsVol, editEmail,
           editJob, editLocation, editPfp, editPhone, imageView, textView10, textView7, textView8,
-          userEmail, userJob, userLocation, userName, userPfp, userPhone);
+          update, userEmail, userJob, userLocation, userName, userPfp, userPhone);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

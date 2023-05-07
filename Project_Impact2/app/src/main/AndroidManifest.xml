@@ -66,6 +66,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.project_impact.Navigation_Fragments.activity_campinfo" />
+        <activity android:name="com.example.project_impact.Navigation_Fragments.activity_campinfo_ngo" />
     </application>
 
 </manifest>

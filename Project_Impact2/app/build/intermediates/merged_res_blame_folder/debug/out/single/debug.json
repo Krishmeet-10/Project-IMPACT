@@ -52,12 +52,12 @@
         "source": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/drawable/baseline_manage_search_24.xml"
     },
     {
-        "merged": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/drawable_cog.png.flat",
-        "source": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/drawable/cog.png"
-    },
-    {
         "merged": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/layout_activity_log_sign_in.xml.flat",
         "source": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/activity_log_sign_in.xml"
+    },
+    {
+        "merged": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/drawable_cog.png.flat",
+        "source": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/drawable/cog.png"
     },
     {
         "merged": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/layout_activity_organization_password.xml.flat",
@@ -124,10 +124,6 @@
         "source": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/drawable/support_2355701_1920.jpg"
     },
     {
-        "merged": "com.example.project_impact.app-merged_res-39:/layout_activity_campinfo.xml.flat",
-        "source": "com.example.project_impact.app-main-41:/layout/activity_campinfo.xml"
-    },
-    {
         "merged": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
@@ -170,6 +166,10 @@
     {
         "merged": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.project_impact.app-merged_res-39:/layout_activity_campinfo_ngo.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/layout/activity_campinfo_ngo.xml"
     },
     {
         "merged": "/home/iiitd/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/layout_fragment_home_fragment.xml.flat",

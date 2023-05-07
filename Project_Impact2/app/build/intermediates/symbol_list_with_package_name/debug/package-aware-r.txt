@@ -3163,6 +3163,8 @@ id editVolAge
 id editVolName
 id editVolPhone
 id editVolType
+id edit_cover
+id edit_desc
 id edit_email
 id edit_job
 id edit_location
@@ -3171,6 +3173,7 @@ id edit_phone
 id edit_popup_confirm
 id edit_popup_heading
 id edit_query
+id edit_title
 id elastic
 id emailEditText2
 id emailOEditText2
@@ -3568,6 +3571,7 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id update
 id useLogo
 id userOutput
 id user_email
@@ -3714,6 +3718,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_campinfo
+layout activity_campinfo_ngo
 layout activity_log_in_as
 layout activity_log_in_sign_in_organization
 layout activity_log_sign_in
