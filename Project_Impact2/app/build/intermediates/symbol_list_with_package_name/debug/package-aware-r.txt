@@ -2837,6 +2837,8 @@ drawable gobby
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable gradient1
+drawable gradient_app_bg
+drawable gradient_base
 drawable gus_obama
 drawable ic_alert
 drawable ic_arrow_back_black_24

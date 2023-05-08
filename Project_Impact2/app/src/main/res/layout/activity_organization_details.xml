@@ -163,7 +163,7 @@
             android:text="Next"
             android:textColor="@color/white"
             android:textSize="15sp"
-            android:layout_marginBottom="dp"
+            android:layout_marginBottom="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
