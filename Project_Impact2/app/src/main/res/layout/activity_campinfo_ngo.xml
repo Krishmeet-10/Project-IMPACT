@@ -12,95 +12,151 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <androidx.cardview.widget.CardView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:cardBackgroundColor="#3E6E69"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gradient_base" />
+
+        </androidx.cardview.widget.CardView>
 
         <TextView
-            android:textColor="@color/black"
             android:id="@+id/title"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="serif"
             android:text="TITLE"
-            android:textSize="38dp"
+            android:textColor="@color/black"
+            android:textSize="32dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.016" />
+            app:layout_constraintVertical_bias="0.085" />
 
-        <ImageView
-            android:id="@+id/cover"
-            android:layout_width="match_parent"
-            android:layout_height="282dp"
-            android:layout_marginTop="28dp"
-            android:src="@drawable/gobby"
-            app:layout_constraintTop_toBottomOf="@+id/title"
-            tools:layout_editor_absoluteX="1dp" />
-
-        <TextView
-            android:id="@+id/desc"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="92dp"
-            android:layout_marginEnd="136dp"
-            android:text="Description: EL GOBBY"
-            android:textColor="@color/black"
-            android:textSize="25dp"
+        <androidx.cardview.widget.CardView
+            android:id="@+id/logInOrg"
+            android:layout_width="320dp"
+            android:layout_height="411dp"
+            android:outlineAmbientShadowColor="@color/black"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:elevation="10dp"
+            app:cardBackgroundColor="#517C78"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/cover" />
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title"
+            app:layout_constraintVertical_bias="0.075">
+
+
+            <ImageView
+                android:id="@+id/cover"
+                android:layout_width="match_parent"
+                android:layout_height="272dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/gobby"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/title" />
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="234dp"
+                android:layout_height="64dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="302dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Description: EL GOBBY"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.331"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cover" />
+
+            <ImageView
+                android:id="@+id/edit_desc"
+                android:layout_width="25dp"
+                android:layout_height="22dp"
+                android:layout_marginStart="270dp"
+                android:layout_marginTop="302dp"
+                android:clickable="true"
+                app:srcCompat="@android:drawable/ic_menu_edit" />
+
+            <ImageView
+                android:id="@+id/edit_cover"
+                android:layout_width="31dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="270dp"
+                android:layout_marginTop="22dp"
+                android:clickable="true"
+                app:srcCompat="@android:drawable/ic_menu_edit" />
+
+        </androidx.cardview.widget.CardView>
 
         <ImageView
-            android:clickable="true"
             android:id="@+id/edit_title"
             android:layout_width="25dp"
             android:layout_height="22dp"
             android:layout_marginStart="12dp"
             android:layout_marginTop="8dp"
+            android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="@+id/title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.203"
             app:layout_constraintStart_toEndOf="@+id/title"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@android:drawable/ic_menu_edit" />
-
-        <ImageView
-            android:clickable="true"
-            android:id="@+id/edit_cover"
-            android:layout_width="31dp"
-            android:layout_height="26dp"
-            android:layout_marginStart="320dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/title"
-            app:srcCompat="@android:drawable/ic_menu_edit" />
-
-        <ImageView
-            android:clickable="true"
-            android:id="@+id/edit_desc"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="60dp"
-            app:layout_constraintStart_toEndOf="@+id/desc"
-            app:layout_constraintTop_toBottomOf="@+id/cover"
+            app:layout_constraintTop_toTopOf="@+id/title"
+            app:layout_constraintVertical_bias="0.23"
             app:srcCompat="@android:drawable/ic_menu_edit" />
 
         <Button
             android:id="@+id/update"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="36dp"
-            android:layout_marginEnd="156dp"
-            android:text="Update"
+            android:layout_width="139dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/btn_bg"
+            android:text="Update Campaign"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/end" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logInOrg"
+            app:layout_constraintVertical_bias="0.163" />
 
         <Button
             android:id="@+id/end"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="72dp"
-            android:layout_marginEnd="128dp"
-            android:text="End campagin"
+            android:layout_width="139dp"
+            android:layout_height="43dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/white_btn_des"
+            android:text="End campaign"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/desc" />
-
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/update"
+            app:layout_constraintVertical_bias="0.512" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

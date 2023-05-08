@@ -2799,6 +2799,7 @@ drawable baseline_money_24
 drawable baseline_person_pin_24
 drawable baseline_settings_accessibility_24
 drawable baseline_volunteer_activism_24
+drawable btn_2_des
 drawable btn_bg
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -2833,10 +2834,13 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable edit_text_round_input
 drawable gobby
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable gradient1
+drawable gradient_app_bg
+drawable gradient_base
 drawable gus_obama
 drawable ic_alert
 drawable ic_arrow_back_black_24
@@ -3529,7 +3533,6 @@ id textView15
 id textView16
 id textView17
 id textView18
-id textView19
 id textView2
 id textView20
 id textView21

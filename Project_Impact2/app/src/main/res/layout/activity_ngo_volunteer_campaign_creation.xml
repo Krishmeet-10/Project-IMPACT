@@ -6,67 +6,126 @@
     android:layout_height="match_parent"
     tools:context=".ngo_volunteer_campaign_creation">
 
-    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".ngo_volunteer_campaign_creation">
 
-    <ImageView
-        android:id="@+id/img_voln_cover"
-        android:layout_width="300dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="150dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-         />
 
-    <Button
-        android:id="@+id/cover_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Upload Cover"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_voln_cover" />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/coverCard"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"
+            app:cardBackgroundColor="#3E6E69"
+            app:cardCornerRadius="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/camp_name">
 
-    <EditText
-        android:id="@+id/camp_name"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:ellipsize="none"
-        android:ems="10"
-        android:hint="Campaign Name"
-        android:inputType="textPersonName"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toTopOf="@+id/img_voln_cover"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:background="@drawable/gradient_app_bg"
+                />
 
-    <EditText
-        android:id="@+id/campaign_det"
-        android:layout_width="250dp"
-        android:layout_height="300dp"
-        android:layout_marginTop="30dp"
-        android:hint="Enter Campaign Details Here"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cover_btn" />
+            <ImageView
+                android:id="@+id/img_voln_cover"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/create_camp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="Create Campaign"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/campaign_det" />
+        </androidx.cardview.widget.CardView>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <Button
+            android:id="@+id/cover_btn"
+            android:layout_width="122dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_2_des"
+            android:backgroundTint="#517C78"
+            android:text="Upload Cover"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/coverCard" />
+
+        <EditText
+            android:id="@+id/camp_name"
+            android:layout_width="280dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/edit_text_round_input"
+            android:ellipsize="none"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Campaign Name"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toTopOf="@+id/coverCard"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.746" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/optionsCard"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/gradient1"
+            app:cardBackgroundColor="#3E6E69"
+            app:cardCornerRadius="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cover_btn">
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:background="@drawable/gradient_app_bg"
+                />
+
+
+            <EditText
+                android:id="@+id/campaign_det"
+                android:layout_width="283dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textAlignment="center"
+                android:layout_marginStart="11dp"
+                android:hint="Enter Campaign Details Here"
+                android:inputType="textPersonName"
+                android:textColorHint="@color/black"
+                android:background="@drawable/edit_text_round_input"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cover_btn"
+                tools:ignore="RtlCompat" />
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/create_camp"
+            android:layout_width="147dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btn_bg"
+            android:text="Create Campaign"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/optionsCard" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

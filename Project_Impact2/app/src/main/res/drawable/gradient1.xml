@@ -6,4 +6,4 @@
     android:endColor="@color/white"
     android:angle="20"
     />
-</shape>
+    </shape>

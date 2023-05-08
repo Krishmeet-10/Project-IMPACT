@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.ScrollView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.project_impact.R;
@@ -36,15 +37,19 @@ public final class ActivityNgoVolunteerCampaignCreationBinding implements ViewBi
   @NonNull
   public final ImageView imgVolnCover;
 
+  @NonNull
+  public final CardView optionsCard;
+
   private ActivityNgoVolunteerCampaignCreationBinding(@NonNull ScrollView rootView,
       @NonNull EditText campName, @NonNull EditText campaignDet, @NonNull Button coverBtn,
-      @NonNull Button createCamp, @NonNull ImageView imgVolnCover) {
+      @NonNull Button createCamp, @NonNull ImageView imgVolnCover, @NonNull CardView optionsCard) {
     this.rootView = rootView;
     this.campName = campName;
     this.campaignDet = campaignDet;
     this.coverBtn = coverBtn;
     this.createCamp = createCamp;
     this.imgVolnCover = imgVolnCover;
+    this.optionsCard = optionsCard;
   }
 
   @Override
@@ -105,8 +110,14 @@ public final class ActivityNgoVolunteerCampaignCreationBinding implements ViewBi
         break missingId;
       }
 
+      id = R.id.optionsCard;
+      CardView optionsCard = ViewBindings.findChildViewById(rootView, id);
+      if (optionsCard == null) {
+        break missingId;
+      }
+
       return new ActivityNgoVolunteerCampaignCreationBinding((ScrollView) rootView, campName,
-          campaignDet, coverBtn, createCamp, imgVolnCover);
+          campaignDet, coverBtn, createCamp, imgVolnCover, optionsCard);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
