@@ -17,7 +17,6 @@
             android:id="@+id/donateButton"
             android:layout_width="110dp"
             android:layout_height="48dp"
-            android:onClick="rzr_pay_launch"
             android:background="@drawable/btn_bg"
             android:text="@string/donate"
             android:textColor="@color/white"

@@ -8,12 +8,12 @@
         "source": "C:\\Users\\krish\\.gradle\\daemon\\7.5\\com.example.project_impact.app-main-41:\\layout\\fragment_campaign_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.5\\com.example.project_impact.app-mergeDebugResources-38:\\layout\\fragment_search_fragment.xml",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.5\\com.example.project_impact.app-main-41:\\layout\\fragment_search_fragment.xml"
-    },
-    {
         "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.5\\com.example.project_impact.app-mergeDebugResources-38:\\layout\\fragment_volunteer__user_.xml",
         "source": "C:\\Users\\krish\\.gradle\\daemon\\7.5\\com.example.project_impact.app-main-41:\\layout\\fragment_volunteer__user_.xml"
+    },
+    {
+        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.5\\com.example.project_impact.app-mergeDebugResources-38:\\layout\\fragment_search_fragment.xml",
+        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.5\\com.example.project_impact.app-main-41:\\layout\\fragment_search_fragment.xml"
     },
     {
         "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.5\\com.example.project_impact.app-mergeDebugResources-38:\\layout\\app_settings_vol.xml",
@@ -24,12 +24,12 @@
         "source": "C:\\Users\\krish\\.gradle\\daemon\\7.5\\com.example.project_impact.app-main-41:\\layout\\fragment_profile_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.5\\com.example.project_impact.app-mergeDebugResources-38:\\layout\\fragment_home_fragment2.xml",
-        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.5\\com.example.project_impact.app-main-41:\\layout\\fragment_home_fragment2.xml"
-    },
-    {
         "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.5\\com.example.project_impact.app-mergeDebugResources-38:\\layout\\activity_volunteer_details.xml",
         "source": "C:\\Users\\krish\\.gradle\\daemon\\7.5\\com.example.project_impact.app-main-41:\\layout\\activity_volunteer_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.5\\com.example.project_impact.app-mergeDebugResources-38:\\layout\\fragment_home_fragment2.xml",
+        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.5\\com.example.project_impact.app-main-41:\\layout\\fragment_home_fragment2.xml"
     },
     {
         "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.5\\com.example.project_impact.app-mergeDebugResources-38:\\layout\\activity_log_sign_in.xml",
@@ -62,10 +62,6 @@
     {
         "merged": "com.example.project_impact.app-mergeDebugResources-38:/layout/activity_razorpay_passthrough.xml",
         "source": "com.example.project_impact.app-main-41:/layout/activity_razorpay_passthrough.xml"
-    },
-    {
-        "merged": "com.example.project_impact.app-mergeDebugResources-38:/layout/fragment_profile_fragment.xml",
-        "source": "com.example.project_impact.app-main-41:/layout/fragment_profile_fragment.xml"
     },
     {
         "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.5\\com.example.project_impact.app-mergeDebugResources-38:\\layout\\activity_testing2.xml",
@@ -104,6 +100,10 @@
         "source": "C:\\Users\\krish\\.gradle\\daemon\\7.5\\com.example.project_impact.app-main-41:\\layout\\activity_log_in_as.xml"
     },
     {
+        "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.5\\com.example.project_impact.app-mergeDebugResources-38:\\layout\\activity_razorpay_passthrough.xml",
+        "source": "C:\\Users\\krish\\.gradle\\daemon\\7.5\\com.example.project_impact.app-main-41:\\layout\\activity_razorpay_passthrough.xml"
+    },
+    {
         "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.5\\com.example.project_impact.app-mergeDebugResources-38:\\layout\\activity_volunteer_log_in_page.xml",
         "source": "C:\\Users\\krish\\.gradle\\daemon\\7.5\\com.example.project_impact.app-main-41:\\layout\\activity_volunteer_log_in_page.xml"
     },
@@ -130,9 +130,5 @@
     {
         "merged": "C:\\Users\\krish\\.gradle\\daemon\\7.5\\com.example.project_impact.app-mergeDebugResources-38:\\layout\\activity_organization_details.xml",
         "source": "C:\\Users\\krish\\.gradle\\daemon\\7.5\\com.example.project_impact.app-main-41:\\layout\\activity_organization_details.xml"
-    },
-    {
-        "merged": "com.example.project_impact.app-mergeDebugResources-38:/layout/fragment_donate_fragment.xml",
-        "source": "com.example.project_impact.app-main-41:/layout/fragment_donate_fragment.xml"
     }
 ]

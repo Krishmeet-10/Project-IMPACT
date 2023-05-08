@@ -19,14 +19,14 @@ import org.json.JSONObject;
 
 public class Razorpay_passthrough extends AppCompatActivity implements PaymentResultListener {
 
+    Button button_pay;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_razorpay_passthrough);
-
-        Checkout.preload(this);
-
+        Checkout.preload(getApplicationContext());
         startPayment();
+
     }
 
     @Override
@@ -42,7 +42,7 @@ public class Razorpay_passthrough extends AppCompatActivity implements PaymentRe
         Checkout checkout = new Checkout();
         checkout.setKeyID("rzp_test_tgE3Us5EWfozOi");
 
-        Razorpay_passthrough donateFragment;
+        Razorpay_passthrough donateFragment = this;
 
         //checkout.setImage(R.drawable.logo);
         try {
@@ -51,7 +51,7 @@ public class Razorpay_passthrough extends AppCompatActivity implements PaymentRe
             options.put("description", "Test payment");
             options.put("currency", "INR");
             options.put("amount", "1000");
-            //  checkout.open(donateFragment, options);
+            checkout.open(donateFragment, options);
         }
 
         catch (JSONException e) {
