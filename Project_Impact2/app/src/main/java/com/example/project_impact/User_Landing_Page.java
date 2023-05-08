@@ -30,10 +30,6 @@ public class User_Landing_Page extends AppCompatActivity {
                     ChangeFragment(new home_fragment());
                     break;
 
-                case R.id.Search_icon:
-                    ChangeFragment(new search_fragment());
-                    break;
-
                 case R.id.Donate_icon:
                     ChangeFragment(new donate_fragment());
                     break;
