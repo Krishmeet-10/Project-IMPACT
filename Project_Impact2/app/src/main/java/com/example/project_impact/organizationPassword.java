@@ -78,7 +78,7 @@ public class organizationPassword extends AppCompatActivity {
                     org.put("orgType",orgData[2]);
                     org.put("orgPhone",orgData[3]);
                     usersRef.child(orgId).setValue(org);
-                    Intent intent=new Intent(getApplicationContext(),User_Landing_Page.class);
+                    Intent intent=new Intent(getApplicationContext(),NGO_Landing_Page.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                     startActivity(intent);
                 } else {

@@ -14,6 +14,26 @@
         android:layout_height="wrap_content"
         tools:context=".organizationDetails">
 
+<<<<<<< HEAD
+=======
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="277dp"
+        android:layout_height="44dp"
+        android:fontFamily="serif"
+        android:text="Organization Details"
+
+        android:textSize="28sp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.132"
+        tools:ignore="HardcodedText" />
+
+>>>>>>> Krs_Ui
         <TextView
             android:id="@+id/textView9"
             android:layout_width="277dp"
@@ -28,7 +48,9 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="HardcodedText" />
+        <com.google.android.material.textfield.TextInputLayout
 
+<<<<<<< HEAD
         <EditText
             android:id="@+id/organizationAddress"
             android:layout_width="276dp"
@@ -62,6 +84,59 @@
             app:layout_constraintTop_toBottomOf="@+id/textView9"
             app:layout_constraintVertical_bias="0.0"
             tools:ignore="HardcodedText" />
+=======
+            app:layout_constraintBottom_toTopOf="@+id/organizationPhone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            app:layout_constraintVertical_bias="0.577"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/organisationNameEditText"
+                android:layout_width="260dp"
+                android:layout_height="48dp"
+                android:autofillHints="true"
+                android:fontFamily="sans-serif"
+                android:hint="Enter Name"
+                android:importantForAutofill="no"
+                android:inputType="textCapCharacters"
+
+                tools:ignore="HardcodedText" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <EditText
+        android:id="@+id/organizationAddress"
+        android:layout_width="260dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="52dp"
+        android:autofillHints="true"
+
+        android:hint="Enter Address"
+        android:inputType="textPostalAddress"
+        app:layout_constraintBottom_toTopOf="@+id/organizationType"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/organizationType"
+        android:layout_width="268dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="24dp"
+        android:autofillHints="true"
+        android:fontFamily="sans-serif"
+        android:hint="Environment/Animal Welfare etc."
+        android:inputType="textCapCharacters"
+        app:layout_constraintBottom_toTopOf="@+id/btn_org_details_submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+>>>>>>> Krs_Ui
 
         <TextView
             android:id="@+id/textView13"
@@ -176,5 +251,43 @@
             app:layout_constraintVertical_bias="0.964"
             tools:ignore="HardcodedText" />
 
+<<<<<<< HEAD
+=======
+        <EditText
+        android:id="@+id/organizationPhone"
+        android:layout_width="260dp"
+        android:layout_height="48dp"
+        android:autofillHints="true"
+        android:fontFamily="sans-serif"
+        android:hint="Enter phone number"
+        android:inputType="phone"
+        app:layout_constraintBottom_toTopOf="@+id/organizationAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.772"
+        tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn_org_details_submit"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:background="@drawable/btn_bg"
+            android:onClick="setNextOActivity"
+            android:text="Next"
+
+            android:textSize="15sp"
+            android:layout_marginBottom="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            tools:ignore="HardcodedText" />
+
+
+>>>>>>> Krs_Ui
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
