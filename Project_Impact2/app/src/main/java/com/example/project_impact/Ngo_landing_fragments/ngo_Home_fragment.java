@@ -70,12 +70,12 @@ public class ngo_Home_fragment extends Fragment implements PopupMenu.OnMenuItemC
     public boolean onMenuItemClick(MenuItem item) {
         switch (item.getItemId()){
             case R.id.volun_option:
-                Toast.makeText(getContext(), "volun click", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(getContext(), ngo_volunteer_campaign_creation.class);
                 startActivity(intent);
                 return true;
             case R.id.donation_option:
-                Toast.makeText(getContext(), "don click", Toast.LENGTH_SHORT).show();
+                Intent intent1 = new Intent(getContext(), ngo_volunteer_campaign_creation.class);
+                startActivity(intent1);
                 return true;
             default:
                 return false;

@@ -66,6 +66,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Project_Impact" >
         <activity
+            android:name="com.example.project_impact.Navigation_Fragments.Razorpay_passthrough"
+            android:exported="false" />
+        <activity
             android:name="com.example.project_impact.Volunteer_Campaigns_User_View"
             android:exported="false" />
         <activity

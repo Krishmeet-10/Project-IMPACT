@@ -29,6 +29,7 @@ public class User_Landing_Page extends AppCompatActivity {
                 case R.id.home_icon:
                     ChangeFragment(new home_fragment());
                     break;
+
                 case R.id.Search_icon:
                     ChangeFragment(new search_fragment());
                     break;
@@ -40,14 +41,13 @@ public class User_Landing_Page extends AppCompatActivity {
                 case R.id.Volunteer_icon:
                     ChangeFragment(new volunteer_User_Fragment());
                     break;
+
                 case R.id.Profile_icon:
                     ChangeFragment(new user_profile_fragment());
                     break;
             }
             return true;
         });
-
-
     }
 
     public void ChangeFragment(Fragment fragment){

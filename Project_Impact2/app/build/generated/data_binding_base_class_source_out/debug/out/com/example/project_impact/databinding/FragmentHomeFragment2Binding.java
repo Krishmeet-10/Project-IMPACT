@@ -27,6 +27,9 @@ public final class FragmentHomeFragment2Binding implements ViewBinding {
   public final Button cncbutton;
 
   @NonNull
+  public final CardView imageViewcrd;
+
+  @NonNull
   public final CardView optionsCard;
 
   @NonNull
@@ -57,19 +60,20 @@ public final class FragmentHomeFragment2Binding implements ViewBinding {
   public final TextView textViewX4;
 
   @NonNull
-  public final ImageView userPfp;
+  public final ImageView userimg;
 
   @NonNull
   public final RecyclerView volunteerRvNgo;
 
   private FragmentHomeFragment2Binding(@NonNull FrameLayout rootView, @NonNull Button cncbutton,
-      @NonNull CardView optionsCard, @NonNull CardView optionsCard2, @NonNull TextView textView25,
-      @NonNull TextView textView26, @NonNull TextView textView27, @NonNull TextView textView29,
-      @NonNull TextView textView30, @NonNull TextView textViewX1, @NonNull TextView textViewX2,
-      @NonNull TextView textViewX4, @NonNull ImageView userPfp,
+      @NonNull CardView imageViewcrd, @NonNull CardView optionsCard, @NonNull CardView optionsCard2,
+      @NonNull TextView textView25, @NonNull TextView textView26, @NonNull TextView textView27,
+      @NonNull TextView textView29, @NonNull TextView textView30, @NonNull TextView textViewX1,
+      @NonNull TextView textViewX2, @NonNull TextView textViewX4, @NonNull ImageView userimg,
       @NonNull RecyclerView volunteerRvNgo) {
     this.rootView = rootView;
     this.cncbutton = cncbutton;
+    this.imageViewcrd = imageViewcrd;
     this.optionsCard = optionsCard;
     this.optionsCard2 = optionsCard2;
     this.textView25 = textView25;
@@ -80,7 +84,7 @@ public final class FragmentHomeFragment2Binding implements ViewBinding {
     this.textViewX1 = textViewX1;
     this.textViewX2 = textViewX2;
     this.textViewX4 = textViewX4;
-    this.userPfp = userPfp;
+    this.userimg = userimg;
     this.volunteerRvNgo = volunteerRvNgo;
   }
 
@@ -114,6 +118,12 @@ public final class FragmentHomeFragment2Binding implements ViewBinding {
       id = R.id.cncbutton;
       Button cncbutton = ViewBindings.findChildViewById(rootView, id);
       if (cncbutton == null) {
+        break missingId;
+      }
+
+      id = R.id.imageViewcrd;
+      CardView imageViewcrd = ViewBindings.findChildViewById(rootView, id);
+      if (imageViewcrd == null) {
         break missingId;
       }
 
@@ -177,9 +187,9 @@ public final class FragmentHomeFragment2Binding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.user_pfp;
-      ImageView userPfp = ViewBindings.findChildViewById(rootView, id);
-      if (userPfp == null) {
+      id = R.id.userimg;
+      ImageView userimg = ViewBindings.findChildViewById(rootView, id);
+      if (userimg == null) {
         break missingId;
       }
 
@@ -189,9 +199,9 @@ public final class FragmentHomeFragment2Binding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeFragment2Binding((FrameLayout) rootView, cncbutton, optionsCard,
-          optionsCard2, textView25, textView26, textView27, textView29, textView30, textViewX1,
-          textViewX2, textViewX4, userPfp, volunteerRvNgo);
+      return new FragmentHomeFragment2Binding((FrameLayout) rootView, cncbutton, imageViewcrd,
+          optionsCard, optionsCard2, textView25, textView26, textView27, textView29, textView30,
+          textViewX1, textViewX2, textViewX4, userimg, volunteerRvNgo);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
