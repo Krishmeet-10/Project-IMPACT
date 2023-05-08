@@ -32,6 +32,9 @@ public final class ActivityNgoVolunteerCampaignCreationBinding implements ViewBi
   public final Button coverBtn;
 
   @NonNull
+  public final CardView coverCard;
+
+  @NonNull
   public final Button createCamp;
 
   @NonNull
@@ -42,11 +45,13 @@ public final class ActivityNgoVolunteerCampaignCreationBinding implements ViewBi
 
   private ActivityNgoVolunteerCampaignCreationBinding(@NonNull ScrollView rootView,
       @NonNull EditText campName, @NonNull EditText campaignDet, @NonNull Button coverBtn,
-      @NonNull Button createCamp, @NonNull ImageView imgVolnCover, @NonNull CardView optionsCard) {
+      @NonNull CardView coverCard, @NonNull Button createCamp, @NonNull ImageView imgVolnCover,
+      @NonNull CardView optionsCard) {
     this.rootView = rootView;
     this.campName = campName;
     this.campaignDet = campaignDet;
     this.coverBtn = coverBtn;
+    this.coverCard = coverCard;
     this.createCamp = createCamp;
     this.imgVolnCover = imgVolnCover;
     this.optionsCard = optionsCard;
@@ -98,6 +103,12 @@ public final class ActivityNgoVolunteerCampaignCreationBinding implements ViewBi
         break missingId;
       }
 
+      id = R.id.coverCard;
+      CardView coverCard = ViewBindings.findChildViewById(rootView, id);
+      if (coverCard == null) {
+        break missingId;
+      }
+
       id = R.id.create_camp;
       Button createCamp = ViewBindings.findChildViewById(rootView, id);
       if (createCamp == null) {
@@ -117,7 +128,7 @@ public final class ActivityNgoVolunteerCampaignCreationBinding implements ViewBi
       }
 
       return new ActivityNgoVolunteerCampaignCreationBinding((ScrollView) rootView, campName,
-          campaignDet, coverBtn, createCamp, imgVolnCover, optionsCard);
+          campaignDet, coverBtn, coverCard, createCamp, imgVolnCover, optionsCard);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

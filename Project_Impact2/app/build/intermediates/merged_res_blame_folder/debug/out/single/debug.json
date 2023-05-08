@@ -1,15 +1,15 @@
 [
     {
-        "merged": "com.example.project_impact.app-merged_res-39:/layout_activity_user_landing_page.xml.flat",
-        "source": "com.example.project_impact.app-main-41:/layout/activity_user_landing_page.xml"
-    },
-    {
-        "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.project_impact.app-merged_res-39:/drawable_gradient1.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/drawable/gradient1.xml"
     },
     {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/menu_ngo_bottom_nav_menu.xml.flat",
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/menu/ngo_bottom_nav_menu.xml"
+    },
+    {
+        "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/layout_activity_organization_details.xml.flat",
@@ -48,12 +48,20 @@
         "source": "com.example.project_impact.app-main-41:/layout/activity_volunteer_log_in_page.xml"
     },
     {
+        "merged": "com.example.project_impact.app-merged_res-39:/drawable_btn_2_des.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/drawable/btn_2_des.xml"
+    },
+    {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/mipmap-hdpi_ic_launcher.webp.flat",
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.project_impact.app-merged_res-39:/drawable_gradient_base.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/drawable/gradient_base.xml"
     },
     {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/layout_fragment_home_fragment2.xml.flat",
@@ -66,6 +74,10 @@
     {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.project_impact.app-merged_res-39:/layout_app_settings_vol.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/layout/app_settings_vol.xml"
     },
     {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/xml_backup_rules.xml.flat",
@@ -100,6 +112,10 @@
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/activity_organization_password.xml"
     },
     {
+        "merged": "com.example.project_impact.app-merged_res-39:/layout_activity_ngo_volunteer_campaign_creation.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/layout/activity_ngo_volunteer_campaign_creation.xml"
+    },
+    {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/layout_activity_user_landing_page.xml.flat",
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/activity_user_landing_page.xml"
     },
@@ -120,6 +136,14 @@
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/drawable/baseline_manage_search_24.xml"
     },
     {
+        "merged": "com.example.project_impact.app-merged_res-39:/layout_activity_log_in_sign_in_organization.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/layout/activity_log_in_sign_in_organization.xml"
+    },
+    {
+        "merged": "com.example.project_impact.app-merged_res-39:/menu_bottom_icons_view.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/menu/bottom_icons_view.xml"
+    },
+    {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/drawable_gradient_app_bg.xml.flat",
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/drawable/gradient_app_bg.xml"
     },
@@ -138,6 +162,10 @@
     {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/layout_fragment_search_fragment.xml.flat",
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/fragment_search_fragment.xml"
+    },
+    {
+        "merged": "com.example.project_impact.app-merged_res-39:/drawable_white_btn_des.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/drawable/white_btn_des.xml"
     },
     {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/layout_activity_log_in_as.xml.flat",
@@ -164,6 +192,18 @@
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/mipmap-mdpi/ic_launcher.webp"
     },
     {
+        "merged": "com.example.project_impact.app-merged_res-39:/layout_volunteer_rv_items.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/layout/volunteer_rv_items.xml"
+    },
+    {
+        "merged": "com.example.project_impact.app-merged_res-39:/layout_fragment_home_fragment2.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/layout/fragment_home_fragment2.xml"
+    },
+    {
+        "merged": "com.example.project_impact.app-merged_res-39:/layout_activity_organisation_login.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/layout/activity_organisation_login.xml"
+    },
+    {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/layout_fragment_user_profile_fragment.xml.flat",
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/fragment_user_profile_fragment.xml"
     },
@@ -172,12 +212,32 @@
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/drawable/gradient1.xml"
     },
     {
+        "merged": "com.example.project_impact.app-merged_res-39:/drawable_card_gradient_bg.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/drawable/card_gradient_bg.xml"
+    },
+    {
+        "merged": "com.example.project_impact.app-merged_res-39:/layout_fragment_donate_fragment.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/layout/fragment_donate_fragment.xml"
+    },
+    {
+        "merged": "com.example.project_impact.app-merged_res-39:/layout_activity_campinfo.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/layout/activity_campinfo.xml"
+    },
+    {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/layout_activity_ngo_landing_page.xml.flat",
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/activity_ngo_landing_page.xml"
     },
     {
+        "merged": "com.example.project_impact.app-merged_res-39:/drawable_red_btn_des.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/drawable/red_btn_des.xml"
+    },
+    {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/drawable_gus_obama.jpg.flat",
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/drawable/gus_obama.jpg"
+    },
+    {
+        "merged": "com.example.project_impact.app-merged_res-39:/layout_activity_organization_password.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/layout/activity_organization_password.xml"
     },
     {
         "merged": "com.example.project_impact.app-merged_res-39:/layout_activity_log_sign_in.xml.flat",
@@ -186,6 +246,10 @@
     {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/menu_campaign_pop_up_menu.xml.flat",
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/menu/campaign_pop_up_menu.xml"
+    },
+    {
+        "merged": "com.example.project_impact.app-merged_res-39:/drawable_edit_text_round_input.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/drawable/edit_text_round_input.xml"
     },
     {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/layout_story_unit.xml.flat",
@@ -208,12 +272,20 @@
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/activity_log_in_sign_in_organization.xml"
     },
     {
+        "merged": "com.example.project_impact.app-merged_res-39:/layout_activity_campinfo_ngo.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/layout/activity_campinfo_ngo.xml"
+    },
+    {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/drawable_gobby.jpg.flat",
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/drawable/gobby.jpg"
     },
     {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.project_impact.app-merged_res-39:/layout_edit_popup.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/layout/edit_popup.xml"
     },
     {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/layout_vol_tracker_unit.xml.flat",
@@ -228,10 +300,6 @@
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/edit_popup.xml"
     },
     {
-        "merged": "com.example.project_impact.app-merged_res-39:/layout_activity_log_in_as.xml.flat",
-        "source": "com.example.project_impact.app-main-41:/layout/activity_log_in_as.xml"
-    },
-    {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/drawable_baseline_money_24.xml.flat",
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/drawable/baseline_money_24.xml"
     },
@@ -244,8 +312,24 @@
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/activity_organisation_login.xml"
     },
     {
+        "merged": "com.example.project_impact.app-merged_res-39:/layout_activity_organization_details.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/layout/activity_organization_details.xml"
+    },
+    {
+        "merged": "com.example.project_impact.app-merged_res-39:/drawable_edit_text_over_card_des.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/drawable/edit_text_over_card_des.xml"
+    },
+    {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/drawable_cog.png.flat",
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/drawable/cog.png"
+    },
+    {
+        "merged": "com.example.project_impact.app-merged_res-39:/layout_fragment_profile_fragment.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/layout/fragment_profile_fragment.xml"
+    },
+    {
+        "merged": "com.example.project_impact.app-merged_res-39:/layout_activity_volunteer_password.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/layout/activity_volunteer_password.xml"
     },
     {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/menu_bottom_icons_view.xml.flat",
@@ -286,5 +370,9 @@
     {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-merged_res-39:/layout_fragment_home_fragment.xml.flat",
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/fragment_home_fragment.xml"
+    },
+    {
+        "merged": "com.example.project_impact.app-merged_res-39:/layout_activity_volunteer_details.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/layout/activity_volunteer_details.xml"
     }
 ]

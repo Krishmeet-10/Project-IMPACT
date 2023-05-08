@@ -2809,6 +2809,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable card_gradient_bg
 drawable cog
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
@@ -2834,6 +2835,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable edit_text_over_card_des
 drawable edit_text_round_input
 drawable gobby
 drawable googleg_disabled_color_18
@@ -2930,6 +2932,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable red_btn_des
 drawable rzp_border
 drawable rzp_border_bottom
 drawable rzp_green_button
@@ -2944,6 +2947,7 @@ drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable vol_fragment_track_box
+drawable white_btn_des
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3114,6 +3118,7 @@ id coordinator
 id cos
 id counterclockwise
 id cover
+id coverCard
 id cover_btn
 id cradle
 id createButton
@@ -3226,6 +3231,7 @@ id grayscale
 id group_divider
 id grouping
 id groups
+id header
 id header_title
 id hideable
 id holo_dark
@@ -3273,6 +3279,7 @@ id listMode
 id list_item
 id ll_loader
 id logInButton
+id logInOrg
 id logInVolunteer
 id logo_only
 id m3_side_sheet
@@ -3452,7 +3459,7 @@ id select_dialog_listview
 id selected
 id selectionDetails
 id selection_type
-id settigs
+id settings
 id settings_ngo
 id sharedValueSet
 id sharedValueUnset
@@ -3528,12 +3535,12 @@ id textView10
 id textView11
 id textView12
 id textView13
+id textView130
 id textView14
 id textView15
 id textView16
 id textView17
 id textView18
-id textView2
 id textView20
 id textView21
 id textView22

@@ -27,14 +27,14 @@ public final class AppSettingsVolBinding implements ViewBinding {
   public final Button button4;
 
   @NonNull
-  public final TextView settigs;
+  public final TextView settings;
 
   private AppSettingsVolBinding(@NonNull ConstraintLayout rootView, @NonNull Button button,
-      @NonNull Button button4, @NonNull TextView settigs) {
+      @NonNull Button button4, @NonNull TextView settings) {
     this.rootView = rootView;
     this.button = button;
     this.button4 = button4;
-    this.settigs = settigs;
+    this.settings = settings;
   }
 
   @Override
@@ -76,13 +76,13 @@ public final class AppSettingsVolBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.settigs;
-      TextView settigs = ViewBindings.findChildViewById(rootView, id);
-      if (settigs == null) {
+      id = R.id.settings;
+      TextView settings = ViewBindings.findChildViewById(rootView, id);
+      if (settings == null) {
         break missingId;
       }
 
-      return new AppSettingsVolBinding((ConstraintLayout) rootView, button, button4, settigs);
+      return new AppSettingsVolBinding((ConstraintLayout) rootView, button, button4, settings);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

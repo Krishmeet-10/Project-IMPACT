@@ -18,50 +18,50 @@
             android:id="@+id/textView9"
             android:layout_width="277dp"
             android:layout_height="44dp"
+            android:layout_marginTop="70dp"
             android:fontFamily="serif"
             android:text="Organization Details"
             android:textColor="@color/black"
             android:textSize="28sp"
             android:typeface="sans"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.537"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.132"
             tools:ignore="HardcodedText" />
 
         <EditText
-        android:id="@+id/organizationAddress"
-        android:layout_width="276dp"
-        android:layout_height="48dp"
-        android:layout_marginBottom="52dp"
+            android:id="@+id/organizationAddress"
+            android:layout_width="276dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="68dp"
+            android:autofillHints="true"
             android:background="@drawable/edit_text_round_input"
-        android:autofillHints="true"
-        android:fontFamily="sans-serif"
-        android:hint="  Enter Address"
-        android:inputType="textPostalAddress"
-        app:layout_constraintBottom_toTopOf="@+id/organizationType"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.476"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="HardcodedText" />
+            android:fontFamily="sans-serif"
+            android:hint="  Enter Address"
+            android:inputType="textPostalAddress"
+            app:layout_constraintBottom_toTopOf="@+id/organizationType"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="HardcodedText" />
 
-    <EditText
-        android:id="@+id/organizationType"
-        android:layout_width="276dp"
-        android:layout_height="48dp"
-        android:layout_marginBottom="24dp"
-        android:autofillHints="true"
-        android:fontFamily="sans-serif"
-        android:background="@drawable/edit_text_round_input"
-        android:hint="  Environment/Animal Welfare etc."
-        android:inputType="textCapCharacters"
-        app:layout_constraintBottom_toTopOf="@+id/btn_org_details_submit"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="HardcodedText" />
+        <EditText
+            android:id="@+id/organizationType"
+            android:layout_width="276dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="424dp"
+            android:autofillHints="true"
+            android:background="@drawable/edit_text_round_input"
+            android:fontFamily="sans-serif"
+            android:hint="  Environment/Animal Welfare etc."
+            android:inputType="textCapCharacters"
+            app:layout_constraintBottom_toTopOf="@+id/btn_org_details_submit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:id="@+id/textView13"
@@ -76,36 +76,38 @@
             app:layout_constraintHorizontal_bias="0.235"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/organizationAddress"
-            app:layout_constraintVertical_bias="0.75"
+            app:layout_constraintVertical_bias="0.781"
             tools:ignore="HardcodedText" />
 
         <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:layout_marginBottom="7dp"
-        android:text="Address"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/organizationAddress"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.201"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/organizationPhone"
-        app:layout_constraintVertical_bias="1.0"
-        tools:ignore="HardcodedText" />
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="7dp"
+            android:text="Address"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/organizationAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.201"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/organizationPhone"
+            app:layout_constraintVertical_bias="1.0"
+            tools:ignore="HardcodedText" />
 
         <TextView
-            android:id="@+id/textView12"
+            android:id="@+id/textView130"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:text="Phone Number"
+            android:text="Name"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/organizationPhone"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.227"
+            app:layout_constraintHorizontal_bias="0.181"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/organisationNameEditText"
+            app:layout_constraintVertical_bias="1.0"
             tools:ignore="HardcodedText" />
 
         <EditText
@@ -115,158 +117,64 @@
             android:autofillHints="true"
             android:background="@drawable/edit_text_round_input"
             android:fontFamily="sans-serif"
-            android:hint="  Enter phone number"
+            android:hint="  Enter Phone Number"
             android:inputType="phone"
             app:layout_constraintBottom_toTopOf="@+id/organizationAddress"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintHorizontal_bias="0.474"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView9"
-            app:layout_constraintVertical_bias="0.772"
+            app:layout_constraintVertical_bias="0.783"
             tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/btn_org_details_submit"
             android:layout_width="100dp"
             android:layout_height="45dp"
+            android:layout_marginTop="500dp"
             android:background="@drawable/btn_bg"
             android:onClick="setNextOActivity"
             android:text="Next"
             android:textColor="@color/white"
             android:textSize="15sp"
-            android:layout_marginBottom="10dp"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
             tools:ignore="HardcodedText" />
 
-        <com.google.android.material.textfield.TextInputLayout
+        <EditText
             android:id="@+id/organisationNameEditText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Name">
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputEditText
             android:layout_width="276dp"
-            android:layout_height="43dp"
-            android:layout_marginTop="76dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="84dp"
+            android:autofillHints="true"
             android:background="@drawable/edit_text_round_input"
+            android:fontFamily="sans-serif"
+            android:hint="  Enter Name"
+            android:inputType="phone"
             app:layout_constraintBottom_toTopOf="@+id/organizationPhone"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintHorizontal_bias="0.474"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView9"
-            app:layout_constraintVertical_bias="0.075"
-            tools:text="  Enter name here" />
+            app:layout_constraintVertical_bias="0.27"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Phone Number"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/organisationNameEditText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.202"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            app:layout_constraintVertical_bias="0.964"
+            tools:ignore="HardcodedText" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
-
-<!--<TextView-->
-<!--    android:layout_width="350dp"-->
-<!--    android:layout_height="wrap_content"-->
-<!--    android:layout_marginHorizontal="60dp"-->
-<!--    android:layout_marginTop="75dp"-->
-<!--    android:fontFamily="serif"-->
-<!--    android:text="Organization Details"-->
-<!--    android:textColor="@color/black"-->
-<!--    android:textSize="28sp"-->
-<!--    android:typeface="sans"-->
-<!--    tools:ignore="HardcodedText" />-->
-
-<!--<TextView-->
-<!--    android:layout_width="wrap_content"-->
-<!--    android:layout_height="wrap_content"-->
-<!--    android:layout_alignParentStart="true"-->
-<!--    android:layout_marginStart="59dp"-->
-<!--    android:layout_marginTop="180dp"-->
-<!--    android:text="Name"-->
-<!--    android:textSize="15sp"-->
-<!--    android:textStyle="bold"-->
-<!--    tools:ignore="HardcodedText" />-->
-
-<!--<EditText-->
-<!--    android:id="@+id/organisationNameEditText"-->
-<!--    android:layout_width="260dp"-->
-<!--    android:layout_height="48dp"-->
-<!--    android:layout_marginStart="75dp"-->
-<!--    android:layout_marginTop="200dp"-->
-<!--    android:autofillHints="true"-->
-<!--    android:fontFamily="sans-serif"-->
-<!--    android:hint="Enter Name"-->
-<!--    android:importantForAutofill="no"-->
-<!--    android:inputType="textCapCharacters"-->
-<!--    tools:ignore="HardcodedText" />-->
-
-<!--<TextView-->
-<!--    android:layout_width="wrap_content"-->
-<!--    android:layout_height="wrap_content"-->
-<!--    android:layout_alignParentStart="true"-->
-<!--    android:layout_marginStart="59dp"-->
-<!--    android:layout_marginTop="290dp"-->
-<!--    android:text="Address"-->
-<!--    android:textStyle="bold"-->
-<!--    tools:ignore="HardcodedText" />-->
-
-<!--<EditText-->
-<!--    android:layout_width="260dp"-->
-<!--    android:layout_height="48dp"-->
-<!--    android:layout_marginStart="75dp"-->
-<!--    android:layout_marginTop="310dp"-->
-<!--    android:autofillHints="true"-->
-<!--    android:fontFamily="sans-serif"-->
-<!--    android:hint="Enter Address"-->
-<!--    android:inputType="textPostalAddress"-->
-<!--    tools:ignore="HardcodedText" />-->
-
-<!--<TextView-->
-<!--    android:layout_width="wrap_content"-->
-<!--    android:layout_height="wrap_content"-->
-<!--    android:layout_alignParentStart="true"-->
-<!--    android:layout_alignParentTop="true"-->
-<!--    android:layout_alignParentEnd="true"-->
-<!--    android:layout_alignParentBottom="true"-->
-<!--    android:layout_marginStart="55dp"-->
-<!--    android:layout_marginTop="400dp"-->
-<!--    android:layout_marginEnd="261dp"-->
-<!--    android:layout_marginBottom="312dp"-->
-<!--    android:text="Phone Number"-->
-<!--    android:textStyle="bold"-->
-<!--    tools:ignore="HardcodedText" />-->
-
-<!--<EditText-->
-<!--    android:layout_width="260dp"-->
-<!--    android:layout_height="48dp"-->
-<!--    android:layout_marginStart="75dp"-->
-<!--    android:layout_marginTop="420dp"-->
-<!--    android:autofillHints="true"-->
-<!--    android:fontFamily="sans-serif"-->
-<!--    android:hint="Enter phone number"-->
-<!--    android:inputType="phone"-->
-<!--    tools:ignore="HardcodedText" />-->
-
-<!--<TextView-->
-<!--    android:layout_width="wrap_content"-->
-<!--    android:layout_height="wrap_content"-->
-<!--    android:layout_alignParentStart="true"-->
-<!--    android:layout_marginStart="55dp"-->
-<!--    android:layout_marginTop="510dp"-->
-<!--    android:text="Category(If Any)"-->
-<!--    android:textStyle="bold"-->
-<!--    tools:ignore="HardcodedText" />-->
-
-<!--<EditText-->
-<!--    android:layout_width="268dp"-->
-<!--    android:layout_height="48dp"-->
-<!--    android:layout_marginStart="75dp"-->
-<!--    android:layout_marginTop="530dp"-->
-<!--    android:autofillHints="true"-->
-<!--    android:fontFamily="sans-serif"-->
-<!--    android:hint="Environment/Animal Welfare etc."-->
-<!--    android:inputType="textCapCharacters"-->
-<!--    tools:ignore="HardcodedText" />-->

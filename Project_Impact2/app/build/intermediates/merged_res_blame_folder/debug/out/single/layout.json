@@ -8,24 +8,24 @@
         "source": "com.example.project_impact.app-main-41:/layout/activity_log_sign_in.xml"
     },
     {
-        "merged": "com.example.project_impact.app-mergeDebugResources-38:/layout/activity_user_landing_page.xml",
-        "source": "com.example.project_impact.app-main-41:/layout/activity_user_landing_page.xml"
+        "merged": "com.example.project_impact.app-mergeDebugResources-38:/layout/edit_popup.xml",
+        "source": "com.example.project_impact.app-main-41:/layout/edit_popup.xml"
     },
     {
-        "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-mergeDebugResources-38:/layout/activity_main.xml",
-        "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/activity_main.xml"
-    },
-    {
-        "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-mergeDebugResources-38:/layout/activity_campinfo.xml",
-        "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/activity_campinfo.xml"
+        "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-mergeDebugResources-38:/layout/activity_campinfo_ngo.xml",
+        "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/activity_campinfo_ngo.xml"
     },
     {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-mergeDebugResources-38:/layout/activity_log_in_sign_in_organization.xml",
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/activity_log_in_sign_in_organization.xml"
     },
     {
-        "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-mergeDebugResources-38:/layout/activity_campinfo_ngo.xml",
-        "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/activity_campinfo_ngo.xml"
+        "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-mergeDebugResources-38:/layout/activity_campinfo.xml",
+        "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/activity_campinfo.xml"
+    },
+    {
+        "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-mergeDebugResources-38:/layout/activity_main.xml",
+        "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/activity_main.xml"
     },
     {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-mergeDebugResources-38:/layout/fragment_search_fragment.xml",
@@ -42,6 +42,14 @@
     {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-mergeDebugResources-38:/layout/activity_organisation_login.xml",
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/activity_organisation_login.xml"
+    },
+    {
+        "merged": "com.example.project_impact.app-mergeDebugResources-38:/layout/activity_organisation_login.xml",
+        "source": "com.example.project_impact.app-main-41:/layout/activity_organisation_login.xml"
+    },
+    {
+        "merged": "com.example.project_impact.app-mergeDebugResources-38:/layout/activity_ngo_volunteer_campaign_creation.xml",
+        "source": "com.example.project_impact.app-main-41:/layout/activity_ngo_volunteer_campaign_creation.xml"
     },
     {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-mergeDebugResources-38:/layout/app_settings_vol.xml",
@@ -80,12 +88,32 @@
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/edit_popup.xml"
     },
     {
+        "merged": "com.example.project_impact.app-mergeDebugResources-38:/layout/activity_volunteer_password.xml",
+        "source": "com.example.project_impact.app-main-41:/layout/activity_volunteer_password.xml"
+    },
+    {
+        "merged": "com.example.project_impact.app-mergeDebugResources-38:/layout/fragment_profile_fragment.xml",
+        "source": "com.example.project_impact.app-main-41:/layout/fragment_profile_fragment.xml"
+    },
+    {
+        "merged": "com.example.project_impact.app-mergeDebugResources-38:/layout/activity_campinfo_ngo.xml",
+        "source": "com.example.project_impact.app-main-41:/layout/activity_campinfo_ngo.xml"
+    },
+    {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-mergeDebugResources-38:/layout/activity_volunteer_password.xml",
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/activity_volunteer_password.xml"
     },
     {
+        "merged": "com.example.project_impact.app-mergeDebugResources-38:/layout/activity_log_in_sign_in_organization.xml",
+        "source": "com.example.project_impact.app-main-41:/layout/activity_log_in_sign_in_organization.xml"
+    },
+    {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-mergeDebugResources-38:/layout/story_unit.xml",
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/story_unit.xml"
+    },
+    {
+        "merged": "com.example.project_impact.app-mergeDebugResources-38:/layout/volunteer_rv_items.xml",
+        "source": "com.example.project_impact.app-main-41:/layout/volunteer_rv_items.xml"
     },
     {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-mergeDebugResources-38:/layout/fragment_donation_fragment.xml",
@@ -96,16 +124,28 @@
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/activity_volunteer_log_in_page.xml"
     },
     {
+        "merged": "com.example.project_impact.app-mergeDebugResources-38:/layout/fragment_home_fragment2.xml",
+        "source": "com.example.project_impact.app-main-41:/layout/fragment_home_fragment2.xml"
+    },
+    {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-mergeDebugResources-38:/layout/activity_user_landing_page.xml",
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/activity_user_landing_page.xml"
+    },
+    {
+        "merged": "com.example.project_impact.app-mergeDebugResources-38:/layout/app_settings_vol.xml",
+        "source": "com.example.project_impact.app-main-41:/layout/app_settings_vol.xml"
+    },
+    {
+        "merged": "com.example.project_impact.app-mergeDebugResources-38:/layout/activity_organization_details.xml",
+        "source": "com.example.project_impact.app-main-41:/layout/activity_organization_details.xml"
     },
     {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-mergeDebugResources-38:/layout/fragment_campaign_fragment.xml",
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/fragment_campaign_fragment.xml"
     },
     {
-        "merged": "com.example.project_impact.app-mergeDebugResources-38:/layout/activity_log_in_as.xml",
-        "source": "com.example.project_impact.app-main-41:/layout/activity_log_in_as.xml"
+        "merged": "com.example.project_impact.app-mergeDebugResources-38:/layout/activity_campinfo.xml",
+        "source": "com.example.project_impact.app-main-41:/layout/activity_campinfo.xml"
     },
     {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-mergeDebugResources-38:/layout/activity_log_sign_in.xml",
@@ -116,6 +156,10 @@
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/fragment_home_fragment.xml"
     },
     {
+        "merged": "com.example.project_impact.app-mergeDebugResources-38:/layout/activity_volunteer_details.xml",
+        "source": "com.example.project_impact.app-main-41:/layout/activity_volunteer_details.xml"
+    },
+    {
         "merged": "com.example.project_impact.app-mergeDebugResources-38:/layout/activity_volunteer_log_in_page.xml",
         "source": "com.example.project_impact.app-main-41:/layout/activity_volunteer_log_in_page.xml"
     },
@@ -124,8 +168,16 @@
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/fragment_donate_fragment.xml"
     },
     {
+        "merged": "com.example.project_impact.app-mergeDebugResources-38:/layout/activity_organization_password.xml",
+        "source": "com.example.project_impact.app-main-41:/layout/activity_organization_password.xml"
+    },
+    {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-mergeDebugResources-38:/layout/activity_ngo_landing_page.xml",
         "source": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-main-41:/layout/activity_ngo_landing_page.xml"
+    },
+    {
+        "merged": "com.example.project_impact.app-mergeDebugResources-38:/layout/fragment_donate_fragment.xml",
+        "source": "com.example.project_impact.app-main-41:/layout/fragment_donate_fragment.xml"
     },
     {
         "merged": "/Users/shreyapandey/.gradle/daemon/7.5/com.example.project_impact.app-mergeDebugResources-38:/layout/fragment_volunteer__user_.xml",
