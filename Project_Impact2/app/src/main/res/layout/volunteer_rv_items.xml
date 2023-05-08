@@ -14,7 +14,7 @@
             android:layout_height="match_parent"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:layout_marginTop="190dp"
+            android:layout_marginTop="120dp"
             app:cardBackgroundColor="#3E6E69"
             app:cardCornerRadius="30dp"
             app:layout_constraintBottom_toBottomOf="parent"

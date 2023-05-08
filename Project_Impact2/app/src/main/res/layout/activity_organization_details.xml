@@ -45,16 +45,6 @@
             app:layout_constraintTop_toBottomOf="@+id/textView9"
             app:layout_constraintVertical_bias="0.372"
             tools:ignore="HardcodedText" />
-        <com.google.android.material.textfield.TextInputLayout
-
-            app:layout_constraintBottom_toTopOf="@+id/organizationPhone"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.476"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView9"
-            app:layout_constraintVertical_bias="0.577"
-            android:layout_width="260dp"
-            android:layout_height="wrap_content">
 
             <EditText
                 android:id="@+id/organisationNameEditText"
@@ -63,11 +53,16 @@
                 android:autofillHints="true"
                 android:fontFamily="sans-serif"
                 android:hint="Enter Name"
+                android:background="@drawable/edit_text_round_input"
                 android:importantForAutofill="no"
                 android:inputType="textCapCharacters"
-
+                app:layout_constraintBottom_toTopOf="@+id/organizationPhone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.476"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView9"
+                app:layout_constraintVertical_bias="0.577"
                 tools:ignore="HardcodedText" />
-        </com.google.android.material.textfield.TextInputLayout>
 
         <EditText
             android:id="@+id/organizationAddress"
@@ -75,7 +70,7 @@
             android:layout_height="48dp"
             android:layout_marginBottom="52dp"
             android:autofillHints="true"
-
+            android:background="@drawable/edit_text_round_input"
             android:hint="Enter Address"
             android:inputType="textPostalAddress"
             app:layout_constraintBottom_toTopOf="@+id/organizationType"
@@ -90,6 +85,7 @@
             android:layout_height="48dp"
             android:layout_marginBottom="24dp"
             android:autofillHints="true"
+            android:background="@drawable/edit_text_round_input"
             android:fontFamily="sans-serif"
             android:hint="Environment/Animal Welfare etc."
             android:inputType="textCapCharacters"
@@ -150,8 +146,9 @@
             android:layout_height="48dp"
             android:autofillHints="true"
             android:fontFamily="sans-serif"
-            android:hint="Enter phone number"
+            android:hint="Enter Phone Number"
             android:inputType="phone"
+            android:background="@drawable/edit_text_round_input"
             app:layout_constraintBottom_toTopOf="@+id/organizationAddress"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.476"
@@ -163,13 +160,13 @@
         <Button
             android:id="@+id/btn_org_details_submit"
             android:layout_width="100dp"
-            android:layout_height="45dp"
+            android:layout_height="55dp"
             android:background="@drawable/btn_bg"
             android:onClick="setNextOActivity"
             android:text="Next"
-
             android:textSize="15sp"
             android:layout_marginBottom="100dp"
+            android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"

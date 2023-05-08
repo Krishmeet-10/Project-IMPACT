@@ -63,8 +63,10 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.Project_Impact" >
+        <activity
+            android:name="com.example.project_impact.BankDetails_NGO"
+            android:exported="false" />
         <activity
             android:name="com.example.project_impact.Volunteer_Campaigns_User_View"
             android:exported="false" />

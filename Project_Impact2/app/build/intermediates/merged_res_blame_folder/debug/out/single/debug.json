@@ -44,6 +44,10 @@
         "source": "com.example.project_impact.app-main-41:/drawable/baseline_money_24.xml"
     },
     {
+        "merged": "com.example.project_impact.app-merged_res-39:/drawable_green_purple_card_bg.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/drawable/green_purple_card_bg.xml"
+    },
+    {
         "merged": "com.example.project_impact.app-merged_res-39:/drawable_gobby.jpg.flat",
         "source": "com.example.project_impact.app-main-41:/drawable/gobby.jpg"
     },
@@ -218,6 +222,10 @@
     {
         "merged": "com.example.project_impact.app-merged_res-39:/drawable_baseline_manage_search_24.xml.flat",
         "source": "com.example.project_impact.app-main-41:/drawable/baseline_manage_search_24.xml"
+    },
+    {
+        "merged": "com.example.project_impact.app-merged_res-39:/layout_activity_bank_details_ngo.xml.flat",
+        "source": "com.example.project_impact.app-main-41:/layout/activity_bank_details_ngo.xml"
     },
     {
         "merged": "com.example.project_impact.app-merged_res-39:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",

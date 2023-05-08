@@ -87,10 +87,9 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="80dp"
             android:layout_marginTop="50dp"
-            android:text="₹ 10000"
+            android:text="₹ 10,000"
             android:textColor="@color/white"
             android:textSize="34sp" />
-
 
 
         <TextView

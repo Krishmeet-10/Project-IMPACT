@@ -20,6 +20,10 @@
         "source": "com.example.project_impact.app-main-41:/layout/activity_testing2.xml"
     },
     {
+        "merged": "com.example.project_impact.app-mergeDebugResources-38:/layout/activity_bank_details_ngo.xml",
+        "source": "com.example.project_impact.app-main-41:/layout/activity_bank_details_ngo.xml"
+    },
+    {
         "merged": "com.example.project_impact.app-mergeDebugResources-38:/layout/activity_organisation_login.xml",
         "source": "com.example.project_impact.app-main-41:/layout/activity_organisation_login.xml"
     },

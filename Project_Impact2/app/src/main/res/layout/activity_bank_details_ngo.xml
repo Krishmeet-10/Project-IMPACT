@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+android:id="@+id/scroll"
+android:layout_width="match_parent"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_height="match_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".BankDetails_NGO">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="277dp"
+        android:layout_height="44dp"
+        android:fontFamily="serif"
+        android:text="Bank Details"
+
+        android:textSize="28sp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.132"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bank Name"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.215"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.43"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/organisationBankNameEditText"
+        android:layout_width="260dp"
+        android:layout_height="48dp"
+        android:autofillHints="true"
+        android:fontFamily="sans-serif"
+        android:hint="Enter Bank Name"
+        android:background="@drawable/edit_text_round_input"
+        android:importantForAutofill="no"
+        android:inputType="textCapCharacters"
+        app:layout_constraintBottom_toTopOf="@+id/organizationBankBranchName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.577"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/organizationRazorPayAddress"
+        android:layout_width="260dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="52dp"
+        android:autofillHints="true"
+        android:background="@drawable/edit_text_round_input"
+        android:hint="Enter RazorPay Address"
+        android:inputType="textPostalAddress"
+        app:layout_constraintBottom_toTopOf="@+id/orgBankHolderName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/orgBankHolderName"
+        android:layout_width="268dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="24dp"
+        android:autofillHints="true"
+        android:background="@drawable/edit_text_round_input"
+        android:fontFamily="sans-serif"
+        android:hint="Enter the Bank Holders Name"
+        android:inputType="textCapCharacters"
+        app:layout_constraintBottom_toTopOf="@+id/btn_org_bank_details_submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="7dp"
+        android:text="Bank Holders Name"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/orgBankHolderName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/organizationRazorPayAddress"
+        app:layout_constraintVertical_bias="0.75"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="7dp"
+        android:text="RazorPay ID"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/organizationRazorPayAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/organizationBankBranchName"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Branch Number"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/organizationBankBranchName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.227"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/organizationBankBranchName"
+        android:layout_width="260dp"
+        android:layout_height="48dp"
+        android:autofillHints="true"
+        android:fontFamily="sans-serif"
+        android:hint="Enter Branch Number"
+        android:inputType="phone"
+        android:background="@drawable/edit_text_round_input"
+        app:layout_constraintBottom_toTopOf="@+id/organizationRazorPayAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.772"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_org_bank_details_submit"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:background="@drawable/btn_bg"
+        android:onClick="setNextOActivity"
+        android:text="Next"
+        android:textSize="15sp"
+        android:layout_marginBottom="100dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="HardcodedText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

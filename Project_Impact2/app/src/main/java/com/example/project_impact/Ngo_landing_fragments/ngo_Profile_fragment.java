@@ -15,6 +15,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.project_impact.BankDetails_NGO;
 import com.example.project_impact.Navigation_Fragments.edit_popup;
 import com.example.project_impact.Navigation_Fragments.user_settings;
 import com.example.project_impact.R;
@@ -22,7 +23,7 @@ import com.example.project_impact.R;
 
 public class ngo_Profile_fragment extends Fragment {
 
-
+    Button orgBankDetailsButton;
     View top_view;
     ImageView user_pfp, edit_pfp, edit_email, edit_location, edit_job, edit_phone, app_settings;
 
@@ -73,6 +74,7 @@ public class ngo_Profile_fragment extends Fragment {
         edit_pfp  = (ImageView) view.findViewById(R.id.edit_pfp);
         edit_phone = (ImageView) view.findViewById(R.id.edit_phone);
         app_settings = (ImageView) view.findViewById(R.id.app_settings_vol);
+        orgBankDetailsButton=(Button)view.findViewById(R.id.bankDetailsButton);
 
         update = (Button) view.findViewById(R.id.update);
         update.setOnClickListener(new View.OnClickListener() {
@@ -113,6 +115,14 @@ public class ngo_Profile_fragment extends Fragment {
                 bundle.putString("current", String.valueOf(user_job.getText()));
                 edit_place = user_job;
                 popup_action(bundle);
+            }
+        });
+
+        orgBankDetailsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), BankDetails_NGO.class);
+                startActivity(intent);
             }
         });
 
@@ -163,4 +173,5 @@ public class ngo_Profile_fragment extends Fragment {
         i.setAction(Intent.ACTION_GET_CONTENT);
         startActivityForResult(Intent.createChooser(i, "Select Picture"), SELECT_PICTURE);
     }
+
 }

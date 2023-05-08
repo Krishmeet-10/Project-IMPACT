@@ -5,8 +5,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,10 +20,13 @@ import java.lang.String;
 
 public final class FragmentProfileFragmentBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ScrollView rootView;
 
   @NonNull
   public final ImageView appSettingsVol;
+
+  @NonNull
+  public final Button bankDetailsButton;
 
   @NonNull
   public final ImageView editEmail;
@@ -41,10 +44,19 @@ public final class FragmentProfileFragmentBinding implements ViewBinding {
   public final ImageView editPhone;
 
   @NonNull
+  public final CardView header;
+
+  @NonNull
   public final CardView imageView;
 
   @NonNull
   public final TextView textView10;
+
+  @NonNull
+  public final TextView textView19;
+
+  @NonNull
+  public final TextView textView28;
 
   @NonNull
   public final TextView textView7;
@@ -73,22 +85,28 @@ public final class FragmentProfileFragmentBinding implements ViewBinding {
   @NonNull
   public final TextView userPhone;
 
-  private FragmentProfileFragmentBinding(@NonNull FrameLayout rootView,
-      @NonNull ImageView appSettingsVol, @NonNull ImageView editEmail, @NonNull ImageView editJob,
-      @NonNull ImageView editLocation, @NonNull ImageView editPfp, @NonNull ImageView editPhone,
-      @NonNull CardView imageView, @NonNull TextView textView10, @NonNull TextView textView7,
-      @NonNull TextView textView8, @NonNull Button update, @NonNull TextView userEmail,
-      @NonNull TextView userJob, @NonNull TextView userLocation, @NonNull TextView userName,
-      @NonNull ImageView userPfp, @NonNull TextView userPhone) {
+  private FragmentProfileFragmentBinding(@NonNull ScrollView rootView,
+      @NonNull ImageView appSettingsVol, @NonNull Button bankDetailsButton,
+      @NonNull ImageView editEmail, @NonNull ImageView editJob, @NonNull ImageView editLocation,
+      @NonNull ImageView editPfp, @NonNull ImageView editPhone, @NonNull CardView header,
+      @NonNull CardView imageView, @NonNull TextView textView10, @NonNull TextView textView19,
+      @NonNull TextView textView28, @NonNull TextView textView7, @NonNull TextView textView8,
+      @NonNull Button update, @NonNull TextView userEmail, @NonNull TextView userJob,
+      @NonNull TextView userLocation, @NonNull TextView userName, @NonNull ImageView userPfp,
+      @NonNull TextView userPhone) {
     this.rootView = rootView;
     this.appSettingsVol = appSettingsVol;
+    this.bankDetailsButton = bankDetailsButton;
     this.editEmail = editEmail;
     this.editJob = editJob;
     this.editLocation = editLocation;
     this.editPfp = editPfp;
     this.editPhone = editPhone;
+    this.header = header;
     this.imageView = imageView;
     this.textView10 = textView10;
+    this.textView19 = textView19;
+    this.textView28 = textView28;
     this.textView7 = textView7;
     this.textView8 = textView8;
     this.update = update;
@@ -102,7 +120,7 @@ public final class FragmentProfileFragmentBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -130,6 +148,12 @@ public final class FragmentProfileFragmentBinding implements ViewBinding {
       id = R.id.app_settings_vol;
       ImageView appSettingsVol = ViewBindings.findChildViewById(rootView, id);
       if (appSettingsVol == null) {
+        break missingId;
+      }
+
+      id = R.id.bankDetailsButton;
+      Button bankDetailsButton = ViewBindings.findChildViewById(rootView, id);
+      if (bankDetailsButton == null) {
         break missingId;
       }
 
@@ -163,6 +187,12 @@ public final class FragmentProfileFragmentBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.header;
+      CardView header = ViewBindings.findChildViewById(rootView, id);
+      if (header == null) {
+        break missingId;
+      }
+
       id = R.id.imageView;
       CardView imageView = ViewBindings.findChildViewById(rootView, id);
       if (imageView == null) {
@@ -172,6 +202,18 @@ public final class FragmentProfileFragmentBinding implements ViewBinding {
       id = R.id.textView10;
       TextView textView10 = ViewBindings.findChildViewById(rootView, id);
       if (textView10 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView19;
+      TextView textView19 = ViewBindings.findChildViewById(rootView, id);
+      if (textView19 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView28;
+      TextView textView28 = ViewBindings.findChildViewById(rootView, id);
+      if (textView28 == null) {
         break missingId;
       }
 
@@ -229,9 +271,10 @@ public final class FragmentProfileFragmentBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentProfileFragmentBinding((FrameLayout) rootView, appSettingsVol, editEmail,
-          editJob, editLocation, editPfp, editPhone, imageView, textView10, textView7, textView8,
-          update, userEmail, userJob, userLocation, userName, userPfp, userPhone);
+      return new FragmentProfileFragmentBinding((ScrollView) rootView, appSettingsVol,
+          bankDetailsButton, editEmail, editJob, editLocation, editPfp, editPhone, header,
+          imageView, textView10, textView19, textView28, textView7, textView8, update, userEmail,
+          userJob, userLocation, userName, userPfp, userPhone);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
