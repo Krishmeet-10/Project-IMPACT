@@ -65,7 +65,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project_Impact" >
         <activity
+<<<<<<< HEAD
             android:name="com.example.project_impact.BankDetails_NGO"
+=======
+            android:name="com.example.project_impact.Navigation_Fragments.Razorpay_passthrough"
+>>>>>>> Razorpay_Krs
             android:exported="false" />
         <activity
             android:name="com.example.project_impact.Volunteer_Campaigns_User_View"

@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        loadUser();
         setContentView(R.layout.activity_main);
           mFirebaseAuth= FirebaseAuthManager.getInstance();
 
@@ -35,9 +36,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         FirebaseUser currentUser=mFirebaseAuth.getCurrentUser();
-//if(currentUser != null){
-//loadUser();
-//}
     }
 }
 

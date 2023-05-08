@@ -3460,6 +3460,7 @@ id ignoreRequest
 id image
 id imageView
 id imageView4
+id imageViewcrd
 id imagecvr
 id imagevrv
 id img_voln_cover
@@ -3820,6 +3821,7 @@ id user_location
 id user_name
 id user_pfp
 id user_phone
+id userimg
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -3976,6 +3978,7 @@ layout activity_ngo_volunteer_campaign_creation
 layout activity_organisation_login
 layout activity_organization_details
 layout activity_organization_password
+layout activity_razorpay_passthrough
 layout activity_story_player
 layout activity_testing2
 layout activity_user_landing_page
