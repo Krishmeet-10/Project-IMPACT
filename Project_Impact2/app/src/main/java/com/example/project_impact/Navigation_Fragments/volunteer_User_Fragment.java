@@ -40,14 +40,14 @@ public class volunteer_User_Fragment extends Fragment {
 
         tracker_data_holder = new ArrayList<>();
 
-        model_vol_tracker m1 = new model_vol_tracker("prog","org");
-        model_vol_tracker m2 = new model_vol_tracker("prog2","org2");
+        model_vol_tracker m1 = new model_vol_tracker("prog","org","https://www.ngoregistration.org/wp-content/uploads/2018/06/NGO.jpg");
+        model_vol_tracker m2 = new model_vol_tracker("prog2","org2","https://www.ngoregistration.org/wp-content/uploads/2018/06/NGO.jpg");
 
 
         tracker_data_holder.add(m1);
         tracker_data_holder.add(m2);
 
-        volunteer_track_rv.setAdapter(new vol_tracker_adapter(tracker_data_holder));
+        volunteer_track_rv.setAdapter(new vol_tracker_adapter(tracker_data_holder,getContext()));
 
         return view;
     }

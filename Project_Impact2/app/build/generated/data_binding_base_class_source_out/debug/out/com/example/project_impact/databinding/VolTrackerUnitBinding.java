@@ -4,6 +4,7 @@ package com.example.project_impact.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,6 +21,9 @@ public final class VolTrackerUnitBinding implements ViewBinding {
   private final CardView rootView;
 
   @NonNull
+  public final ImageView imagecvr;
+
+  @NonNull
   public final CardView volTrackerCard;
 
   @NonNull
@@ -28,9 +32,11 @@ public final class VolTrackerUnitBinding implements ViewBinding {
   @NonNull
   public final TextView volTrackerTitle;
 
-  private VolTrackerUnitBinding(@NonNull CardView rootView, @NonNull CardView volTrackerCard,
-      @NonNull TextView volTrackerOrg, @NonNull TextView volTrackerTitle) {
+  private VolTrackerUnitBinding(@NonNull CardView rootView, @NonNull ImageView imagecvr,
+      @NonNull CardView volTrackerCard, @NonNull TextView volTrackerOrg,
+      @NonNull TextView volTrackerTitle) {
     this.rootView = rootView;
+    this.imagecvr = imagecvr;
     this.volTrackerCard = volTrackerCard;
     this.volTrackerOrg = volTrackerOrg;
     this.volTrackerTitle = volTrackerTitle;
@@ -63,6 +69,12 @@ public final class VolTrackerUnitBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.imagecvr;
+      ImageView imagecvr = ViewBindings.findChildViewById(rootView, id);
+      if (imagecvr == null) {
+        break missingId;
+      }
+
       CardView volTrackerCard = (CardView) rootView;
 
       id = R.id.vol_tracker_org;
@@ -77,7 +89,7 @@ public final class VolTrackerUnitBinding implements ViewBinding {
         break missingId;
       }
 
-      return new VolTrackerUnitBinding((CardView) rootView, volTrackerCard, volTrackerOrg,
+      return new VolTrackerUnitBinding((CardView) rootView, imagecvr, volTrackerCard, volTrackerOrg,
           volTrackerTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);

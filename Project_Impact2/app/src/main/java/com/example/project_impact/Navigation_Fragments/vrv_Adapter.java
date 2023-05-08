@@ -43,7 +43,6 @@ public class vrv_Adapter extends RecyclerView.Adapter<vrv_ViewHolder> {
             @Override
             public void onClick(View v) {
                 Toast.makeText(v.getContext(), "CLICK LOGIC",Toast.LENGTH_SHORT).show();
-
                 Intent intent = new Intent(context, activity_campinfo.class);
                 context.startActivity(intent);
                 /* CLICK LOGIC*/
