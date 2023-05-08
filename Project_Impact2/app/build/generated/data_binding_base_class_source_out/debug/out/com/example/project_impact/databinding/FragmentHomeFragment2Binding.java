@@ -45,6 +45,9 @@ public final class FragmentHomeFragment2Binding implements ViewBinding {
   public final TextView textView29;
 
   @NonNull
+  public final TextView textView30;
+
+  @NonNull
   public final TextView textViewX1;
 
   @NonNull
@@ -62,8 +65,9 @@ public final class FragmentHomeFragment2Binding implements ViewBinding {
   private FragmentHomeFragment2Binding(@NonNull FrameLayout rootView, @NonNull Button cncbutton,
       @NonNull CardView optionsCard, @NonNull CardView optionsCard2, @NonNull TextView textView25,
       @NonNull TextView textView26, @NonNull TextView textView27, @NonNull TextView textView29,
-      @NonNull TextView textViewX1, @NonNull TextView textViewX2, @NonNull TextView textViewX4,
-      @NonNull ImageView userPfp, @NonNull RecyclerView volunteerRvNgo) {
+      @NonNull TextView textView30, @NonNull TextView textViewX1, @NonNull TextView textViewX2,
+      @NonNull TextView textViewX4, @NonNull ImageView userPfp,
+      @NonNull RecyclerView volunteerRvNgo) {
     this.rootView = rootView;
     this.cncbutton = cncbutton;
     this.optionsCard = optionsCard;
@@ -72,6 +76,7 @@ public final class FragmentHomeFragment2Binding implements ViewBinding {
     this.textView26 = textView26;
     this.textView27 = textView27;
     this.textView29 = textView29;
+    this.textView30 = textView30;
     this.textViewX1 = textViewX1;
     this.textViewX2 = textViewX2;
     this.textViewX4 = textViewX4;
@@ -148,6 +153,12 @@ public final class FragmentHomeFragment2Binding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView30;
+      TextView textView30 = ViewBindings.findChildViewById(rootView, id);
+      if (textView30 == null) {
+        break missingId;
+      }
+
       id = R.id.textViewX1;
       TextView textViewX1 = ViewBindings.findChildViewById(rootView, id);
       if (textViewX1 == null) {
@@ -179,8 +190,8 @@ public final class FragmentHomeFragment2Binding implements ViewBinding {
       }
 
       return new FragmentHomeFragment2Binding((FrameLayout) rootView, cncbutton, optionsCard,
-          optionsCard2, textView25, textView26, textView27, textView29, textViewX1, textViewX2,
-          textViewX4, userPfp, volunteerRvNgo);
+          optionsCard2, textView25, textView26, textView27, textView29, textView30, textViewX1,
+          textViewX2, textViewX4, userPfp, volunteerRvNgo);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
