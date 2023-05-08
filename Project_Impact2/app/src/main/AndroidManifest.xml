@@ -14,12 +14,12 @@
         android:theme="@style/Theme.Project_Impact"
         tools:targetApi="31">
         <activity
-<<<<<<< HEAD
             android:name=".BankDetails_NGO"
-=======
-            android:name=".Navigation_Fragments.Razorpay_passthrough"
->>>>>>> Razorpay_Krs
             android:exported="false" />
+
+        <activity android:name=".Navigation_Fragments.Razorpay_passthrough"
+            android:exported="false" />
+
         <activity
             android:name=".Volunteer_Campaigns_User_View"
             android:exported="false" />
