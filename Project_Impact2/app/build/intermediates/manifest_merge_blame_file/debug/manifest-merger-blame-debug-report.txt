@@ -6,516 +6,516 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml
+8-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml
+9-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:5:22-64
+11-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:26:5-79
-12-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:26:22-76
+12-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:26:5-79
+12-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:26:22-76
 13
 14    <queries>
-14-->[com.razorpay:checkout:1.6.26] C:\Users\krish\.gradle\caches\transforms-3\94ab866a6a2db3428be1356766d37f52\transformed\jetified-checkout-1.6.26\AndroidManifest.xml:11:5-37:15
+14-->[com.razorpay:checkout:1.6.26] /Users/shreyapandey/.gradle/caches/transforms-3/94ab866a6a2db3428be1356766d37f52/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:11:5-37:15
 15        <intent>
-15-->[com.razorpay:checkout:1.6.26] C:\Users\krish\.gradle\caches\transforms-3\94ab866a6a2db3428be1356766d37f52\transformed\jetified-checkout-1.6.26\AndroidManifest.xml:12:9-18:18
+15-->[com.razorpay:checkout:1.6.26] /Users/shreyapandey/.gradle/caches/transforms-3/94ab866a6a2db3428be1356766d37f52/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:12:9-18:18
 16            <action android:name="android.intent.action.VIEW" />
-16-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:36:17-69
-16-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:36:25-66
+16-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:36:17-69
+16-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:36:25-66
 17
 18            <data
-18-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:41:17-44:51
+18-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:41:17-44:51
 19                android:mimeType="*/*"
 20                android:scheme="*" />
-20-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:44:21-48
+20-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:44:21-48
 21        </intent>
 22        <intent>
-22-->[com.razorpay:checkout:1.6.26] C:\Users\krish\.gradle\caches\transforms-3\94ab866a6a2db3428be1356766d37f52\transformed\jetified-checkout-1.6.26\AndroidManifest.xml:19:9-28:18
+22-->[com.razorpay:checkout:1.6.26] /Users/shreyapandey/.gradle/caches/transforms-3/94ab866a6a2db3428be1356766d37f52/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:19:9-28:18
 23            <action android:name="android.intent.action.VIEW" />
-23-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:36:17-69
-23-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:36:25-66
+23-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:36:17-69
+23-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:36:25-66
 24
 25            <category android:name="android.intent.category.BROWSABLE" />
-25-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:39:17-78
-25-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:39:27-75
+25-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:39:17-78
+25-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:39:27-75
 26
 27            <data
-27-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:41:17-44:51
+27-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:41:17-44:51
 28                android:host="pay"
-28-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:42:21-49
+28-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:42:21-49
 29                android:mimeType="*/*"
 30                android:scheme="upi" />
-30-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:44:21-48
+30-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:44:21-48
 31        </intent>
 32        <intent>
-32-->[com.razorpay:checkout:1.6.26] C:\Users\krish\.gradle\caches\transforms-3\94ab866a6a2db3428be1356766d37f52\transformed\jetified-checkout-1.6.26\AndroidManifest.xml:29:9-31:18
+32-->[com.razorpay:checkout:1.6.26] /Users/shreyapandey/.gradle/caches/transforms-3/94ab866a6a2db3428be1356766d37f52/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:29:9-31:18
 33            <action android:name="android.intent.action.MAIN" />
-33-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:76:17-69
-33-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:76:25-66
+33-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:76:17-69
+33-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:76:25-66
 34        </intent>
 35        <intent>
-35-->[com.razorpay:checkout:1.6.26] C:\Users\krish\.gradle\caches\transforms-3\94ab866a6a2db3428be1356766d37f52\transformed\jetified-checkout-1.6.26\AndroidManifest.xml:32:9-36:18
+35-->[com.razorpay:checkout:1.6.26] /Users/shreyapandey/.gradle/caches/transforms-3/94ab866a6a2db3428be1356766d37f52/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:32:9-36:18
 36            <action android:name="android.intent.action.SEND" />
-36-->[com.razorpay:checkout:1.6.26] C:\Users\krish\.gradle\caches\transforms-3\94ab866a6a2db3428be1356766d37f52\transformed\jetified-checkout-1.6.26\AndroidManifest.xml:33:13-65
-36-->[com.razorpay:checkout:1.6.26] C:\Users\krish\.gradle\caches\transforms-3\94ab866a6a2db3428be1356766d37f52\transformed\jetified-checkout-1.6.26\AndroidManifest.xml:33:21-62
+36-->[com.razorpay:checkout:1.6.26] /Users/shreyapandey/.gradle/caches/transforms-3/94ab866a6a2db3428be1356766d37f52/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:33:13-65
+36-->[com.razorpay:checkout:1.6.26] /Users/shreyapandey/.gradle/caches/transforms-3/94ab866a6a2db3428be1356766d37f52/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:33:21-62
 37
 38            <data android:mimeType="*/*" />
-38-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:41:17-44:51
+38-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:41:17-44:51
 39        </intent>
 40    </queries>
 41
 42    <uses-feature
-42-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\krish\.gradle\caches\transforms-3\4b6ebd4686c2a35f4d9933ff1e562b01\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+42-->[com.google.android.gms:play-services-maps:17.0.0] /Users/shreyapandey/.gradle/caches/transforms-3/4b6ebd4686c2a35f4d9933ff1e562b01/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
 43        android:glEsVersion="0x00020000"
-43-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\krish\.gradle\caches\transforms-3\4b6ebd4686c2a35f4d9933ff1e562b01\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+43-->[com.google.android.gms:play-services-maps:17.0.0] /Users/shreyapandey/.gradle/caches/transforms-3/4b6ebd4686c2a35f4d9933ff1e562b01/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
 44        android:required="true" />
-44-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\krish\.gradle\caches\transforms-3\4b6ebd4686c2a35f4d9933ff1e562b01\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+44-->[com.google.android.gms:play-services-maps:17.0.0] /Users/shreyapandey/.gradle/caches/transforms-3/4b6ebd4686c2a35f4d9933ff1e562b01/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
 45
 46    <uses-permission android:name="android.permission.WAKE_LOCK" />
-46-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\krish\.gradle\caches\transforms-3\2d9a429e8ab90280ede3399955d03a90\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:24:5-68
-46-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\krish\.gradle\caches\transforms-3\2d9a429e8ab90280ede3399955d03a90\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:24:22-65
+46-->[com.google.android.gms:play-services-measurement-api:21.2.2] /Users/shreyapandey/.gradle/caches/transforms-3/2d9a429e8ab90280ede3399955d03a90/transformed/jetified-play-services-measurement-api-21.2.2/AndroidManifest.xml:24:5-68
+46-->[com.google.android.gms:play-services-measurement-api:21.2.2] /Users/shreyapandey/.gradle/caches/transforms-3/2d9a429e8ab90280ede3399955d03a90/transformed/jetified-play-services-measurement-api-21.2.2/AndroidManifest.xml:24:22-65
 47    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-47-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\krish\.gradle\caches\transforms-3\2d9a429e8ab90280ede3399955d03a90\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:25:5-79
-47-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\krish\.gradle\caches\transforms-3\2d9a429e8ab90280ede3399955d03a90\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:25:22-76
+47-->[com.google.android.gms:play-services-measurement-api:21.2.2] /Users/shreyapandey/.gradle/caches/transforms-3/2d9a429e8ab90280ede3399955d03a90/transformed/jetified-play-services-measurement-api-21.2.2/AndroidManifest.xml:25:5-79
+47-->[com.google.android.gms:play-services-measurement-api:21.2.2] /Users/shreyapandey/.gradle/caches/transforms-3/2d9a429e8ab90280ede3399955d03a90/transformed/jetified-play-services-measurement-api-21.2.2/AndroidManifest.xml:25:22-76
 48    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-48-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\krish\.gradle\caches\transforms-3\1625eee44e7f1addab401e9400a941a7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:26:5-110
-48-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\krish\.gradle\caches\transforms-3\1625eee44e7f1addab401e9400a941a7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:26:22-107
+48-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/shreyapandey/.gradle/caches/transforms-3/1625eee44e7f1addab401e9400a941a7/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:26:5-110
+48-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/shreyapandey/.gradle/caches/transforms-3/1625eee44e7f1addab401e9400a941a7/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:26:22-107
 49
 50    <permission
-50-->[androidx.core:core:1.9.0] C:\Users\krish\.gradle\caches\transforms-3\df65882155b9e9e5bff39f306678361b\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+50-->[androidx.core:core:1.9.0] /Users/shreyapandey/.gradle/caches/transforms-3/df65882155b9e9e5bff39f306678361b/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
 51        android:name="com.example.project_impact.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-51-->[androidx.core:core:1.9.0] C:\Users\krish\.gradle\caches\transforms-3\df65882155b9e9e5bff39f306678361b\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+51-->[androidx.core:core:1.9.0] /Users/shreyapandey/.gradle/caches/transforms-3/df65882155b9e9e5bff39f306678361b/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
 52        android:protectionLevel="signature" />
-52-->[androidx.core:core:1.9.0] C:\Users\krish\.gradle\caches\transforms-3\df65882155b9e9e5bff39f306678361b\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+52-->[androidx.core:core:1.9.0] /Users/shreyapandey/.gradle/caches/transforms-3/df65882155b9e9e5bff39f306678361b/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
 53
 54    <uses-permission android:name="com.example.project_impact.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-54-->[androidx.core:core:1.9.0] C:\Users\krish\.gradle\caches\transforms-3\df65882155b9e9e5bff39f306678361b\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-54-->[androidx.core:core:1.9.0] C:\Users\krish\.gradle\caches\transforms-3\df65882155b9e9e5bff39f306678361b\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+54-->[androidx.core:core:1.9.0] /Users/shreyapandey/.gradle/caches/transforms-3/df65882155b9e9e5bff39f306678361b/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+54-->[androidx.core:core:1.9.0] /Users/shreyapandey/.gradle/caches/transforms-3/df65882155b9e9e5bff39f306678361b/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 55
 56    <application
-56-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:7:5-83:19
+56-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:7:5-83:19
 57        android:allowBackup="true"
-57-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:8:9-35
+57-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:8:9-35
 58        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-58-->[androidx.core:core:1.9.0] C:\Users\krish\.gradle\caches\transforms-3\df65882155b9e9e5bff39f306678361b\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+58-->[androidx.core:core:1.9.0] /Users/shreyapandey/.gradle/caches/transforms-3/df65882155b9e9e5bff39f306678361b/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 59        android:dataExtractionRules="@xml/data_extraction_rules"
-59-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:9:9-65
+59-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:9:9-65
 60        android:debuggable="true"
 61        android:extractNativeLibs="false"
 62        android:fullBackupContent="@xml/backup_rules"
-62-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:10:9-54
+62-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:10:9-54
 63        android:icon="@mipmap/ic_launcher"
-63-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:11:9-43
+63-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:11:9-43
 64        android:label="@string/app_name"
-64-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:12:9-41
+64-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:12:9-41
 65        android:supportsRtl="true"
-65-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:13:9-35
+65-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:13:9-35
 66        android:testOnly="true"
 67        android:theme="@style/Theme.Project_Impact" >
-67-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:14:9-52
+67-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:14:9-52
 68        <activity
-68-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:16:9-18:40
+68-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:16:9-18:40
 69            android:name="com.example.project_impact.BankDetails_NGO"
-69-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:17:13-44
+69-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:17:13-44
 70            android:exported="false" />
-70-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:18:13-37
+70-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:18:13-37
 71        <activity
-71-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:20:9-21:40
+71-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:20:9-21:40
 72            android:name="com.example.project_impact.Navigation_Fragments.Razorpay_passthrough"
-72-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:20:19-76
+72-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:20:19-76
 73            android:exported="false" />
-73-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:21:13-37
+73-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:21:13-37
 74        <activity
-74-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:23:9-25:40
+74-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:23:9-25:40
 75            android:name="com.example.project_impact.Volunteer_Campaigns_User_View"
-75-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:24:13-58
+75-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:24:13-58
 76            android:exported="false" />
-76-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:25:13-37
+76-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:25:13-37
 77        <activity
-77-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:26:9-28:40
+77-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:26:9-28:40
 78            android:name="com.example.project_impact.Testing"
-78-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:27:13-36
+78-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:27:13-36
 79            android:exported="false" />
-79-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:28:13-37
+79-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:28:13-37
 80        <activity
-80-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:29:9-31:40
+80-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:29:9-31:40
 81            android:name="com.example.project_impact.Navigation_Fragments.user_settings"
-81-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:30:13-63
+81-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:30:13-63
 82            android:exported="false" />
-82-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:31:13-37
+82-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:31:13-37
 83        <activity
-83-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:32:9-35:49
+83-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:32:9-35:49
 84            android:name="com.example.project_impact.Navigation_Fragments.edit_popup"
-84-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:33:13-60
+84-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:33:13-60
 85            android:exported="false"
-85-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:34:13-37
+85-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:34:13-37
 86            android:theme="@style/edit_popup" />
-86-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:35:13-46
+86-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:35:13-46
 87        <activity
-87-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:36:9-38:40
+87-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:36:9-38:40
 88            android:name="com.example.project_impact.ngo_volunteer_campaign_creation"
-88-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:37:13-60
+88-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:37:13-60
 89            android:exported="false" />
-89-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:38:13-37
+89-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:38:13-37
 90        <activity
-90-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:39:9-41:40
+90-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:39:9-41:40
 91            android:name="com.example.project_impact.NGO_Landing_Page"
-91-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:40:13-45
+91-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:40:13-45
 92            android:exported="false" />
-92-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:41:13-37
+92-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:41:13-37
 93        <activity
-93-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:42:9-44:40
+93-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:42:9-44:40
 94            android:name="com.example.project_impact.volunteerPassword"
-94-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:43:13-46
+94-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:43:13-46
 95            android:exported="false" />
-95-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:44:13-37
+95-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:44:13-37
 96        <activity
-96-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:45:9-47:40
+96-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:45:9-47:40
 97            android:name="com.example.project_impact.volunteerLogInPage"
-97-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:46:13-47
+97-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:46:13-47
 98            android:exported="false" />
-98-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:47:13-37
+98-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:47:13-37
 99        <activity
-99-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:48:9-50:40
+99-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:48:9-50:40
 100            android:name="com.example.project_impact.volunteerDetails"
-100-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:49:13-45
+100-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:49:13-45
 101            android:exported="false" />
-101-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:50:13-37
+101-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:50:13-37
 102        <activity
-102-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:51:9-53:40
+102-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:51:9-53:40
 103            android:name="com.example.project_impact.organizationPassword"
-103-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:52:13-49
+103-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:52:13-49
 104            android:exported="false" />
-104-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:53:13-37
+104-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:53:13-37
 105        <activity
-105-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:54:9-56:40
+105-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:54:9-56:40
 106            android:name="com.example.project_impact.organizationDetails"
-106-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:55:13-48
+106-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:55:13-48
 107            android:exported="false" />
-107-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:56:13-37
+107-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:56:13-37
 108        <activity
-108-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:57:9-59:40
+108-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:57:9-59:40
 109            android:name="com.example.project_impact.OrganisationLogin"
-109-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:58:13-46
+109-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:58:13-46
 110            android:exported="false" />
-110-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:59:13-37
+110-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:59:13-37
 111        <activity
-111-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:60:9-62:40
+111-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:60:9-62:40
 112            android:name="com.example.project_impact.logInSignInOrganization"
-112-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:61:13-52
+112-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:61:13-52
 113            android:exported="false" />
-113-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:62:13-37
+113-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:62:13-37
 114        <activity
-114-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:63:9-65:40
+114-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:63:9-65:40
 115            android:name="com.example.project_impact.log_sign_in"
-115-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:64:13-40
+115-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:64:13-40
 116            android:exported="false" />
-116-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:65:13-37
+116-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:65:13-37
 117        <activity
-117-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:66:9-68:40
+117-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:66:9-68:40
 118            android:name="com.example.project_impact.logInAs"
-118-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:67:13-36
+118-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:67:13-36
 119            android:exported="false" />
-119-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:68:13-37
+119-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:68:13-37
 120        <activity
-120-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:69:9-71:40
+120-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:69:9-71:40
 121            android:name="com.example.project_impact.User_Landing_Page"
-121-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:70:13-46
+121-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:70:13-46
 122            android:exported="false" />
-122-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:71:13-37
+122-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:71:13-37
 123        <activity
-123-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:72:9-80:20
+123-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:72:9-80:20
 124            android:name="com.example.project_impact.MainActivity"
-124-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:73:13-41
+124-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:73:13-41
 125            android:exported="true" >
-125-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:74:13-36
+125-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:74:13-36
 126            <intent-filter>
-126-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:75:13-79:29
+126-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:75:13-79:29
 127                <action android:name="android.intent.action.MAIN" />
-127-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:76:17-69
-127-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:76:25-66
+127-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:76:17-69
+127-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:76:25-66
 128
 129                <category android:name="android.intent.category.LAUNCHER" />
-129-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:78:17-77
-129-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:78:27-74
+129-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:78:17-77
+129-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:78:27-74
 130            </intent-filter>
 131        </activity>
 132        <activity android:name="com.example.project_impact.Navigation_Fragments.activity_campinfo" />
-132-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:81:9-76
-132-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:81:19-73
+132-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:81:9-76
+132-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:81:19-73
 133        <activity android:name="com.example.project_impact.Navigation_Fragments.activity_campinfo_ngo" />
-133-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:82:9-80
-133-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:82:19-77
+133-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:82:9-80
+133-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:82:19-77
 134        <activity
-134-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:29:9-46:20
+134-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:29:9-46:20
 135            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-135-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:30:13-80
+135-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:30:13-80
 136            android:excludeFromRecents="true"
-136-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:31:13-46
+136-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:31:13-46
 137            android:exported="true"
-137-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:32:13-36
+137-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:32:13-36
 138            android:launchMode="singleTask"
-138-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:33:13-44
+138-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:33:13-44
 139            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-139-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:34:13-72
+139-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:34:13-72
 140            <intent-filter>
-140-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:35:13-45:29
+140-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:35:13-45:29
 141                <action android:name="android.intent.action.VIEW" />
-141-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:36:17-69
-141-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:36:25-66
+141-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:36:17-69
+141-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:36:25-66
 142
 143                <category android:name="android.intent.category.DEFAULT" />
-143-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:38:17-76
-143-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:38:27-73
+143-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:38:17-76
+143-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:38:27-73
 144                <category android:name="android.intent.category.BROWSABLE" />
-144-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:39:17-78
-144-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:39:27-75
+144-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:39:17-78
+144-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:39:27-75
 145
 146                <data
-146-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:41:17-44:51
+146-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:41:17-44:51
 147                    android:host="firebase.auth"
-147-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:42:21-49
+147-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:42:21-49
 148                    android:path="/"
-148-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:43:21-37
+148-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:43:21-37
 149                    android:scheme="genericidp" />
-149-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:44:21-48
+149-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:44:21-48
 150            </intent-filter>
 151        </activity>
 152        <activity
-152-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:47:9-64:20
+152-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:47:9-64:20
 153            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-153-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:48:13-79
+153-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:48:13-79
 154            android:excludeFromRecents="true"
-154-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:49:13-46
+154-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:49:13-46
 155            android:exported="true"
-155-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:50:13-36
+155-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:50:13-36
 156            android:launchMode="singleTask"
-156-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:51:13-44
+156-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:51:13-44
 157            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-157-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:52:13-72
+157-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:52:13-72
 158            <intent-filter>
-158-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:53:13-63:29
+158-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:53:13-63:29
 159                <action android:name="android.intent.action.VIEW" />
-159-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:36:17-69
-159-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:36:25-66
+159-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:36:17-69
+159-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:36:25-66
 160
 161                <category android:name="android.intent.category.DEFAULT" />
-161-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:38:17-76
-161-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:38:27-73
+161-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:38:17-76
+161-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:38:27-73
 162                <category android:name="android.intent.category.BROWSABLE" />
-162-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:39:17-78
-162-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:39:27-75
+162-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:39:17-78
+162-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:39:27-75
 163
 164                <data
-164-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:41:17-44:51
+164-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:41:17-44:51
 165                    android:host="firebase.auth"
-165-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:42:21-49
+165-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:42:21-49
 166                    android:path="/"
-166-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:43:21-37
+166-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:43:21-37
 167                    android:scheme="recaptcha" />
-167-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:44:21-48
+167-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:44:21-48
 168            </intent-filter>
 169        </activity>
 170
 171        <service
-171-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:66:9-72:19
+171-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:66:9-72:19
 172            android:name="com.google.firebase.components.ComponentDiscoveryService"
-172-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:67:13-84
+172-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:67:13-84
 173            android:directBootAware="true"
-173-->[com.google.firebase:firebase-common:20.3.2] C:\Users\krish\.gradle\caches\transforms-3\3e0c3c3b3961fd7c76b4ea9ce2d093cc\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+173-->[com.google.firebase:firebase-common:20.3.2] /Users/shreyapandey/.gradle/caches/transforms-3/3e0c3c3b3961fd7c76b4ea9ce2d093cc/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:34:13-43
 174            android:exported="false" >
-174-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:68:13-37
+174-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:68:13-37
 175            <meta-data
-175-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:69:13-71:85
+175-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:69:13-71:85
 176                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-176-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:70:17-109
+176-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:70:17-109
 177                android:value="com.google.firebase.components.ComponentRegistrar" />
-177-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:71:17-82
+177-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:71:17-82
 178            <meta-data
-178-->[com.google.firebase:firebase-database:20.2.0] C:\Users\krish\.gradle\caches\transforms-3\95df63007cd2f240d6f894b24b2872f9\transformed\jetified-firebase-database-20.2.0\AndroidManifest.xml:31:13-33:85
+178-->[com.google.firebase:firebase-database:20.2.0] /Users/shreyapandey/.gradle/caches/transforms-3/95df63007cd2f240d6f894b24b2872f9/transformed/jetified-firebase-database-20.2.0/AndroidManifest.xml:31:13-33:85
 179                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-179-->[com.google.firebase:firebase-database:20.2.0] C:\Users\krish\.gradle\caches\transforms-3\95df63007cd2f240d6f894b24b2872f9\transformed\jetified-firebase-database-20.2.0\AndroidManifest.xml:32:17-109
+179-->[com.google.firebase:firebase-database:20.2.0] /Users/shreyapandey/.gradle/caches/transforms-3/95df63007cd2f240d6f894b24b2872f9/transformed/jetified-firebase-database-20.2.0/AndroidManifest.xml:32:17-109
 180                android:value="com.google.firebase.components.ComponentRegistrar" />
-180-->[com.google.firebase:firebase-database:20.2.0] C:\Users\krish\.gradle\caches\transforms-3\95df63007cd2f240d6f894b24b2872f9\transformed\jetified-firebase-database-20.2.0\AndroidManifest.xml:33:17-82
+180-->[com.google.firebase:firebase-database:20.2.0] /Users/shreyapandey/.gradle/caches/transforms-3/95df63007cd2f240d6f894b24b2872f9/transformed/jetified-firebase-database-20.2.0/AndroidManifest.xml:33:17-82
 181            <meta-data
-181-->[com.google.firebase:firebase-firestore:24.5.0] C:\Users\krish\.gradle\caches\transforms-3\b047b26009d55b4ae19d5f1d145111d4\transformed\jetified-firebase-firestore-24.5.0\AndroidManifest.xml:19:13-21:85
+181-->[com.google.firebase:firebase-firestore:24.5.0] /Users/shreyapandey/.gradle/caches/transforms-3/b047b26009d55b4ae19d5f1d145111d4/transformed/jetified-firebase-firestore-24.5.0/AndroidManifest.xml:19:13-21:85
 182                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-182-->[com.google.firebase:firebase-firestore:24.5.0] C:\Users\krish\.gradle\caches\transforms-3\b047b26009d55b4ae19d5f1d145111d4\transformed\jetified-firebase-firestore-24.5.0\AndroidManifest.xml:20:17-111
+182-->[com.google.firebase:firebase-firestore:24.5.0] /Users/shreyapandey/.gradle/caches/transforms-3/b047b26009d55b4ae19d5f1d145111d4/transformed/jetified-firebase-firestore-24.5.0/AndroidManifest.xml:20:17-111
 183                android:value="com.google.firebase.components.ComponentRegistrar" />
-183-->[com.google.firebase:firebase-firestore:24.5.0] C:\Users\krish\.gradle\caches\transforms-3\b047b26009d55b4ae19d5f1d145111d4\transformed\jetified-firebase-firestore-24.5.0\AndroidManifest.xml:21:17-82
+183-->[com.google.firebase:firebase-firestore:24.5.0] /Users/shreyapandey/.gradle/caches/transforms-3/b047b26009d55b4ae19d5f1d145111d4/transformed/jetified-firebase-firestore-24.5.0/AndroidManifest.xml:21:17-82
 184            <meta-data
-184-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\krish\.gradle\caches\transforms-3\2d9a429e8ab90280ede3399955d03a90\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:31:13-33:85
+184-->[com.google.android.gms:play-services-measurement-api:21.2.2] /Users/shreyapandey/.gradle/caches/transforms-3/2d9a429e8ab90280ede3399955d03a90/transformed/jetified-play-services-measurement-api-21.2.2/AndroidManifest.xml:31:13-33:85
 185                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-185-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\krish\.gradle\caches\transforms-3\2d9a429e8ab90280ede3399955d03a90\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:32:17-139
+185-->[com.google.android.gms:play-services-measurement-api:21.2.2] /Users/shreyapandey/.gradle/caches/transforms-3/2d9a429e8ab90280ede3399955d03a90/transformed/jetified-play-services-measurement-api-21.2.2/AndroidManifest.xml:32:17-139
 186                android:value="com.google.firebase.components.ComponentRegistrar" />
-186-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\krish\.gradle\caches\transforms-3\2d9a429e8ab90280ede3399955d03a90\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:33:17-82
+186-->[com.google.android.gms:play-services-measurement-api:21.2.2] /Users/shreyapandey/.gradle/caches/transforms-3/2d9a429e8ab90280ede3399955d03a90/transformed/jetified-play-services-measurement-api-21.2.2/AndroidManifest.xml:33:17-82
 187            <meta-data
-187-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\krish\.gradle\caches\transforms-3\7a3eb4f3e220d01692f0bc03b1e734dd\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+187-->[com.google.firebase:firebase-installations:17.1.3] /Users/shreyapandey/.gradle/caches/transforms-3/7a3eb4f3e220d01692f0bc03b1e734dd/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
 188                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-188-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\krish\.gradle\caches\transforms-3\7a3eb4f3e220d01692f0bc03b1e734dd\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+188-->[com.google.firebase:firebase-installations:17.1.3] /Users/shreyapandey/.gradle/caches/transforms-3/7a3eb4f3e220d01692f0bc03b1e734dd/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
 189                android:value="com.google.firebase.components.ComponentRegistrar" />
-189-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\krish\.gradle\caches\transforms-3\7a3eb4f3e220d01692f0bc03b1e734dd\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+189-->[com.google.firebase:firebase-installations:17.1.3] /Users/shreyapandey/.gradle/caches/transforms-3/7a3eb4f3e220d01692f0bc03b1e734dd/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
 190        </service>
 191
 192        <activity android:name="xute.storyview.StoryPlayer" />
-192-->[com.github.bxute:StoryView:v1.0] C:\Users\krish\.gradle\caches\transforms-3\d68793c602371cd7811e6c2143b8a3ed\transformed\jetified-StoryView-v1.0\AndroidManifest.xml:12:9-63
-192-->[com.github.bxute:StoryView:v1.0] C:\Users\krish\.gradle\caches\transforms-3\d68793c602371cd7811e6c2143b8a3ed\transformed\jetified-StoryView-v1.0\AndroidManifest.xml:12:19-60
+192-->[com.github.bxute:StoryView:v1.0] /Users/shreyapandey/.gradle/caches/transforms-3/d68793c602371cd7811e6c2143b8a3ed/transformed/jetified-StoryView-v1.0/AndroidManifest.xml:12:9-63
+192-->[com.github.bxute:StoryView:v1.0] /Users/shreyapandey/.gradle/caches/transforms-3/d68793c602371cd7811e6c2143b8a3ed/transformed/jetified-StoryView-v1.0/AndroidManifest.xml:12:19-60
 193
 194        <receiver
-194-->[com.razorpay:checkout:1.6.26] C:\Users\krish\.gradle\caches\transforms-3\94ab866a6a2db3428be1356766d37f52\transformed\jetified-checkout-1.6.26\AndroidManifest.xml:40:9-46:20
+194-->[com.razorpay:checkout:1.6.26] /Users/shreyapandey/.gradle/caches/transforms-3/94ab866a6a2db3428be1356766d37f52/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:40:9-46:20
 195            android:name="com.razorpay.RzpTokenReceiver"
-195-->[com.razorpay:checkout:1.6.26] C:\Users\krish\.gradle\caches\transforms-3\94ab866a6a2db3428be1356766d37f52\transformed\jetified-checkout-1.6.26\AndroidManifest.xml:41:13-57
+195-->[com.razorpay:checkout:1.6.26] /Users/shreyapandey/.gradle/caches/transforms-3/94ab866a6a2db3428be1356766d37f52/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:41:13-57
 196            android:exported="false" >
-196-->[com.razorpay:checkout:1.6.26] C:\Users\krish\.gradle\caches\transforms-3\94ab866a6a2db3428be1356766d37f52\transformed\jetified-checkout-1.6.26\AndroidManifest.xml:42:13-37
+196-->[com.razorpay:checkout:1.6.26] /Users/shreyapandey/.gradle/caches/transforms-3/94ab866a6a2db3428be1356766d37f52/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:42:13-37
 197            <intent-filter>
-197-->[com.razorpay:checkout:1.6.26] C:\Users\krish\.gradle\caches\transforms-3\94ab866a6a2db3428be1356766d37f52\transformed\jetified-checkout-1.6.26\AndroidManifest.xml:43:13-45:29
+197-->[com.razorpay:checkout:1.6.26] /Users/shreyapandey/.gradle/caches/transforms-3/94ab866a6a2db3428be1356766d37f52/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:43:13-45:29
 198                <action android:name="rzp.device_token.share" />
-198-->[com.razorpay:checkout:1.6.26] C:\Users\krish\.gradle\caches\transforms-3\94ab866a6a2db3428be1356766d37f52\transformed\jetified-checkout-1.6.26\AndroidManifest.xml:44:17-65
-198-->[com.razorpay:checkout:1.6.26] C:\Users\krish\.gradle\caches\transforms-3\94ab866a6a2db3428be1356766d37f52\transformed\jetified-checkout-1.6.26\AndroidManifest.xml:44:25-62
+198-->[com.razorpay:checkout:1.6.26] /Users/shreyapandey/.gradle/caches/transforms-3/94ab866a6a2db3428be1356766d37f52/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:44:17-65
+198-->[com.razorpay:checkout:1.6.26] /Users/shreyapandey/.gradle/caches/transforms-3/94ab866a6a2db3428be1356766d37f52/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:44:25-62
 199            </intent-filter>
 200        </receiver>
 201
 202        <activity
-202-->[com.razorpay:checkout:1.6.26] C:\Users\krish\.gradle\caches\transforms-3\94ab866a6a2db3428be1356766d37f52\transformed\jetified-checkout-1.6.26\AndroidManifest.xml:48:9-60:20
+202-->[com.razorpay:checkout:1.6.26] /Users/shreyapandey/.gradle/caches/transforms-3/94ab866a6a2db3428be1356766d37f52/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:48:9-60:20
 203            android:name="com.razorpay.CheckoutActivity"
-203-->[com.razorpay:checkout:1.6.26] C:\Users\krish\.gradle\caches\transforms-3\94ab866a6a2db3428be1356766d37f52\transformed\jetified-checkout-1.6.26\AndroidManifest.xml:49:13-57
+203-->[com.razorpay:checkout:1.6.26] /Users/shreyapandey/.gradle/caches/transforms-3/94ab866a6a2db3428be1356766d37f52/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:49:13-57
 204            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-204-->[com.razorpay:checkout:1.6.26] C:\Users\krish\.gradle\caches\transforms-3\94ab866a6a2db3428be1356766d37f52\transformed\jetified-checkout-1.6.26\AndroidManifest.xml:50:13-83
+204-->[com.razorpay:checkout:1.6.26] /Users/shreyapandey/.gradle/caches/transforms-3/94ab866a6a2db3428be1356766d37f52/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:50:13-83
 205            android:exported="true"
-205-->[com.razorpay:checkout:1.6.26] C:\Users\krish\.gradle\caches\transforms-3\94ab866a6a2db3428be1356766d37f52\transformed\jetified-checkout-1.6.26\AndroidManifest.xml:51:13-36
+205-->[com.razorpay:checkout:1.6.26] /Users/shreyapandey/.gradle/caches/transforms-3/94ab866a6a2db3428be1356766d37f52/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:51:13-36
 206            android:theme="@style/CheckoutTheme" >
-206-->[com.razorpay:checkout:1.6.26] C:\Users\krish\.gradle\caches\transforms-3\94ab866a6a2db3428be1356766d37f52\transformed\jetified-checkout-1.6.26\AndroidManifest.xml:52:13-49
+206-->[com.razorpay:checkout:1.6.26] /Users/shreyapandey/.gradle/caches/transforms-3/94ab866a6a2db3428be1356766d37f52/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:52:13-49
 207            <intent-filter>
-207-->[com.razorpay:checkout:1.6.26] C:\Users\krish\.gradle\caches\transforms-3\94ab866a6a2db3428be1356766d37f52\transformed\jetified-checkout-1.6.26\AndroidManifest.xml:53:13-59:29
+207-->[com.razorpay:checkout:1.6.26] /Users/shreyapandey/.gradle/caches/transforms-3/94ab866a6a2db3428be1356766d37f52/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:53:13-59:29
 208                <action android:name="android.intent.action.MAIN" />
-208-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:76:17-69
-208-->C:\Users\krish\Desktop\College\Mobile Computing\Project-IMPACT\Project_Impact2\app\src\main\AndroidManifest.xml:76:25-66
+208-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:76:17-69
+208-->/Users/shreyapandey/Documents/GitHub/Project-IMPACT/Project_Impact2/app/src/main/AndroidManifest.xml:76:25-66
 209
 210                <data
-210-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:41:17-44:51
+210-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:41:17-44:51
 211                    android:host="rzp.io"
-211-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:42:21-49
+211-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:42:21-49
 212                    android:scheme="io.rzp" />
-212-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\krish\.gradle\caches\transforms-3\18b36f5674fb37cbfe5b43f9ac4226fd\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:44:21-48
+212-->[com.google.firebase:firebase-auth:21.3.0] /Users/shreyapandey/.gradle/caches/transforms-3/18b36f5674fb37cbfe5b43f9ac4226fd/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:44:21-48
 213            </intent-filter>
 214        </activity>
 215
 216        <meta-data
-216-->[com.razorpay:checkout:1.6.26] C:\Users\krish\.gradle\caches\transforms-3\94ab866a6a2db3428be1356766d37f52\transformed\jetified-checkout-1.6.26\AndroidManifest.xml:62:9-64:58
+216-->[com.razorpay:checkout:1.6.26] /Users/shreyapandey/.gradle/caches/transforms-3/94ab866a6a2db3428be1356766d37f52/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:62:9-64:58
 217            android:name="com.razorpay.plugin.googlepay_all"
-217-->[com.razorpay:checkout:1.6.26] C:\Users\krish\.gradle\caches\transforms-3\94ab866a6a2db3428be1356766d37f52\transformed\jetified-checkout-1.6.26\AndroidManifest.xml:63:13-61
+217-->[com.razorpay:checkout:1.6.26] /Users/shreyapandey/.gradle/caches/transforms-3/94ab866a6a2db3428be1356766d37f52/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:63:13-61
 218            android:value="com.razorpay.RzpGpayMerged" />
-218-->[com.razorpay:checkout:1.6.26] C:\Users\krish\.gradle\caches\transforms-3\94ab866a6a2db3428be1356766d37f52\transformed\jetified-checkout-1.6.26\AndroidManifest.xml:64:13-55
+218-->[com.razorpay:checkout:1.6.26] /Users/shreyapandey/.gradle/caches/transforms-3/94ab866a6a2db3428be1356766d37f52/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:64:13-55
 219
 220        <activity
-220-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\krish\.gradle\caches\transforms-3\7ba4f3715af0c13aeebf3bfb3eea7a9b\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+220-->[com.google.android.gms:play-services-auth:17.0.0] /Users/shreyapandey/.gradle/caches/transforms-3/7ba4f3715af0c13aeebf3bfb3eea7a9b/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
 221            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-221-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\krish\.gradle\caches\transforms-3\7ba4f3715af0c13aeebf3bfb3eea7a9b\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+221-->[com.google.android.gms:play-services-auth:17.0.0] /Users/shreyapandey/.gradle/caches/transforms-3/7ba4f3715af0c13aeebf3bfb3eea7a9b/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
 222            android:excludeFromRecents="true"
-222-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\krish\.gradle\caches\transforms-3\7ba4f3715af0c13aeebf3bfb3eea7a9b\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+222-->[com.google.android.gms:play-services-auth:17.0.0] /Users/shreyapandey/.gradle/caches/transforms-3/7ba4f3715af0c13aeebf3bfb3eea7a9b/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
 223            android:exported="false"
-223-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\krish\.gradle\caches\transforms-3\7ba4f3715af0c13aeebf3bfb3eea7a9b\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+223-->[com.google.android.gms:play-services-auth:17.0.0] /Users/shreyapandey/.gradle/caches/transforms-3/7ba4f3715af0c13aeebf3bfb3eea7a9b/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
 224            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-224-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\krish\.gradle\caches\transforms-3\7ba4f3715af0c13aeebf3bfb3eea7a9b\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+224-->[com.google.android.gms:play-services-auth:17.0.0] /Users/shreyapandey/.gradle/caches/transforms-3/7ba4f3715af0c13aeebf3bfb3eea7a9b/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
 225        <!--
 226            Service handling Google Sign-In user revocation. For apps that do not integrate with
 227            Google Sign-In, this service will never be started.
 228        -->
 229        <service
-229-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\krish\.gradle\caches\transforms-3\7ba4f3715af0c13aeebf3bfb3eea7a9b\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+229-->[com.google.android.gms:play-services-auth:17.0.0] /Users/shreyapandey/.gradle/caches/transforms-3/7ba4f3715af0c13aeebf3bfb3eea7a9b/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
 230            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-230-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\krish\.gradle\caches\transforms-3\7ba4f3715af0c13aeebf3bfb3eea7a9b\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+230-->[com.google.android.gms:play-services-auth:17.0.0] /Users/shreyapandey/.gradle/caches/transforms-3/7ba4f3715af0c13aeebf3bfb3eea7a9b/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
 231            android:exported="true"
-231-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\krish\.gradle\caches\transforms-3\7ba4f3715af0c13aeebf3bfb3eea7a9b\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+231-->[com.google.android.gms:play-services-auth:17.0.0] /Users/shreyapandey/.gradle/caches/transforms-3/7ba4f3715af0c13aeebf3bfb3eea7a9b/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
 232            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" /> <!-- Needs to be explicitly declared on P+ -->
-232-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\krish\.gradle\caches\transforms-3\7ba4f3715af0c13aeebf3bfb3eea7a9b\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+232-->[com.google.android.gms:play-services-auth:17.0.0] /Users/shreyapandey/.gradle/caches/transforms-3/7ba4f3715af0c13aeebf3bfb3eea7a9b/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
 233        <uses-library
-233-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\krish\.gradle\caches\transforms-3\4b6ebd4686c2a35f4d9933ff1e562b01\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+233-->[com.google.android.gms:play-services-maps:17.0.0] /Users/shreyapandey/.gradle/caches/transforms-3/4b6ebd4686c2a35f4d9933ff1e562b01/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
 234            android:name="org.apache.http.legacy"
-234-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\krish\.gradle\caches\transforms-3\4b6ebd4686c2a35f4d9933ff1e562b01\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+234-->[com.google.android.gms:play-services-maps:17.0.0] /Users/shreyapandey/.gradle/caches/transforms-3/4b6ebd4686c2a35f4d9933ff1e562b01/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
 235            android:required="false" />
-235-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\krish\.gradle\caches\transforms-3\4b6ebd4686c2a35f4d9933ff1e562b01\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+235-->[com.google.android.gms:play-services-maps:17.0.0] /Users/shreyapandey/.gradle/caches/transforms-3/4b6ebd4686c2a35f4d9933ff1e562b01/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
 236
 237        <activity
-237-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\krish\.gradle\caches\transforms-3\d502920d403e1118e743aaa0a9df38a3\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+237-->[com.google.android.gms:play-services-base:18.1.0] /Users/shreyapandey/.gradle/caches/transforms-3/d502920d403e1118e743aaa0a9df38a3/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
 238            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-238-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\krish\.gradle\caches\transforms-3\d502920d403e1118e743aaa0a9df38a3\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+238-->[com.google.android.gms:play-services-base:18.1.0] /Users/shreyapandey/.gradle/caches/transforms-3/d502920d403e1118e743aaa0a9df38a3/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
 239            android:exported="false"
-239-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\krish\.gradle\caches\transforms-3\d502920d403e1118e743aaa0a9df38a3\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+239-->[com.google.android.gms:play-services-base:18.1.0] /Users/shreyapandey/.gradle/caches/transforms-3/d502920d403e1118e743aaa0a9df38a3/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
 240            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-240-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\krish\.gradle\caches\transforms-3\d502920d403e1118e743aaa0a9df38a3\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+240-->[com.google.android.gms:play-services-base:18.1.0] /Users/shreyapandey/.gradle/caches/transforms-3/d502920d403e1118e743aaa0a9df38a3/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
 241
 242        <provider
-242-->[com.google.firebase:firebase-common:20.3.2] C:\Users\krish\.gradle\caches\transforms-3\3e0c3c3b3961fd7c76b4ea9ce2d093cc\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+242-->[com.google.firebase:firebase-common:20.3.2] /Users/shreyapandey/.gradle/caches/transforms-3/3e0c3c3b3961fd7c76b4ea9ce2d093cc/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
 243            android:name="com.google.firebase.provider.FirebaseInitProvider"
-243-->[com.google.firebase:firebase-common:20.3.2] C:\Users\krish\.gradle\caches\transforms-3\3e0c3c3b3961fd7c76b4ea9ce2d093cc\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+243-->[com.google.firebase:firebase-common:20.3.2] /Users/shreyapandey/.gradle/caches/transforms-3/3e0c3c3b3961fd7c76b4ea9ce2d093cc/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
 244            android:authorities="com.example.project_impact.firebaseinitprovider"
-244-->[com.google.firebase:firebase-common:20.3.2] C:\Users\krish\.gradle\caches\transforms-3\3e0c3c3b3961fd7c76b4ea9ce2d093cc\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+244-->[com.google.firebase:firebase-common:20.3.2] /Users/shreyapandey/.gradle/caches/transforms-3/3e0c3c3b3961fd7c76b4ea9ce2d093cc/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
 245            android:directBootAware="true"
-245-->[com.google.firebase:firebase-common:20.3.2] C:\Users\krish\.gradle\caches\transforms-3\3e0c3c3b3961fd7c76b4ea9ce2d093cc\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+245-->[com.google.firebase:firebase-common:20.3.2] /Users/shreyapandey/.gradle/caches/transforms-3/3e0c3c3b3961fd7c76b4ea9ce2d093cc/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
 246            android:exported="false"
-246-->[com.google.firebase:firebase-common:20.3.2] C:\Users\krish\.gradle\caches\transforms-3\3e0c3c3b3961fd7c76b4ea9ce2d093cc\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+246-->[com.google.firebase:firebase-common:20.3.2] /Users/shreyapandey/.gradle/caches/transforms-3/3e0c3c3b3961fd7c76b4ea9ce2d093cc/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
 247            android:initOrder="100" />
-247-->[com.google.firebase:firebase-common:20.3.2] C:\Users\krish\.gradle\caches\transforms-3\3e0c3c3b3961fd7c76b4ea9ce2d093cc\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+247-->[com.google.firebase:firebase-common:20.3.2] /Users/shreyapandey/.gradle/caches/transforms-3/3e0c3c3b3961fd7c76b4ea9ce2d093cc/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
 248
 249        <receiver
-249-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\krish\.gradle\caches\transforms-3\1625eee44e7f1addab401e9400a941a7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:29:9-33:20
+249-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/shreyapandey/.gradle/caches/transforms-3/1625eee44e7f1addab401e9400a941a7/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:29:9-33:20
 250            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-250-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\krish\.gradle\caches\transforms-3\1625eee44e7f1addab401e9400a941a7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:30:13-85
+250-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/shreyapandey/.gradle/caches/transforms-3/1625eee44e7f1addab401e9400a941a7/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:30:13-85
 251            android:enabled="true"
-251-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\krish\.gradle\caches\transforms-3\1625eee44e7f1addab401e9400a941a7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:31:13-35
+251-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/shreyapandey/.gradle/caches/transforms-3/1625eee44e7f1addab401e9400a941a7/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:31:13-35
 252            android:exported="false" >
-252-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\krish\.gradle\caches\transforms-3\1625eee44e7f1addab401e9400a941a7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:32:13-37
+252-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/shreyapandey/.gradle/caches/transforms-3/1625eee44e7f1addab401e9400a941a7/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:32:13-37
 253        </receiver>
 254
 255        <service
-255-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\krish\.gradle\caches\transforms-3\1625eee44e7f1addab401e9400a941a7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:35:9-38:40
+255-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/shreyapandey/.gradle/caches/transforms-3/1625eee44e7f1addab401e9400a941a7/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:35:9-38:40
 256            android:name="com.google.android.gms.measurement.AppMeasurementService"
-256-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\krish\.gradle\caches\transforms-3\1625eee44e7f1addab401e9400a941a7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:36:13-84
+256-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/shreyapandey/.gradle/caches/transforms-3/1625eee44e7f1addab401e9400a941a7/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:36:13-84
 257            android:enabled="true"
-257-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\krish\.gradle\caches\transforms-3\1625eee44e7f1addab401e9400a941a7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:37:13-35
+257-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/shreyapandey/.gradle/caches/transforms-3/1625eee44e7f1addab401e9400a941a7/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:37:13-35
 258            android:exported="false" />
-258-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\krish\.gradle\caches\transforms-3\1625eee44e7f1addab401e9400a941a7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:38:13-37
+258-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/shreyapandey/.gradle/caches/transforms-3/1625eee44e7f1addab401e9400a941a7/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:38:13-37
 259        <service
-259-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\krish\.gradle\caches\transforms-3\1625eee44e7f1addab401e9400a941a7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:39:9-43:72
+259-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/shreyapandey/.gradle/caches/transforms-3/1625eee44e7f1addab401e9400a941a7/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:39:9-43:72
 260            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-260-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\krish\.gradle\caches\transforms-3\1625eee44e7f1addab401e9400a941a7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:40:13-87
+260-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/shreyapandey/.gradle/caches/transforms-3/1625eee44e7f1addab401e9400a941a7/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:40:13-87
 261            android:enabled="true"
-261-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\krish\.gradle\caches\transforms-3\1625eee44e7f1addab401e9400a941a7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:41:13-35
+261-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/shreyapandey/.gradle/caches/transforms-3/1625eee44e7f1addab401e9400a941a7/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:41:13-35
 262            android:exported="false"
-262-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\krish\.gradle\caches\transforms-3\1625eee44e7f1addab401e9400a941a7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:42:13-37
+262-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/shreyapandey/.gradle/caches/transforms-3/1625eee44e7f1addab401e9400a941a7/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:42:13-37
 263            android:permission="android.permission.BIND_JOB_SERVICE" />
-263-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\krish\.gradle\caches\transforms-3\1625eee44e7f1addab401e9400a941a7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:43:13-69
+263-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/shreyapandey/.gradle/caches/transforms-3/1625eee44e7f1addab401e9400a941a7/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:43:13-69
 264
 265        <meta-data
-265-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\krish\.gradle\caches\transforms-3\3c7feb33a0b1b02b582a51f8b01fd4d6\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+265-->[com.google.android.gms:play-services-basement:18.1.0] /Users/shreyapandey/.gradle/caches/transforms-3/3c7feb33a0b1b02b582a51f8b01fd4d6/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
 266            android:name="com.google.android.gms.version"
-266-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\krish\.gradle\caches\transforms-3\3c7feb33a0b1b02b582a51f8b01fd4d6\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+266-->[com.google.android.gms:play-services-basement:18.1.0] /Users/shreyapandey/.gradle/caches/transforms-3/3c7feb33a0b1b02b582a51f8b01fd4d6/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
 267            android:value="@integer/google_play_services_version" />
-267-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\krish\.gradle\caches\transforms-3\3c7feb33a0b1b02b582a51f8b01fd4d6\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+267-->[com.google.android.gms:play-services-basement:18.1.0] /Users/shreyapandey/.gradle/caches/transforms-3/3c7feb33a0b1b02b582a51f8b01fd4d6/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
 268
 269        <provider
-269-->[androidx.emoji2:emoji2:1.2.0] C:\Users\krish\.gradle\caches\transforms-3\e83cb63d5a97dbee97abc433f9050595\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+269-->[androidx.emoji2:emoji2:1.2.0] /Users/shreyapandey/.gradle/caches/transforms-3/e83cb63d5a97dbee97abc433f9050595/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
 270            android:name="androidx.startup.InitializationProvider"
-270-->[androidx.emoji2:emoji2:1.2.0] C:\Users\krish\.gradle\caches\transforms-3\e83cb63d5a97dbee97abc433f9050595\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+270-->[androidx.emoji2:emoji2:1.2.0] /Users/shreyapandey/.gradle/caches/transforms-3/e83cb63d5a97dbee97abc433f9050595/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
 271            android:authorities="com.example.project_impact.androidx-startup"
-271-->[androidx.emoji2:emoji2:1.2.0] C:\Users\krish\.gradle\caches\transforms-3\e83cb63d5a97dbee97abc433f9050595\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+271-->[androidx.emoji2:emoji2:1.2.0] /Users/shreyapandey/.gradle/caches/transforms-3/e83cb63d5a97dbee97abc433f9050595/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
 272            android:exported="false" >
-272-->[androidx.emoji2:emoji2:1.2.0] C:\Users\krish\.gradle\caches\transforms-3\e83cb63d5a97dbee97abc433f9050595\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+272-->[androidx.emoji2:emoji2:1.2.0] /Users/shreyapandey/.gradle/caches/transforms-3/e83cb63d5a97dbee97abc433f9050595/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
 273            <meta-data
-273-->[androidx.emoji2:emoji2:1.2.0] C:\Users\krish\.gradle\caches\transforms-3\e83cb63d5a97dbee97abc433f9050595\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+273-->[androidx.emoji2:emoji2:1.2.0] /Users/shreyapandey/.gradle/caches/transforms-3/e83cb63d5a97dbee97abc433f9050595/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
 274                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-274-->[androidx.emoji2:emoji2:1.2.0] C:\Users\krish\.gradle\caches\transforms-3\e83cb63d5a97dbee97abc433f9050595\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+274-->[androidx.emoji2:emoji2:1.2.0] /Users/shreyapandey/.gradle/caches/transforms-3/e83cb63d5a97dbee97abc433f9050595/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
 275                android:value="androidx.startup" />
-275-->[androidx.emoji2:emoji2:1.2.0] C:\Users\krish\.gradle\caches\transforms-3\e83cb63d5a97dbee97abc433f9050595\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+275-->[androidx.emoji2:emoji2:1.2.0] /Users/shreyapandey/.gradle/caches/transforms-3/e83cb63d5a97dbee97abc433f9050595/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
 276            <meta-data
-276-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\krish\.gradle\caches\transforms-3\c7c804c4a99781c42888648a681cc303\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+276-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/shreyapandey/.gradle/caches/transforms-3/c7c804c4a99781c42888648a681cc303/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
 277                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-277-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\krish\.gradle\caches\transforms-3\c7c804c4a99781c42888648a681cc303\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+277-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/shreyapandey/.gradle/caches/transforms-3/c7c804c4a99781c42888648a681cc303/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
 278                android:value="androidx.startup" />
-278-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\krish\.gradle\caches\transforms-3\c7c804c4a99781c42888648a681cc303\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+278-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/shreyapandey/.gradle/caches/transforms-3/c7c804c4a99781c42888648a681cc303/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
 279        </provider>
 280    </application>
 281

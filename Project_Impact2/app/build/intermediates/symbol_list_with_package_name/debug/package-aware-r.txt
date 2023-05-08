@@ -3167,7 +3167,6 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
-id Search_icon
 id TOP_END
 id TOP_START
 id VolunteerText
