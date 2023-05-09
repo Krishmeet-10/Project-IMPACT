@@ -155,7 +155,7 @@
                 android:id="@+id/user_pfp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/lph"
+                android:src="@drawable/empty_usr"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -181,12 +181,13 @@
             android:id="@+id/user_email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:background="@drawable/edit_text_round_input"
             android:text="gus@lospollos.com"
             android:textColor="#000"
             android:textSize="25sp"
             app:layout_constraintEnd_toStartOf="@+id/edit_email"
-            app:layout_constraintHorizontal_bias="0.677"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView19" />
 

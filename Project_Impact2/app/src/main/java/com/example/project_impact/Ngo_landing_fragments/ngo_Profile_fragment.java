@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -16,9 +18,17 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.project_impact.BankDetails_NGO;
+import com.example.project_impact.FirebaseAuthManager;
 import com.example.project_impact.Navigation_Fragments.edit_popup;
 import com.example.project_impact.Navigation_Fragments.user_settings;
 import com.example.project_impact.R;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 
 public class ngo_Profile_fragment extends Fragment {
@@ -173,5 +183,40 @@ public class ngo_Profile_fragment extends Fragment {
         i.setAction(Intent.ACTION_GET_CONTENT);
         startActivityForResult(Intent.createChooser(i, "Select Picture"), SELECT_PICTURE);
     }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        FirebaseAuth mAuth= FirebaseAuthManager.getInstance();
+        FirebaseUser currentUser=mAuth.getCurrentUser();
+        String orgId=currentUser.getUid();
+        DatabaseReference orgRef = FirebaseDatabase.getInstance().getReference("orgs").child(orgId);
+        orgRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                if (dataSnapshot.exists()) {
+                    String orgName = dataSnapshot.child("orgName").getValue(String.class);
+                    String orgAddress = dataSnapshot.child("orgAddress").getValue(String.class);
+                    String orgType = dataSnapshot.child("orgType").getValue(String.class);
+                    String orgPhone = dataSnapshot.child("orgPhone").getValue(String.class);
+                    String orgEmail=currentUser.getEmail().toString();
+                    user_email.setText(orgEmail);
+                    user_name.setText(orgName);
+                    user_location.setText(orgAddress);
+                    user_job.setText(orgType);
+                    user_phone.setText(orgPhone);
+
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+                // handle error
+            }
+        });
+
+    }
+
 
 }

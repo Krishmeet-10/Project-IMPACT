@@ -29,6 +29,13 @@ public class ngo_Home_fragment extends Fragment implements PopupMenu.OnMenuItemC
 
     Button new_camp_btn ;
 
+    public void camp_handle(int size, ArrayList<String> title, ArrayList<String> url , ArrayList<String> discp){
+        int camp_count = size;
+
+        for(int i = 0; i < camp_count; i++){
+            items.add(new vrv_data(title.get(i), url.get(i), discp.get(i)));
+        }
+    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -41,11 +48,13 @@ public class ngo_Home_fragment extends Fragment implements PopupMenu.OnMenuItemC
 
         View view = inflater.inflate(R.layout.fragment_home_fragment2, container, false);
 
-        items.add(new vrv_data("hello","https://i.pinimg.com/736x/97/d0/2a/97d02ad83bbf9161f2a4d73ff8b95195.jpg"));
-        items.add(new vrv_data("hello","https://i.pinimg.com/736x/97/d0/2a/97d02ad83bbf9161f2a4d73ff8b95195.jpg"));
+
         vrv_recycler = view.findViewById(R.id.volunteer_rv_ngo);
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false);
+        items.add(new vrv_data("title", "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Paracas_National_Reserve%2C_Ica%2C_Peru-3April2011.jpg/1200px-Paracas_National_Reserve%2C_Ica%2C_Peru-3April2011.jpg", "clean the oceans"));
+        items.add(new vrv_data("title","https://www.royalcaribbean.com/blog/wp-content/uploads/2021/06/iStock-1170804921-1650x1100.jpg", "save the sea"));
+
         vrv_recycler.setLayoutManager(layoutManager);
         vrv_recycler.setAdapter(new vrv_Adapter(getContext(),items));
 
@@ -81,8 +90,6 @@ public class ngo_Home_fragment extends Fragment implements PopupMenu.OnMenuItemC
                 return false;
         }
     }
-
-
 
 
 }

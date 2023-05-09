@@ -29,7 +29,7 @@
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/volunteer_rv_ngo"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="18dp"
                 android:orientation="horizontal"
@@ -69,7 +69,7 @@
                     android:id="@+id/userimg"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/lph"
+                    android:src="@drawable/empty_usr"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"

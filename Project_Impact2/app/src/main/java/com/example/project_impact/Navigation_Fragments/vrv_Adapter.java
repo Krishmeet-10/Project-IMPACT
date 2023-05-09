@@ -3,6 +3,7 @@ package com.example.project_impact.Navigation_Fragments;
 import android.content.ClipData;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -43,7 +44,12 @@ public class vrv_Adapter extends RecyclerView.Adapter<vrv_ViewHolder> {
             @Override
             public void onClick(View v) {
                 Toast.makeText(v.getContext(), "CLICK LOGIC",Toast.LENGTH_SHORT).show();
+                Bundle bundle = new Bundle();
+                bundle.putString("title",data.get(position).name);
+                bundle.putString("desc",data.get(position).discp);
+                bundle.putString("url",data.get(position).image);
                 Intent intent = new Intent(context, activity_campinfo.class);
+                intent.putExtra("bundle",bundle);
                 context.startActivity(intent);
                 /* CLICK LOGIC*/
             }

@@ -25,11 +25,11 @@ public class ngo_Campaign_fragment extends Fragment {
     RecyclerView vrv_recycler;
     List<vrv_data> camp_dataholder = new ArrayList<vrv_data>();
 
-    public void camp_handle(){
-        int camp_count = 0;
+    public void camp_handle(int size, ArrayList<String> title, ArrayList<String> url , ArrayList<String> discp){
+        int camp_count = size;
 
         for(int i = 0; i < camp_count; i++){
-            camp_dataholder.add(new vrv_data("name", "url"));
+            camp_dataholder.add(new vrv_data(title.get(i), url.get(i), discp.get(i)));
         }
     }
 
@@ -39,9 +39,6 @@ public class ngo_Campaign_fragment extends Fragment {
 
 
         View view = inflater.inflate(R.layout.fragment_campaign_fragment, container, false);
-
-        camp_dataholder.add(new vrv_data("hello","https://i.pinimg.com/736x/97/d0/2a/97d02ad83bbf9161f2a4d73ff8b95195.jpg"));
-        camp_dataholder.add(new vrv_data("hello","https://i.pinimg.com/736x/97/d0/2a/97d02ad83bbf9161f2a4d73ff8b95195.jpg"));
         vrv_recycler = view.findViewById(R.id.volunteer_rv_ngo);
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false);

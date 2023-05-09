@@ -3040,6 +3040,7 @@ int drawable design_password_eye 0x7f0700a3
 int drawable design_snackbar_background 0x7f0700a4
 int drawable edit_text_over_card_des 0x7f0700a5
 int drawable edit_text_round_input 0x7f0700a6
+int drawable empty_usr 0x7f070117
 int drawable gobby 0x7f0700a7
 int drawable googleg_disabled_color_18 0x7f0700a8
 int drawable googleg_standard_color_18 0x7f0700a9
@@ -3395,6 +3396,7 @@ int id elastic 0x7f0800ef
 int id emailEditText2 0x7f0800f0
 int id emailOEditText2 0x7f0800f1
 int id embed 0x7f0800f2
+int id emp 0x7f0802ba
 int id end 0x7f0800f3
 int id endToStart 0x7f0800f4
 int id enterAlways 0x7f0800f5

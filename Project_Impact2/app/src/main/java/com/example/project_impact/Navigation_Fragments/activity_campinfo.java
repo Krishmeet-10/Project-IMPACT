@@ -27,11 +27,19 @@ public class activity_campinfo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_campinfo);
+
+        Bundle bundle = getIntent().getExtras();
+
         title = (TextView) findViewById(R.id.title);
         description = (TextView) findViewById(R.id.desc);
         cover = (ImageView) findViewById(R.id.cover);
         org = (TextView) findViewById(R.id.org);
         join = (Button) findViewById(R.id.join);
+
+        description.setText(bundle.getString("desc"));
+        title.setText(bundle.getString("title"));
+        Glide.with(this).load(bundle.getString("url")).into(cover);
+
 
         join.setOnClickListener(new View.OnClickListener() {
             @Override
